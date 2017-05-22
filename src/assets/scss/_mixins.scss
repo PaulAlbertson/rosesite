@@ -1,0 +1,159 @@
+@mixin clearfix {
+  &:after {
+    content: '';
+    display: table;
+    clear: both; 
+  }
+}
+
+// Size of div based on the ratio of image
+@mixin panel-size($width, $height) {
+  &:after {
+    padding-top: $height / $width * 100%;
+  }
+}
+
+@mixin panel($bg-url, $bg-url-mobile) {
+  .wrap {
+    background: url($bg-url) center bottom no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    @include clearfix;
+    
+    @include breakpoint(tablet) {
+      position: static;
+    }
+
+    @include breakpoint(s-mobile) {
+      background-image: url($bg-url-mobile);
+    }
+  }
+}
+
+@mixin section($height) {
+  height: $height;
+  position: relative;
+  top: -1px; // Firefox 1px border hack
+  z-index: 1; // Firefox 1px border hack
+
+  @include breakpoint(mobile) {
+    margin: 20px 10px 0;
+    padding: 20px;
+  }
+}
+
+@mixin col3 {
+  float: left;
+  width: 31.3333%;
+  padding-right: 3%;
+
+  &:last-child {
+    padding-right: 0;
+    margin-right: 0;
+  }
+
+  @include breakpoint(mobile) {
+    width: auto;
+    float: none;
+  }
+}
+
+@mixin button($button-color) {
+  .button-icon {
+    color: $button-color;
+    border: 3px solid $button-color;
+  }
+
+  .button-text {  
+    color: $button-color;
+  }
+
+  &:hover {
+    .button-preview .button .button-icon {
+      &:before,
+      &:after {
+        left: 14px;
+      }
+    }
+    
+    .button-preview-img span {
+      @include opacity(1);
+    }
+  }
+}
+
+
+/* ------------------------ 
+Breakpoint Usage:
+
+.selector {
+  color: red;
+  @include breakpoint(desktop) { width: 50px; }
+  @include breakpoint(mobile) { width: 100%; }
+}
+*/
+
+@mixin breakpoint($point) {
+  @if $point == mobile-height {
+    @media (max-height: 670px) { @content; }
+  }
+  @if $point == desktop-large-5 {
+    @media (min-width: 2240px) { @content; }
+  }
+  @if $point == desktop-large-4 {
+    @media (min-width: 1920px) and (max-width: 2239px) { @content; }
+  }
+  @if $point == desktop-large-3 {
+    @media (min-width: 1600px) and (max-width: 1919px) { @content; }
+  }
+  @if $point == desktop-large-2 {
+    @media (min-width: 1440px) and (max-width: 1599px) { @content; }
+  }
+  @if $point == desktop-large-1 {
+    @media (min-width: 1366px) and (max-width: 1439px) { @content; }
+  }
+  @if $point == desktop-smaller-1 {
+    @media (min-width: 1280px) and (max-width: 1365px) { @content; }
+  }
+  @if $point == desktop-smaller-2 {
+    @media (min-width: 1295px) { @content; }
+  }
+  @if $point == l-desktop {
+    @media (min-width: 1599px) { @content; }
+  }
+  @if $point == m-desktop {
+    @media (max-width: 1280px) { @content; }
+  }
+  @if $point == desktop {
+    @media (min-width: 1280px) { @content; }
+  }
+  @if $point == s-desktop {
+    @media (min-width: 1025px) { @content; }
+  }
+  @else if $point == tablet {
+    @media (max-width: 1279px)  { @content; }
+  }
+  @else if $point == s-tablet {
+    @media (max-width: 1024px)  { @content; }
+  }
+  @else if $point == mobile {
+    @media (max-width: 767px)  { @content; }
+  }
+  @else if $point == l-mobile {
+    @media (max-width: 624px)  { @content; }
+  }
+  @else if $point == s-mobile {
+    @media (max-width: 480px)  { @content; }
+  }
+  @else if $point == ss-mobile {
+    @media (max-width: 340px)  { @content; }
+  }
+  @else {
+    @media (max-width: $point) { @content; }
+  }
+}

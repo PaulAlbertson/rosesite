@@ -1,0 +1,290 @@
+.header-bar {
+  height: 60px;
+  background: rgba(255, 255, 255, 0);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  @include transition(background 0.2s);
+}
+
+header .header-logo {
+  
+  font-size: 20px;
+  top: 18px;
+  left: 30px;
+  float: left;
+  z-index: 100;
+  position: fixed;
+  
+
+  @include breakpoint(mobile) {
+    top: 22px;
+    left: 20px;
+    font-size: 15px;
+  }
+
+  &:before,
+  &:after {
+    color: #FFF;
+    @include transition(color 0.4s);
+  }
+}
+
+.header-scroll {
+  .header-bar {
+    background: rgba(255, 255, 255, 0.9);
+  }
+
+  .header-logo {
+    &:before,
+    &:after {
+      color: #000;
+    }
+  }
+
+  .nav-button div {
+    background: #000;
+  }
+
+  .nav-button-open div {
+    background: #FFF;
+  }
+
+  .tom-a-text {
+    color: #000;
+  }
+}
+
+.nav-button {
+  width: 50px;
+  height: 36px;
+  position: fixed;
+  right: 20px;
+  top: 12px;
+  z-index: 101;
+  cursor: pointer;
+  
+  div {
+    height: 3px;
+    position: absolute;
+    background: #FFF;
+    width: 26px;
+    left: 10px;
+    overflow: hidden;
+    @include opacity(1);
+    @include transition(transform 0.2s, opacity 0s 0.2s, top 0.2s 0.2s, background 0.2s);
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    transform-origin: center center;
+  }
+}
+
+.nav-button1 {
+  top: 10px;
+}
+
+.nav-button2 {
+  top: 16px;
+}
+
+.nav-button3 {
+  top: 22px;
+}
+
+.nav-button-open .nav-button1,
+.nav-button-open .nav-button2,
+.nav-button-open .nav-button3 {
+  @include transition(transform 0.2s 0.2s, opacity 0s 0.2s, top 0.2s, background 0.2s);
+}
+
+.nav-button-open .nav-button1 {
+  top: 16px;
+  @include transform(rotate(45deg));
+}
+
+.nav-button-open .nav-button2 {
+  @include opacity(0);
+}
+
+.nav-button-open .nav-button3 {
+  top: 16px;
+  @include transform(rotate(-45deg));
+}
+
+nav {
+  position: fixed;
+  height: 100%;
+  width: 320px;
+  right: 0;
+  top: 0;
+  background: rgba(0, 188, 228, 0.95);
+  z-index: 100;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  @include transform(translate3d(100%, 0, 0));
+  -ms-transform: translate(100%, 0%) matrix(1, 0, 0, 1, 0, 0);
+  @include transition(transform 0.4s);
+
+  @include breakpoint(s-mobile) {
+    width: 100%;
+  }
+
+  a {
+    color: #FFF;
+
+    &:hover {
+      color: #ADD8E6;
+    }
+
+    &.nav-current {
+      color: #165F86;
+    }
+  }
+}
+
+.nav-open {
+  @include transform(translate3d(0, 0, 0));
+}
+
+.main-nav {
+  padding: 50px 70px 0 30px;
+
+  li {
+    display: block;
+    list-style-type: none;
+
+    span {
+      display: block;
+      font-size: 26px;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
+
+  a {
+    font-size: 16px;
+    line-height: 1.375em;
+    text-decoration: none;
+    display: block;
+    padding: 4px 0;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    @include transition(color 0.2s);
+  }
+}
+
+.main-nav-item a {
+  padding: 10px 0 15px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.nav-item-divide {
+  margin-bottom: 20px;
+
+  a {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 20px;
+  }
+}
+
+.nav-social {
+  margin: 40px 0 35px 30px;
+  position: absolute;
+  bottom: 0;
+  height: 32px;
+
+  @include breakpoint(mobile-height) {
+    position: static;
+  }
+
+  li {
+    float: left;
+    margin-right: 15px;
+    font-size: 32px;
+
+    a:hover:before {
+      color: #ADD8E6;
+    }
+  }
+}
+
+.nav-overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  @include opacity(0);
+  @include transition(opacity 0.4s);
+  z-index: 99;
+}
+
+.nav-overlay-open {
+  height: 100%;
+  @include opacity(1);
+}
+
+
+
+// Tom A Tribute
+
+.tom-a-tribute {
+  position: fixed;
+  left: 175px;
+  top: 10px;
+  width: 32px;
+  z-index: 100;
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+
+  &:hover {
+    .tom-a-pick img {
+      //@include transform(perspective(100px) rotate3d(0, 1, 0, 180deg));
+      @include transform(scale(1.1));
+    }
+
+    .tom-a-text {
+      left: 42px;
+      visibility: visible;
+      @include opacity(1);
+    }
+  }
+}
+
+.tom-a-pick {
+  width: 32px;
+  float: left;
+  position: relative;
+  z-index: 2;
+  
+  //@include transform(perspective(100px) rotate3d(0, 1, 0, 0deg));
+
+  img {
+    width: 100%;
+    display: block;
+    @include transition(transform 0.25s);
+  }
+}
+
+.tom-a-text {
+  width: 200px;
+  color: #FFF;
+  font-size: 13px;
+  line-height: 17px;
+  display: block;
+  float: left;
+  position: absolute;
+  left: 36px;
+  top: 3px;
+  z-index: 1;
+  visibility: hidden;
+  @include opacity(0);
+  @include transition(opacity 0.25s, left 0.25s, visibility 0.25s);
+}
+
+
+

@@ -1,0 +1,164 @@
+Title: Rosetta + Demandware
+
+----
+
+metadescription: As a Strategic Solution Partner of Demandware, Rosetta is creating enhanced opportunities for Demandware customers to engage consumers throughout the full omni-channel journey.
+
+----
+
+Subtitle: As a Strategic Solution Partner of Demandware, Rosetta is creating enhanced opportunities for Demandware customers to engage consumers throughout the full omni-channel journey.
+
+----
+
+Text:
+
+<div class="landing-page-centered">
+
+<h2>Unmatched Experience and Scalability</h2>
+
+<p>Through close executive alignment and dedicated investment in omni-channel innovation, Rosetta is focused on enhancing the reach, speed-to-market and agility of the Demandware platform.</p>
+
+<p>Rosetta has proven global commerce credentials that stand out amongst Demandware service provider partners.</p>
+
+<div class="col-wrap page-stats">
+  <div class="col3 center">
+    <div class="page-stat">
+      <span>
+        <div class="data-count-up"><span class="odometer" data-target-value="300">0</span><span class="data-plus">+</span></div>
+      </span>
+    </div>
+    <p class="small-text">Omni-Channel <br> Commerce Experts</p>
+  </div>
+  <div class="col3 center">
+    <div class="page-stat">
+      <span>
+        <div class="data-count-up"><span class="odometer" data-target-value="250">0</span><span class="data-plus">+</span></div>
+      </span>
+    </div>
+    <p class="small-text">Global Commerce <br> Implementations</p>
+  </div>
+  <div class="col3 center">
+    <div class="page-stat">
+      <span>
+        <div class="data-count-up"><span class="odometer" data-target-value="15">0</span></div>
+      </span>
+    </div>
+    <p class="small-text">Years of Commerce <br> and Customer Engagement Expertise</p>
+  </div>
+</div>
+
+<br>
+
+<h2>Global Leader</h2>
+
+<p>Rosetta, as part of the Razorfish Global agency network, was ranked a Leader in *The Forrester Wave: Global Commerce Service Providers, Q1 2015*.</p>
+
+<p>
+  <a href="#" class="overlay-link overlay-link-zoom-in"><img src="/assets/images/ice/forrester-wave.jpg"></a>
+  <span class="overlay-target"><img src="/assets/images/ice/forrester-wave-large.jpg" class="overlay-target-img"></span>
+</p>
+
+<br><br><br>
+
+<h2>Omni-Channel Innovator</h2>
+
+<p>As part of our focus on omni-channel innovation with Demandware, our team built Rosetta&nbsp;ICE<sup>&trade;</sup>, an In-Store Customer Engagement platform. This first-of-its-kind, tablet-based solution goes well beyond endless aisles, enabling sales associates to access and utilize deep consumer insights, engagement and order history, recommended products, and many other Demandware-driven capabilities to better understand, predict and serve in-store customers.</p>
+
+<div class="ice-stage">
+  <div class="ice-item ice-main">
+    <img src="/assets/images/ice/ice-main.svg">
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-pos.svg">
+    <span class="ice-line"></span>
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-crm.svg">
+    <span class="ice-line"></span>
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-wifi.svg">
+    <span class="ice-line"></span>
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-mobile.svg">
+    <span class="ice-line"></span>
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-ecommerce.svg">
+    <span class="ice-line"></span>
+  </div>
+</div>
+
+
+<img src="/assets/images/ice/ice.png" class="show-mobile show-ie">
+
+<br><br><br>
+
+<h2 class="hide-br">An Engagement Ecosystem to <br> Unlock and Activate Your Customers</h2>
+
+<p>Rosetta’s expertise goes far beyond just digital and in-store commerce. Our Engagement Engine is a repeatable technology framework that allows our clients to deliver more contextually relevant marketing, engaging experiences and omni-channel commerce.</p>
+
+<div id="exp-stage">
+  <ol class="exp-list">
+    <li class="exp-item exp-item-collapsed exp-item1">
+      <span class="exp-item-number">01</span>
+      <span class="exp-item-title">Intelligence</span>
+    </li>
+    <li class="exp-item exp-item-collapsed exp-item2">
+      <span class="exp-item-number">02</span>
+      <span class="exp-item-title">Data</span>
+    </li>
+    <li class="exp-item exp-item-open exp-item3">
+      <span class="exp-item-number">03</span>
+      <span class="exp-item-title">Experiences</span>
+      <p class="center small-text">(Omni-Channel Retail Experiences)</p>
+      <ul>
+        <li>Email</li>
+        <li>Social</li>
+        <li>Mobile</li>
+        <li>Web</li>
+        <li class="exp-list-highlight">
+          Retail/POS
+          <span class="ice-line"></span>
+        </li>
+        <li>Online Storefront</li>
+        <li>Media</li>
+        <li>Direct Mail</li>
+        <li>Call Center</li>
+        <li>Sales Enablement</li>
+        <li>Game/Car/Appliance</li>
+      </ul>
+      <img src="/assets/images/ice/exp-ice.svg" alt="ICE" class="exp-list-ice">
+    </li>
+    <li class="exp-item exp-item-collapsed exp-item4">
+      <span class="exp-item-number">04</span>
+      <span class="exp-item-title">Measurement</span>
+    </li>
+  </ol>
+</div>
+
+<p>
+  <img src="/assets/images/ice/experiences.png" class="show-mobile show-ie">
+</p>
+
+<br><br><br>
+
+<h2>Contact</h2>
+
+
+<div class="center">
+<p class="hide-br">Contact Scott Sullivan to find out more about the Rosetta and Demandware <br> partnership or about the Rosetta&nbsp;ICE<sup>&trade;</sup> In-Store Customer Engagement solution.</p>
+<br>
+<img src="/assets/images/leadership/scott-sullivan.jpg" class="column-headshot contact-headshot">
+<p><strong>Scott Sullivan</strong><br>
+Channel Partnerships Manager<br>
+(email: scott.sullivan@rosetta.com)<br>
++1 216.379.1373</p>
+</div>
+
+</div>
+
+----
+
+Sharing: off

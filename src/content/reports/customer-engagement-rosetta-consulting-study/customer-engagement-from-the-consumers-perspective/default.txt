@@ -1,0 +1,56 @@
+Title: Customer Engagement from the Consumer’s&nbsp;Perspective
+
+----
+
+Subtitle: A Report on How Customers’ Attitudes and Behaviors are Influenced&nbsp;by&nbsp;Engagement
+
+----
+
+Text: 
+
+Welcome to the second in a series of three white papers on customer engagement. This report, based on the findings of the 2014 Rosetta Consulting Customer Engagement Study, focuses on brand engagement from the customer’s perspective. It explores why engaged customers are the ideal customers, and how strong engagement affects how they think and feel about your brand.
+
+The first paper in the series focused on customer engagement from the business leader’s perspective, and the third will explore just how lucrative a strong customer engagement experience can be. Although we’ve separated these perspectives in order to provide a more nuanced view, they should be taken together to better understand what customer engagement can mean for your brand.
+
+----
+
+ContentForm: 1112
+
+----
+
+ContentFormText:
+
+##Download the Second Whitepaper
+
+Please fill out the form below to download the whitepaper.
+
+----
+
+SubmitMessage:
+
+##Thank You!
+<br>
+(link: /assets/pdf/Customer-Engagement-from-the-Consumers-Perspective.pdf text: Download the Whitepaper class: button-link target: _blank)
+
+----
+
+ColumnText:
+
+<div class="center">
+
+<h2>Contact</h2>
+<img src="/assets/images/leadership/chetna-bansal.jpg" class="column-headshot contact-headshot">
+<h3>Chetna Bansal</h3>
+<p>Partner | Rosetta Consulting<br>
+<a href="mailto:chetna.bansal@rosetta.com">chetna.bansal@rosetta.com</a><br>
++1 212.771.5253</p>
+
+<hr>
+
+(link: /reports/customer-engagement-rosetta-consulting-study/ text: View All Whitepapers class: button-link)
+
+</div>
+
+----
+
+Sharing: off

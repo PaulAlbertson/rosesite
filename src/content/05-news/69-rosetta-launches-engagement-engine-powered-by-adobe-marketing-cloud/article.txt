@@ -1,0 +1,44 @@
+﻿Title: Rosetta Launches Engagement Engine Powered By Adobe Marketing Cloud
+
+----
+
+Subtitle: Rosetta’s newest offering builds on the Publicis Groupe Always On Global Marketing Platform to combine insights, personalization and contextually-relevant branded experiences across the entire customer journey at enterprise scale
+
+----
+
+Location: New York & Salt Lake City
+
+----
+
+Date: 2015-03-10
+
+----
+
+Text:
+
+Razorfish Global (link: / text: customer engagement agency) Rosetta today at Adobe Summit launched an Adobe Marketing Cloud-powered version of its Engagement Engine, a Publicis Groupe Always On solution. Originally launched more than five years ago, the Engagement Engine drives next-generation customer engagement through a combination of insights, personalization and contextually relevant, branded experiences deployed across the entire customer journey at enterprise scale. Rosetta is now taking the Engagement Engine to the next level by integrating the Adobe Marketing Cloud.
+
+“The Rosetta Engagement Engine amplifies Adobe Marketing Cloud’s ability to integrate customer information and interactions across all major touch points and channels, including, commerce, direct, media, in-store, online, customer relationship management (CRM) programs, call center and more through its unique intellectual property around its relevance logic,” said Rosetta Chief Executive Officer Eric Healy. “Adobe’s unique position in the industry and the data-driven experiences of Adobe Marketing Cloud make Adobe an ideal partner to help us launch the next generation of our proprietary Engagement Engine.”
+
+“Rosetta is already leveraging this solution for global enterprises to deliver better customer segmentation, more valuable insights, precise modeling and accurate attribution,” said Jim Sink, VP of global agency partnerships at Adobe. “Now Rosetta can work with our joint customers to connect the core pillars of data, intelligence, customer experiences and optimization.”
+
+The Rosetta Engagement Engine is modular, allowing it to plug in with existing client capabilities and technologies while adding the ability to integrate customer information and interactions across all touch points and channels, including first-, second- and third-party data. A first-generation version of the Engine was originally developed by Rosetta in 2009 for one of the world’s leading video game manufacturers. It has since been expanded on behalf of global clients to include a greater number of analytics and customer touch points that cover the entire customer experience. With today’s announcement, Rosetta is taking its Engagement Engine to the next level with a version powered by Adobe Marketing Cloud.
+
+The Rosetta Engagement Engine, which is also available through Razorfish in partnership with Rosetta, will now be significantly expanded through the unique capabilities of the Adobe Marketing Cloud, which processes more than 30.5 trillion transactions a year, including 2.5 trillion mobile transactions. More than two-thirds of Fortune 50 companies use Adobe Marketing Cloud today, including 17 of the top 20 Internet retailers, 10 of the top 10 commercial banks, five of the top five media companies and five of the top five auto manufacturers. Customers include Audi, BET Networks, Condé Nast, Dun & Bradstreet, Lenovo, MGM Resorts, Philips, Starwood Hotels, Time Warner Cable, Verizon Wireless and thousands more.
+
+Rosetta, as part of the Razorfish Global network and newly created Publicis.Sapient platform, has the ability to seamlessly integrate all of the top eCommerce platforms, including IBM Websphere Commerce, ATG, Hybris and Demandware to Adobe’s Marketing Cloud suite. Razorfish Global boasts the leading agency implementer of IBM WebSphere Commerce software in North America in Rosetta.
+
+Building on the momentum of the Publicis Groupe Always On initiative, Rosetta previously teamed up with Adobe to launch the industry’s first extension of Adobe Experience Manager’s eCommerce integration framework to connect with IBM WebSphere Commerce. That customizable and scalable commerce solution is live with customers today and is designed to deliver an enterprise-class offering to marketing and IT departments to manage and optimize the commerce and content ecosystem, from brand engagement to immersive shopping experiences to checkout. This and other commerce integrations are leading the way in driving first party insights from commerce into Adobe Audience Manager and Adobe Media Optimizer, enabling an industry first integration of messaging across awareness (with third-party data) to loyalty and retention (with first-party data). These two ‘accelerators’ provide key pathways within the Engagement Engine framework to marry content and commerce in a way to deliver better customer engagement.
+
+The Engagement Engine by Rosetta, powered by Adobe Marketing Cloud, is provided jointly by the partnership to clients. Bringing the Engagement Engine together with Adobe Marketing Cloud will enable Rosetta to apply the skills of hundreds of data scientists to its clients’ challenges. The unique insights from the algorithms powering the Engagement Engine integrated with Adobe Audience Manager will create market-leading, segmentation and targeting. This powerful segmentation, coupled with the ability to drive dynamically assembled creative powered using Adobe Experience Manager, will enable a new level of relevant, targeted, and personalized experiences.
+
+Those interested in learning more about the partnership can contact Shade Vaughn at <shade.vaughn@rosetta.com> for additional information.
+
+
+----
+
+About_rosetta: on
+
+----
+
+Contact_name: brittany-slattery

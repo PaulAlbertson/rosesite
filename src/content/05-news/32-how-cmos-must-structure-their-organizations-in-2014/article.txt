@@ -1,0 +1,63 @@
+﻿Title: How CMOs Must Structure Their Organizations In 2014
+
+----
+
+metadescription: This article is by John Copeland and Jason Tabeling. Copeland is  managing partner and co-lead of the marketing strategy and insights  practice at Rosetta, a Publicis Groupe customer-engagement agency.
+
+----
+
+Subtitle: 
+
+----
+
+Date: 2014-01-12
+
+----
+
+Text: 
+<em>This article is by John Copeland and Jason Tabeling. Copeland is  managing partner and co-lead of the marketing strategy and insights  practice at Rosetta, a <a href="http://www.forbes.com/companies/publicis-groupe/" target="_blank">Publicis Groupe</a> customer-engagement agency. Tabeling is partner and leader of Rosetta's paid, owned &amp; earned media practice. </em>
+
+The defining challenge for marketing in the 21st Century is structural. And the key players will be top management, not digital, whiz kids.
+
+The internet creates a possibility – an expectation, even – that  marketing can deliver an ongoing lifecycle of experiences that satisfy  people and predispose them to engage with, buy and even advocate for a  brand. Indeed, we've come a long way in our understanding of customer  behavior. We can frame a 360-degree view of a customer, create  compelling customer experiences, and develop platforms to deliver those  experiences systematically when they'll be most relevant. All of these  are things that were inconceivable only a few decades ago.
+
+But we can only reap the full business value of these innovations if  we put them to use to optimize for the customer – aligning operations to  provide solutions ahead of when the customer actually experiences any  needs. And that's where top management has to step in.
+
+Say a consumer is moving to a new state and applies for a mortgage.  The bank should use the application as a driving force to offer a full  complement of financial instruments s/he will need, from car insurance  to moving insurance to financing for appliances. To do it, three things  have to happen. First, the bank has to have created the data profile  indicating that a mortgage application triggers specific financing  opportunities. Second, the operating units have to share the data –  something that rarely happens today. Third, marketing communications  teams need to sync so that ads, mailings, emails, telemarketing and  call-center activities both reinforce each other and cement a  sustainable, measurable relationship with that customer.
+
+Most companies have the necessary data but lack the analysis and  alignment. Organizations naturally set up around the channels in which  they go to market and the marketing levers they pull. So if you walk  through the marketing organization of a Fortune 500 company, you'll meet  brand managers whose sole job is growing the volume, and profit, of a  brand; channel managers whose focus is purely on volume through their  sales funnels; category managers responsible for the business of a  product group; and, increasingly, segment managers focused on expanding  business with a key consumer group.
+
+Just as we've optimized manufacturing, logistics and distribution, we've optimized the <em>components</em> of marketing. We now have people whose jobs are small pieces of the  expanding puzzle – online search optimization, email marketing, video  marketing, traditional retail marketing, online store development, and  much more.
+
+All of these people work on different incentive structures. That's  got to change if we're going to deliver on the promise of  &ldquo;anywhere-anytime relevance&rdquo; for increasingly demanding customers.
+<h3>The Marketing Conductor</h3>
+
+Anywhere-anytime relevance requires mapping the information that  customers demand at each marketing touch point, with an understanding of  all the options (including competitors' offerings) that are vying for  their attention. For example, knowing how I'll respond differently at 9  a.m. or at 5 p.m., how I react depending on the specific device I am  using (smartphone, tablet, laptop, TV), or how I bring a different  mindset to each social network (Pinterest, <a href="http://www.forbes.com" target="_blank">Facebook</a>, Twitter). Only then can you consistently capture the context of the moment with the right communications.
+
+It's simple but certainly not easy. The good news is you don't need a  new class of marketing wizard to do it. You simply need the CMO to do  two things: Establish organizational business objectives that each  channel can ladder up to and appoint a conductor.
+
+The conductor's job is to parse all the company research into a map  of how customers come to decide which products and services to buy and  the resulting experiences. The map should show how customers interact  with different touchpoints along the journey, such as search pages,  comparison websites, and social forums. This map establishes a compass,  of sorts, showing how and where communications and other branded  experiences fit. The conductor keeps everyone focused on the map. He or  she knows intricately how and where brands fit within the daily lives of  customers and how, when, where and why they shop for them.
+
+Most likely, CMOs will tap a segment manager to play conductor. The  channels need to be managed, just like an orchestra, for the benefit of  particular kinds of customers. A segment manager can coordinate across  marketing channels and make them all work together. That is, so long as  he or she gets both the responsibility and the authority to do it, and  the incentives are realigned to support the overall goals. And that can  only come from top management.
+
+A number of big brands are creating the components of the grand  promise: predictive patterns for successful customer engagements.  Jawbone UP gives users biofeedback while building complete data profiles  of customers, including personalized emails and product  recommendations, while Nest does the same with home-energy consumption.  Walmart e-mail marketing translates customers' purchase history into  relevant content and offers. If you recently bought a printer, you'll  get offers for ink, paper and connector cables in subsequent e-mails.<strong> </strong>And  at Ritz-Carlton hotels, any employee can put up to $2,000 toward  improving a customer's stay, whether the trigger is database information  or observed behavior.
+
+We've seen it work together well for a major financial services  provider. When the company joined its brand and acquisition teams, it  was able to see where search succeeded, where prospects went after a  search, and how third-party evaluation sites influenced word-of-mouth  and mouse. They saw that customers were being bombarded during the  decision process, and so they reset metrics for shared goals and  incentives, from inquiries to advocacy. Operating under one conductor,  they cut the total number of communications, doubled-down on those that  the map indicated were most influential, and produced double-digit gains  in marketing performance and sales.
+
+Companies need to develop a new class of marketing generalists –  people who understand each of the component parts in the burgeoning  toolkit <em>and </em>how they work together. Agencies can support in this  process as consultants to conductors, advocating for more focus and  alignment, and a few leading agencies are capable of building and  managing a comprehensive customer engagement platform on behalf of their  clients. But it's up to top management to take the big-picture view and  make the changes needed to not only optimize for the customer but to  optimize for their organization.
+
+----
+
+Tags: 
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: Forbes
+
+----
+
+Source_url: http://www.forbes.com/sites/onmarketing/2014/01/13/how-cmos-must-structure-their-organizations-in-2014/

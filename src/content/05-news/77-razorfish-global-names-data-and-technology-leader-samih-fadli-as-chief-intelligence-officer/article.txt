@@ -1,0 +1,43 @@
+﻿Title: Razorfish Global Names Data and Technology Leader Samih Fadli as Chief Intelligence Officer
+
+----
+
+Subtitle: Positions Data and Human Intelligence Capabilities as the Future of Business Transformation
+
+----
+
+Location: New York
+
+----
+
+Date: 2015-05-18
+
+----
+
+Text:
+
+Razorfish Global, the world leader in business transformation services for the empowered age, today announced that Samih Fadli has been named Chief Intelligence Officer, a new position. He will report to Tom Adamski, Global Chief Executive Officer, and will serve on the Global Leadership Team. Fadli will be based in the Seattle office.
+
+“Data is the most critical ingredient for business transformation because it allows us to offer clients both human benefit and business impact,” said Adamski. “Finding the right leader for this role has been one of my highest priorities, and I’m thrilled to welcome Samih to the Razorfish Global team. He brings more than 20 years of global leadership experience and an exceptional track record of managing large, integrated teams across ad tech, data mining and analysis, ecommerce, digital, media and Silicon Valley hi-tech organizations.”
+
+Fadli joins Razorfish Global from Gravity4, Inc., where he led global engineering and programmatic capabilities across Demand Side Platform (DSP), real-time bidding (RTB) and AppCenter, and managed the integration of the Data Management Persona Store (DMP) capable of multi-channel aggregation of first- and third-party data, including ad exchanges such as AppNexus, FBX, Google DoubleClick.
+
+Prior to his role at Gravity4, Fadli worked at Grid Dynamics as the Global Chief Technology Officer, where he managed world-class engineering and product teams that built end-to-end omni-channel e-commerce platforms with advanced data intelligence and search capabilities. He has held numerous other leadership posts, including: CTO Americas, SVP Innovation Lifecycle and Incubation at Avanade, Inc. (a joint venture between Accenture & Microsoft); Principal Architect, Technology & Engineering Officer at Infosys Technologies, Ltd; and CTO, Global Solutions Delivery at Satyam Computers, Inc. He has extensive experience with all consumer data platforms and has developed a number of important mathematical algorithms throughout his career to unlock client-specific challenges and deliver state-of-the-art personalized customer experiences.
+
+In his new role, Fadli will lead Razorfish Global’s Data Intelligence Practice and rapidly expand the organization’s competitive advantage in Marketing Intelligence and Data Sciences, in areas such Predictive Marketing and Data Visualization, Audience Management, Advanced Segmentation and Real-Time Automation. He will also lead the global deployment of the Rosetta Engagement Engine, which integrates customer data and interactions across all major touch points at enterprise scale.
+
+Additionally, Fadli will work closely with leadership across Publicis.Sapient to drive innovative customer experience for clients across SapientNitro, Razorfish, Rosetta and DigitasLBi, and build on key collaborative partnerships with some of the world’s leading data technology companies, including Adobe, Microsoft, Google, Amazon Web Services, IBM, Oracle, SAP, and other data intelligence providers.
+
+“Razorfish Global is a world-class brand, and I’m thrilled to join it at a time when Tom and the rest of the leadership team are making a major investment in data and intelligence and prioritizing them as critical to our future success,” said Fadli. “I have long admired Razorfish as a leader in customer obsession and business transformation, and I think we have a clear competitive advantage through our ability to create world class experiences built on a better understanding of our clients’ customers.”
+
+He earned his Masters in Computer Science in Belgium and has multiple certifications across a large spectrum of technologies.
+
+***
+
+###About Razorfish Global
+
+Razorfish Global, part of the Publicis.Sapient platform, is a network of leading digital agencies within Publicis Groupe that brings together customer experience, technology, media and intelligence to drive business transformation for clients on a global scale. Its 4,500 team members and 42 worldwide offices span Australia, Canada, China, France, Germany, Hong Kong, India, Italy, Japan, Singapore, the United Kingdom and the United States.
+
+----
+
+Contact_Name: shade-vaughn-rosetta-rzfg

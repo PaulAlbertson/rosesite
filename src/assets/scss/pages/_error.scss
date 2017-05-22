@@ -1,0 +1,20 @@
+.error-hero {
+  @extend %panel;
+  @include panel('../images/error/hero.jpg', '../images/error/hero-mobile.jpg');
+  @include panel-size($panel-width, 1440);
+  color: #FFF;
+
+  @include breakpoint(s-mobile) {
+    background-position: left bottom;
+  }
+
+  .button {
+    @include button(#FFF);
+    @extend %cta-button;
+
+    .button-text {
+      max-width: none;
+      @include opacity(1);
+    }
+  }
+}

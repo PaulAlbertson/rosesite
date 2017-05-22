@@ -1,0 +1,59 @@
+﻿Title: Practical Advice for Pharma SEO: Branded vs Unbranded Strategies
+
+----
+
+metadescription: A branded pharmaceutical website will generally rank well for branded  keywords because the domain name of the site is usually the brand name.
+
+----
+
+Subtitle: 
+
+----
+
+Date: 2013-10-16
+
+----
+
+Text: 
+A branded pharmaceutical website will generally rank well for branded  keywords because the domain name of the site is usually the brand name.  But search marketers should still focus on optimizing for the site&rsquo;s  top branded terms, since you can be sure other sites will be competing  for top organic rankings for the specific drug name. Pharma search  engine optimization (SEO) strategists should not assume that a pharma  site will rank #1 for all branded keywords without putting forth some  effort.
+
+The types of websites I see that usually rank well for drug names are  mostly &ldquo;unbiased&rdquo; educational websites with a strong focus on  healthcare such as: WebMD, Mayo Clinic, Medicinenet, Medscape, eMedicine  Health, Drugs.com, Cleveland Clinic, and the National Institutes of  Health (NIH.gov) website.
+
+Leveraging Branded Keywords on Branded Pharma Sites<br />
+	Your highly relevant non-branded keywords should always be placed at or  at least near the beginning of a browser page title. Try to also  include the brand name and its generic drug name at or near the end of  the page title on the homepage and other appropriate pages. Include some  long-tail branded keywords when writing SEO meta tags for site pages  that are heavily brand focused.
+
+Without overdoing it, make sure to insert enough mentions of the drug  name in your page copy. Some copywriters choose not to insert the drug  name within page copy, assuming the reader will already know what drug  the writer is referring to. But that sort of strategy could negatively  affect SEO performance and even result in some of the bigger non-biased  sites mentioned above outranking the branded website for your important  branded key phrases.
+
+Here&rsquo;s an example of how to subtly include another mention of the  drug within page copy: Instead of just saying, &ldquo;Be sure to take your  medicine exactly as your doctor prescribes,&rdquo; insert the drug name into  this sentence if it hasn&rsquo;t already been mentioned several times on the  page, for example, &ldquo;Be sure to take &lsquo;Drug Name&rsquo; exactly as your doctor  prescribes.&rdquo;
+
+A pharma SEO strategist should also include some branded keywords in  image alt attributes, where appropriate. This is another way to add a  few more mentions of the brand, and it provides an opportunity to insert  other top branded keyword phrases such as &lsquo;Drug Name&rsquo; Side Effects,  &lsquo;Drug Name&rsquo; Information, and How &lsquo;Drug Name&rsquo; Works.
+
+Most pharma brand managers will choose to bid on their own brand name  within paid search listings to ensure they&rsquo;re able to maintain the top  share of voice. Thus, earning some #1 organic rankings for the drug name  will result in doubling the brand awareness in SERPs (Search Engine  Results Pages), which can help boost the number of click-throughs to the  site.
+
+<strong>Leveraging unbranded keywords on branded pharma sites</strong>
+
+Once optimized content for branded terms is done, the pharma SEO  strategist should shift focus to emphasize relevant unbranded terms in  key areas of the site. We already know it will be difficult for a  branded pharma site to rank on the first page in Google for most  condition-related keywords. The reason for this is that search engines  usually favor websites deemed to be unbiased, objective, and  trustworthy. Also, large healthcare sites like WebMD and Mayo Clinic  tend to have far more educational content about a condition or disease.  So you&rsquo;re better off not trying to rank for major &ldquo;head&rdquo; terms (a very  general, one-word keyword) such as gout, epilepsy, or diabetes. Instead,  plan on optimizing for more specific non-branded key phrases such as  gout treatment, gout medication, gout symptoms, and high uric acid  levels.
+
+Branded pharma websites usually feature at least one section that  focuses on the specific condition or conditions that the drug treats.  And it is those educational, condition-related pages where you should  look to leverage targeted unbranded keywords that are most relevant to  the condition and page content. Remember, it&rsquo;s best to optimize only for  keywords that are closely tied to the FDA-approved indication for the  drug. It&rsquo;s never a good idea to stuff irrelevant keywords into meta tags  and other SEO-related assets, especially on a branded pharma site.  Don&rsquo;t mention strong claims either, such as &ldquo;the best&rdquo; or &ldquo;the only.&rdquo;  Pharmaceutical companies have extensive medical-legal review teams.  Don&rsquo;t hand them obvious reasons to reject your SEO recommendations.
+
+Next, be sure to include traditional SEO copy recommendations such as  keyword-rich internal links, image file names, and alt attributes. You  can also make the heading tags and copy keyword-rich, but within reason.  A pharma SEO strategist should never jeopardize the integrity of a  healthcare website by over-optimizing. Try to mix things up a little and  leverage synonyms for condition-related phrases when it makes sense to  do so in page copy. A synonym for the term high blood pressure, for  example, is hypertension.
+
+Also remember to qualify terms within page copy. Instead of writing  &ldquo;Learn more about this treatment,&rdquo; qualify the word treatment like this:  &ldquo;Learn more about this type 2 diabetes treatment.&rdquo; This way, you can  insert another mention of a relevant keyword phrase without having to  stuff it in somewhere else on the page. Still, always try to maintain  the copy&rsquo;s natural flow. And remember the statement, &ldquo;What&rsquo;s good for  users is good for search engines.&rdquo;
+
+<strong>Be prepared</strong>
+
+Finally, take time to prepare before attending a  medical/legal/regulatory review of your SEO recommendations. And take  note of some good alternative SEO keywords before the review, since  there&rsquo;s a good chance the review team will reject at least a few of your  SEO recommendations. Getting ready ahead of time can make it easier for  you to find that common ground/compromise where the legal folks are  comfortable with the messaging that represents the branded pharma site  in organic search listings.
+
+<em>Dave Marston is SEO Manager at Rosetta.</em>
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: PharmaLive
+
+----
+
+Source_url: http://www.pharmalive.com

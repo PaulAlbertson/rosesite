@@ -1,0 +1,74 @@
+/* Mixins */
+
+@mixin light-text {
+  .case-panel, .case-description, .case-description {
+    color: #FFF;
+  }
+}
+
+/* General Case Study Styles */
+
+.case-panel {
+  padding: 3% 0 4%;
+  max-width: 50%;
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+
+  .mission-statement {
+    margin: 5% 0;
+  }
+
+  .data-description {
+    @extend .case-description;
+    margin-top: 0;
+  }
+}
+
+.case-callout {
+  @extend %panel;
+  background-color: #FFFFFF;
+  padding: 3% 0;
+  @include breakpoint(mobile) {padding: 20px;}
+
+  .case-panel {
+    padding: 0;
+    @include breakpoint(mobile) {max-width: 100%;}
+
+    .case-description {
+      margin: 1.3em 0;
+    }
+  }
+}
+
+.job-title {
+  white-space: nowrap;
+}
+  
+.next-case-study { 
+  @extend %panel;
+  @include panel-size($panel-width, 1327);
+  @include panel('/assets/images/case-activision/activision_07.jpg', '');
+
+  .cta-panel {
+    max-width: 18%;
+    top: 22.9%;
+    
+    .cta-heavy {
+      font-weight: bold;
+    }
+  }
+}
+
+.case-caption {
+  font-size: 2em;
+  max-width: 80%;
+  line-height: 1.5;
+  margin: 5% auto;
+}
+ 
+.case-description { 
+  font-weight: 100; 
+  margin-top: 4%;
+  line-height: 1.4em;
+}

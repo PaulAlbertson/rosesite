@@ -1,0 +1,23 @@
+metadescription: There was an error submitting the form
+
+----
+
+metatitle: There was an error submitting the form
+
+----
+
+
+Title: Contact Us
+
+----
+
+Text:
+
+<p class="center">There was an error submitting the form. Please go back and try again.<p>
+
+<p class="center">
+	<a href="/contact" class="button button-inline">
+		<span class="button-icon button-icon-rl arrow"></span>
+		<span class="button-text">Back</span>
+	</a>
+</p>

@@ -1,0 +1,31 @@
+/* Event Page */
+
+.event-wrap {
+  .page-content {
+    width: 70%;
+    background: #FFF;
+    padding: 40px;
+    @include box-shadow(0 5px 5px rgba(0, 0, 0, 0.05));
+    position: relative;
+    top: -50px;
+
+    @include breakpoint(s-tablet) {
+      width: 90%;
+    }
+
+    @include breakpoint(mobile) {
+      width: auto;
+      top: 0;
+      padding: 20px;
+    }
+
+    aside {
+      width: 33%;
+
+      > div {
+        margin-bottom: 3em;
+        padding: 0;
+      }
+    }
+  }
+}

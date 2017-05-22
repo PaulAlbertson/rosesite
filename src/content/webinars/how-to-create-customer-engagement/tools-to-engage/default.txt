@@ -1,0 +1,50 @@
+Title: Tools to Engage
+
+----
+
+Subtitle: Optimizing Your Technology Stack
+
+----
+
+metatitle: Tools to Engage – Optimizing Your Technology Stack
+
+----
+
+Video: 111688567
+
+----
+
+Text:
+
+<br>
+In this webinar, Tom Kotlarek from the Rosetta Technology team gives practical advice on how brands can put in place the right technologies needed to drive more contextually-relevant and engaging experiences.
+
+To see more planned or recorded webinars about  customer engagement, view the main page for our series called *(link: /webinars/how-to-create-customer-engagement text: How to Create Customer Engagement)*.
+
+----
+
+ColumnText:
+
+##Speaker
+
+<div class="col-wrap">
+  <div class="col3"><img src="/assets/images/leadership/tom-kotlarek.jpg" class="column-headshot" alt="Tom Kotlarek"></div>
+  <div class="col3 col3-wrap2">
+    <h3>Tom Kotlarek</h3>
+    <p>Chief Technology Officer</p>
+  </div>
+</div>
+
+<hr>
+
+###Contact
+
+If you have questions about this webinar content, please contact <a href="mailto:Tom.Kotlarek@Rosetta.com">Tom Kotlarek</a>.
+
+----
+
+MarketoForm: 1110
+
+----
+
+Share: Great recording of the Rosetta Webinar "Tools to Engage – Optimizing Your Technology Stack"

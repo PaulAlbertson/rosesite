@@ -1,0 +1,49 @@
+﻿Title: How Lenovo Knows Its New Site Design Will Boost Sales
+
+----
+
+Subtitle: The device maker tested it with live users in digital agency Rosetta&rsquo;s laboratory.
+
+----
+
+Location: 
+
+----
+
+Date: 2013-06-07
+
+----
+
+Text: When PC and tablet maker Lenovo launches the U.S. version of its  newly redesigned web site this week, it won&rsquo;t be surprised if average  order values shoot up by $50 to $70 apiece, says Rick Medeiros,  executive director of global usability and user experience. In fact, the  brand manufacturer might be surprised if revenue from the U.S. site  isn&rsquo;t up significantly in the first month compared with the average  monthly revenue from the old site.
+
+Lenovo&rsquo;s rosy expectations are based on a series of user tests  conducted in the Cleveland laboratory of digital customer engagement  agency <a title="more about the company" href="http://www.internetretailer.com/vendors/search/?q=rosetta" target="_blank">Rosetta</a>,  which worked with Lenovo over the last year on its global site  redesign. In updating the site&rsquo;s look and organization, the two  companies streamlined the process of configuring products in order to  help customers find and purchase what they need more easily than before,  Medeiros says.
+
+Rosetta tested the site&rsquo;s usability with consumers in the lab at three stages in the redesign process.
+
+First, it checked whether its initial design changes made the most  important content, such as the &ldquo;Help Me Decide&rdquo; product selector tool,  easily accessible to visitors. To do so, the agency brought 30 consumers  into the lab last June and showed them screenshots from the new Lenovo  site as well as pages from competitors&rsquo; sites, measuring which parts of  the page they looked at the most and asking for their general  impressions. That helped it discover, for instance, that most shoppers  thought the IdeaCentre desktop PC was a television. So, <a title="IBM and Rosetta team up for global expansion" href="http://www.internetretailer.com/2012/12/10/ibm-and-rosetta-unit-team-global-expansion" target="_blank">Rosetta</a> recommended a few changes to the images of the device, including  showing it on a desk rather than a coffee table and with computer-like  accessories, such as a keyboard, nearby. 
+
+In the second stage, Rosetta tested whether updating the site&rsquo;s  organization and navigation led shoppers to flow through the site as  Lenovo expected them to, the agency says. Sixteen consumers each spent  60 minutes completing tasks on the web site, such as browsing the home  page, adding products to the cart and using the Help Me Decide tool,  while Rosetta researchers observed and asked them for feedback. The  agency then adjusted the site layout to address problems that prevented  shoppers from completing shopping tasks.  For example, some users said  they were overwhelmed by too much information on each page, including  content and product selections, Rosetta says.
+
+Notably, Medeiros says the second test proved to him that data provide a better determinant of the best <a title="learn about responsive web design at the Internet Retailer Conference & Exhibition" href="http://www.internetretailer.com/2013/05/30/responsive-design-and-mobile-pos-will-be-display-irce" target="_blank">web design</a> than  his 15 years of experience in the field. Based on that experience, he&rsquo;d  been concerned that Rosetta&rsquo;s plan to switch from a more commonplace,  horizontal scrolling banner on the home page to a vertical version would  not go over well with consumers, he says.  But the switch to a vertical  scrolling banner turned out to be a hit. &ldquo;That&rsquo;s the beauty of  [testing],&rdquo; he says. &ldquo;This is the way to be innovative,&rdquo; he says.
+
+With all major redesign work complete, Rosetta finished the process  in a real world test. It sent 5% of the three million total visitors  coming to Lenovo&rsquo;s U.S. site over one month to the new web site and  compared their behaviors with a sample of 5% of the visitors to the old  site, Medeiros says. Compared with the visitors to the old site, those  shopping for Lenovo&rsquo;s &ldquo;Think&rdquo; branded products on the new site had an  average increase in revenue per visit of 14.5% and a 14.7% higher  conversion rate, he says. Additionally, the new site led 9% more  visitors to product pages and 4% more visitors to the shopping cart, he  says.
+
+The live test also demonstrated to Lenovo that it would have enough  profit within a year to break even or surpass the cost of Rosetta&rsquo;s  services, Medeiros says, declining to share their exact cost.
+
+Lenovo began rolling out its <a title="read about Walmart.com's redesign" href="http://www.internetretailer.com/2013/05/03/walmartcom-has-new-look" target="_blank">redesigned sites</a> internationally  in mid-February, adjusting each one for local language and product  availability differences, Medeiros says. The company operates 66  e-commerce sites and is now 90% complete with the launches worldwide. So  far, conversions are up on those foreign sites, he says, without  sharing specific figures. He expects the launch in the U.S.—where Lenovo  draws the bulk of its direct sales from consumers—will follow suite.
+
+----
+
+About_rosetta: 
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: Internet Retailer
+
+----
+
+Source_url: http://www.internetretailer.com/2013/06/03/how-lenovo-knows-its-new-site-design-will-boost-sales

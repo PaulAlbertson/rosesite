@@ -1,0 +1,53 @@
+Title: Rosetta Consulting’s Customer Engagement&nbsp;Survey
+
+----
+
+Subtitle: A Series of Papers Highlighting How Both Marketers and Consumers View&nbsp;Engagement&mdash;And Why it’s so Valuable
+
+----
+
+Text: 
+
+###Whitepaper #1
+##Customer Engagement from the Marketer’s Perspective
+
+Marketers that excel at customer engagement are 2.2 times more likely to have experienced an increase in market share in the past year, and 86% saw an increase in revenue. This paper focuses on best practices for business leaders who want to succeed through better customer engagement. 
+
+(link: /reports/customer-engagement-rosetta-consulting-study/customer-engagement-from-the-marketers-perspective/ text: Download Now class: button-link)
+
+***
+
+###Whitepaper #2
+##Customer Engagement from the Consumer’s Perspective
+
+Engaged customers buy 50% more frequently, spend 200% more each year and are 5 times more likely to indicate it is the only brand they would purchase in the future. This paper unlocks engagement from the customer perspective. It details the emotions, behaviors and experiences that are true differentiators in a brand relationship. 
+
+(link: /reports/customer-engagement-rosetta-consulting-study/customer-engagement-from-the-consumers-perspective/ text: Download Now class: button-link)
+
+***
+
+###Whitepaper #3
+##The Economics of Engagement
+
+Top-performing brands in customer engagement experienced 50% higher revenue growth than all other brands, and 36% higher growth than their category average. This paper focuses on the key drivers of brand value and how customer engagement drives quantifiable bottom-line growth for brands.
+
+(link: /reports/customer-engagement-rosetta-consulting-study/the-economics-of-engagement/ text: Download Now class: button-link)
+
+----
+
+ColumnText:
+
+<div class="center">
+
+<h2>Contact</h2>
+<img src="/assets/images/leadership/chetna-bansal.jpg" class="column-headshot contact-headshot">
+<h3>Chetna Bansal</h3>
+<p>Partner | Rosetta Consulting<br>
+<a href="mailto:chetna.bansal@rosetta.com">chetna.bansal@rosetta.com</a><br>
++1 212.771.5253</p>
+
+</div>
+
+----
+
+Sharing: off

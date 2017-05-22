@@ -1,0 +1,162 @@
+.content-careers {
+  padding-bottom: 0;
+
+  &:after {
+    display: none;
+  }
+
+  article h2 {
+    margin-bottom: 1em;
+  }
+
+  tr:nth-of-type(2n) {
+    background: #E2E3E6;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 10px 10px 9px;
+  }
+
+  th {
+    font-weight: bold;
+    padding: 10px 10px 9px;
+  }
+
+  td a:hover {
+    text-decoration: underline;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 2px;
+  }
+
+  option, select, input {
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  option {
+    padding: 5px 10px;
+  }
+
+  select, input {
+    margin-bottom: 30px !important;
+  }
+
+  .content-form #frmcriteria input[type="text"] {
+    padding-bottom: 11px !important;
+    padding-top: 11px !important;
+  }
+}
+
+.careers-pagination-wrap {
+  position: relative;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    z-index: 1;
+  }
+
+  &:before {
+    @include background(linear-gradient(to right, rgba(242, 244, 246, 1) 0%, rgba(242, 244, 246, 0) 100%));
+    left: 0;
+  }
+
+  &:after {
+    @include background(linear-gradient(to left, rgba(242, 244, 246, 1) 0%, rgba(242, 244, 246, 0) 100%));
+    right: 0;
+  }
+}
+
+.careers-pagination {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+
+  li {
+    @include inline-block;
+    padding: 8px 12px 6px;
+    cursor: pointer;
+    background: #E2E3E6;
+    margin-right: 5px;
+
+    &.careers-pagination-current {
+      color: #FFF;
+      background: #00BCE4;
+    }
+
+    &.careers-pagination-arrow {
+      background: none;
+    }
+
+    .button-icon {
+      @include inline-block;
+      @include border-radius(0);
+      color: #0095BD;
+      font-size: 14px;
+      height: auto;
+      line-height: 2em;
+      margin: 0;
+      text-align: center;
+      width: auto;
+    }
+  }
+}
+
+.careers-results {
+  position: relative;
+  margin-bottom: 40px;
+
+  table {
+    width: 100%;
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .careers-results-current {
+    position: static;
+    visibility: visible;
+  }
+}
+
+.careers-pagination-arrow:first-child {
+  @include breakpoint(mobile) {
+    margin-left: 40px;
+  }
+}
+
+.careers-pagination-arrow:last-child {
+  @include breakpoint(mobile) {
+    margin-right: 40px;
+  }
+}
+
+.careers-pagination-arrow-hidden {
+  visibility: hidden;
+}
+
+.careers-post-footer {
+  @include clearfix;
+  clear: both;
+  margin-bottom: 80px;
+}
+
+.job-details {
+  strong {
+    text-transform: capitalize;
+  }
+}
+
+.careers #latest-posts {
+  display: none;
+}

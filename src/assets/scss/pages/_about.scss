@@ -1,0 +1,326 @@
+/* About */
+
+.about-hero {
+  @include panel('/assets/images/about/hero.jpg', '/assets/images/about/hero-mobile.jpg');
+  @extend %panel;
+  @include panel-size($panel-width, 1440);
+  color: #FFF;
+
+  img {
+    max-width: 20em;
+
+    @include breakpoint(tablet) {
+      max-width: 40%;
+    }
+
+    @include breakpoint(mobile) {
+      max-width: 50%;
+    }
+  }
+
+  .about-hero-links {
+    margin: 0 auto;
+
+    @include breakpoint(mobile) {
+      max-width: 320px;
+    }
+  }
+
+  .button {
+    @include button(#FFF);
+    @extend %cta-button;
+
+    @include breakpoint(mobile) {
+      float: left;
+      width: 50%;
+    }
+  }
+}
+
+.callout {
+  @include breakpoint(s-mobile) {
+    .about {
+      padding: 37px;
+    }
+  }
+}
+
+img.about-ad-age {
+  margin: 10% auto 0;
+  width: 30%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  @include transform(translateX(-50%) translateX(-50%));
+
+  @include breakpoint(tablet) {
+    width: auto;
+    max-width: 300px;
+  }
+
+  @include breakpoint(mobile) {
+    max-width: 200px;
+  }
+}
+
+.about-values {
+  @include panel('/assets/images/about/values.jpg', '/assets/images/about/values.jpg');
+  @extend %panel;
+  @include panel-size($panel-width, 1437);
+  @extend %panel-break;
+  background-color: #FFF;
+
+  .wrap {
+    &:before {
+      @include breakpoint(tablet) {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  .cta-panel {
+    width: 52%;
+    top: 47%;
+    color: #FFF;
+
+    @include breakpoint(tablet) {
+      width: 66%;
+      top: 0;
+    }
+
+    @include breakpoint(s-tablet) {
+      width: auto;
+      position: static;
+    }
+
+    @include breakpoint(mobile) {
+      margin: 40px 0;
+      width: 100%;
+    }
+  }
+
+  .col2 {
+    @include breakpoint(mobile) {
+      float: none;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+
+    @include breakpoint(s-tablet) {
+      font-size: 2em;
+    }
+  }
+
+  .icon {
+    @extend %icon;
+    font-size: 4em;
+
+    @include breakpoint(mobile) {
+      &.icon-collaborate { margin-left: 25px;}
+      &.icon-listen      { margin-left: 19px;}
+      &.icon-discover    { margin-left: 16px;}
+      &.icon-imagine     { margin-left: 11px;}
+      &.icon-deliver     { margin-left: 18px;}
+    }
+  }
+
+  h3, p {
+    margin-bottom: 0;
+  }
+}
+
+.about-content {
+  @include panel-size($panel-width, 3100);
+  @extend %panel;
+  @include panel('/assets/images/about/content.jpg', '/assets/images/about/content.jpg');
+
+  .wrap {
+    overflow: hidden;
+
+    @include breakpoint(tablet) {
+      padding-bottom: 500px;
+      background-position: left bottom;
+    }
+
+    @include breakpoint(mobile) {
+      padding-bottom: 300px;
+    }
+  }
+}
+
+.about-careers {
+  @extend %panel-content;
+  @include clearfix;
+  color: #FFF;
+  padding-top: 10%;
+  margin-bottom: 6em;
+  height: auto;
+  left: 1%;
+  max-width: 68%;
+  position: relative;
+
+  @include breakpoint(tablet) {
+    left: 5%;
+    max-width: 95%;
+  }
+
+  @include breakpoint(mobile) {
+    left: 0;
+    max-width: none;
+  }
+
+  .large-header {
+    text-transform: uppercase;
+    font-size: 3em;
+    //margin-bottom: 0;
+  }
+
+  .button {
+    @include button(#FFF);
+    @extend %cta-button;
+  }
+
+  a {
+    color: #BBB;
+
+    &:hover {
+      color: #FFF;
+    }
+  }
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 2em;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto 2em;
+    max-width: 70%;
+
+    @include breakpoint(mobile) {
+      max-width: 150px;
+    }
+  }
+
+  .careers-publicis {
+    border-right: 1px solid #7F7F7F;
+    margin-right: 0;
+    padding-right: 5%;
+    width: 28.7%;
+  }
+
+  .col3-wrap2 {
+    border-left: 1px solid #7F7F7F;
+    padding-left: 5%;
+    position: relative;
+    left: -1px;
+    width: 70%;
+    padding-top: 3%;
+
+    @include breakpoint(tablet) {
+      width: 57%;
+    }
+
+    @include breakpoint(mobile) {
+      border: 0;
+      padding-left: 0;
+    }
+  }
+
+  .careers-list {
+    padding-bottom: 20px;
+    min-height: 20em;
+    @include breakpoint(tablet) { padding-bottom: 0;}
+    
+    a:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    p {
+      font-style: italic;
+    }
+
+    .loader-circle {
+      margin: -4px 20px 0 0;
+      float: left;
+      position: static;
+
+      @include breakpoint(mobile) {
+        margin: 0 auto 20px;
+        position: static;
+        float: none;
+      }
+    }
+  }
+
+  @include breakpoint(mobile) {
+    text-align: center;
+
+    a {
+      color: #FFF;
+    }
+
+    .col3, .col3-wrap2 {
+      width: 100%;
+    }
+
+    .large-header {
+      font-size: 2em;
+    }
+
+    .careers-publicis {
+      border-right: 0;
+      padding-right: 0;
+      width: 100%;
+
+      img {
+        max-width: 35%;
+      }
+    }
+  }
+}
+
+#latest-posts {
+  .col2 {
+    display: block;
+    margin-bottom: 2em;
+  }
+}
+
+
+.about-locations {
+  color: #000;
+  background: #FFF;
+
+  p {
+    color: $text-grey;
+  }
+
+  .address-cta {
+    a {
+      color: $text-grey;
+
+      &:hover {
+        color: #000;
+      }
+
+      .icon-location {
+        border-color: $text-grey;
+      }
+    }
+  }
+}

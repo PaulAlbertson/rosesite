@@ -1,0 +1,85 @@
+Title: Locations
+
+----
+
+Addresses:
+
+Chicago:
+  Address: 222 W Merchandise Mart Plaza, Ste&nbsp;1200 
+  City: Chicago
+  State: IL
+  ZIP: 60654
+  Country: USA
+  Phone: +1 312.568.7010
+  Map: https://www.google.com/maps/place/222+W+Merchandise+Mart+Plaza+%231200,+Chicago,+IL+60654/@41.8883695,-87.6353645,17z/data=!3m1!4b1!4m2!3m1!1s0x880e2cb6fb232d35:0x9787e747f62ae139?hl=en
+  Email: Chicago@rosetta.com
+
+Cleveland:
+  Address: 629 Euclid Avenue, 15<sup>th</sup>&nbsp;Fl
+  City: Cleveland
+  State: OH
+  ZIP: 44114
+  Country: USA
+  Phone: +1 216.896.8900
+  Map: https://www.google.com/maps/place/629+Euclid+Ave,+Cleveland,+OH+44114/@41.5003296,-81.6887486,17z/data=!3m1!4b1!4m2!3m1!1s0x8830fa7fd57ba459:0x2745e5824996cc94?hl=en
+  Email: Cleveland@rosetta.com
+
+London:
+  Address:  Elsley Court, <br> 20–22 Great Titchfield St
+  City:     London
+  State:    W1W
+  ZIP:      8BE
+  Country:  UK
+  Phone:    +44 (0) 207 830 3564
+  Map:      https://www.google.com/maps/place/Elsley+Court,+20-22+Great+Titchfield+St,+Fitzrovia,+London+W1W+8BE,+UK/@51.5174368,-0.1397947,17z/data=!3m1!4b1!4m2!3m1!1s0x48761b2a8a384db5:0xa3f59b0c42dff00?hl=en
+  Email:    London@rosetta.com
+
+Los Angeles:
+  Address: 2301 Rosecrans Avenue, Ste&nbsp;5100
+  City: El Segundo
+  State: CA
+  ZIP: 90245
+  Country: USA
+  Phone: +1 310.765.8800
+  Map: https://www.google.com/maps/place/2101+Rosecrans+Ave+%235250,+El+Segundo,+CA+90245/@33.90267,-118.3879116,17z/data=!3m1!4b1!4m2!3m1!1s0x80c2b4069f533935:0x95e61cab54466ed?hl=en
+  Email: LosAngeles@rosetta.com
+
+New York:
+  Address: 375 Hudson St
+  City: New York
+  State: NY
+  ZIP: 10014
+  Country: USA
+  Phone: +1 212.771.5000
+  Map: https://www.google.com/maps/place/99+Hudson+St,+New+York,+NY+10013/@40.718981,-74.008927,18z/data=!4m2!3m1!1s0x89c25a1fd6da5be9:0x68bea9aad18d4a47?hl=en
+  Email: NewYork@rosetta.com
+
+Princeton:
+  Address: 100 American Metro Boulevard
+  City: Hamilton
+  State: NJ
+  ZIP: <num>08619</num>
+  Country: USA
+  Phone: +1 609.689.6100
+  Map: https://www.google.com/maps/place/100+American+Metro+Blvd,+Hamilton+Township,+NJ+08619/@40.253689,-74.708469,16z/data=!4m2!3m1!1s0x89c158a239b124af:0xb2c5cdc9e865ef64?hl=en
+  Email: Princeton@rosetta.com
+
+San Francisco:
+  Address: 2001 The Embarcadero
+  City: San Francisco
+  State: CA
+  ZIP: 94133
+  Country: USA
+  Phone: +1 415.293.2001
+  Map: https://www.google.com/maps/place/2001+The+Embarcadero,+San+Francisco,+CA+94133/@37.809004,-122.408509,17z/data=!4m2!3m1!1s0x808580fb93d1c8b1:0x2ef1f9c1722df651?hl=en
+  Email: SanFrancisco@rostta.com
+
+San Luis Obispo:
+  Address: 4800 Morabito Place
+  City: San Luis Obispo
+  State: CA
+  ZIP: 93401
+  Country: USA
+  Phone: +1 805.781.0546
+  Map: https://www.google.com/maps/place/Morabito+Pl,+San+Luis+Obispo,+CA+93401/@35.236664,-120.631267,17z/data=!4m2!3m1!1s0x80ecf6a2a92335b1:0x86ef472928b270d6?hl=en
+  Email: SanLuisObispo@rosetta.com

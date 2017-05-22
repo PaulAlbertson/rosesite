@@ -1,0 +1,174 @@
+/* -----------| PACE |-----------*/
+
+.loader {
+  background: #1A1A1A;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2000;
+  @include opacity(1);
+}
+
+.loader-circle {
+  display: block;
+  position: absolute;
+  z-index: 2000;
+  top: 40%;
+  left: 50%;
+  border: solid 3px transparent;
+  @include transform(translateX(-50%) translateY(-50%));
+  @include animation(pace-spinner 700ms linear infinite);
+  @include transform-origin(center center 0);
+}
+
+.loader-circle1 {
+  width: 30px;
+  height: 30px;
+  margin: 0 0 0 -15px;
+  border-top-color: #E81E75;
+  border-left-color: #E81E75;
+  @include border-radius(15px);
+}
+
+.loader-circle2 {
+  width: 50px;
+  height: 50px;
+  margin: -10px 0 0 -25px;
+  border-top-color: #99CC00;
+  border-left-color: #99CC00;
+  @include border-radius(25px);
+  @include animation-duration(900ms);
+}
+
+.loader-circle3 {
+  width: 70px;
+  height: 70px;
+  margin: -20px 0 0 -35px;
+  border-top-color: #00BCE4;
+  border-left-color: #00BCE4;
+  @include border-radius(35px);
+  @include animation-duration(1100ms);
+}
+
+body.pace-running {
+  overflow: hidden;
+}
+
+.loader-hidden {
+  @include opacity(0);
+  @include transition(opacity 0.25s);
+}
+
+@-webkit-keyframes pace-spinner {
+  0% {
+    @include transform(rotate(0deg));
+  }
+
+  100% {
+    @include transform(rotate(360deg));
+  }
+}
+
+@-moz-keyframes pace-spinner {
+  0% {
+    @include transform(rotate(0deg));
+  }
+
+  100% {
+    @include transform(rotate(360deg));
+  }
+}
+
+@-o-keyframes pace-spinner {
+  0% {
+    @include transform(rotate(0deg));
+  }
+
+  100% {
+    @include transform(rotate(360deg));
+  }
+}
+
+@-ms-keyframes pace-spinner {
+  0% {
+    @include transform(rotate(0deg));
+  }
+
+  100% {
+    @include transform(rotate(360deg));
+  }
+}
+
+@keyframes pace-spinner {
+  0% {
+    @include transform(rotate(0deg));
+  }
+
+  100% {
+    @include transform(rotate(360deg));
+  }
+}
+
+/*
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background: #1A1A1A;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  @include opacity(1);
+
+  .pace-progress {
+    background: #29D;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    height: 5px;
+    @include transition(width 1s, opacity 1s);
+    display: none;
+  }
+
+  .pace-progress-inner {
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100%;
+    @include opacity(1);
+    @include transform(rotate(3deg) translate(0, -4px));
+  }
+
+  .pace-activity {
+    display: block;
+    position: fixed;
+    z-index: 2000;
+    top: 44%;
+    left: 49%;
+    width: 30px;
+    height: 30px;
+    border: solid 3px transparent;
+    border-top-color: #29D;
+    border-left-color: #29D;
+    @include border-radius(15px);
+    @include animation(pace-spinner 400ms linear infinite);
+  }
+}
+
+.pace-active {
+  overflow: hidden;
+}
+
+
+
+
+*/

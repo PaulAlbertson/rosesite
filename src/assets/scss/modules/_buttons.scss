@@ -1,0 +1,278 @@
+/* Buttons */
+
+.button {
+  text-decoration: none;
+  @include inline-block;
+  font-size: 18px;
+}
+
+.button-icon {
+  width: $btn-size;
+  height: $btn-size;
+  font-size: 14px;
+  font-family: 'icons';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: $btn-size;
+  text-align: left;
+  text-decoration: inherit;
+  text-transform: none;
+  @include border-radius($btn-size);
+  @include transition(color 0.3s, border-color 0.3s);
+  overflow: hidden;
+
+  &:before,
+  &:after {
+    position: relative;
+    @include transition(left 0.3s, top 0.3s);
+  }
+}
+
+.button-text {
+  text-transform: uppercase;
+}
+
+// Inline
+.button-inline {
+  height: 40px;
+
+  .button-icon {
+    float: left;
+  }
+
+  .button-text {
+    //float: left;
+    @include inline-block;
+    line-height: $btn-size;
+    max-width: 0;
+    @include opacity(0);
+    overflow: hidden;
+    padding: 0;
+    text-indent: 10px;
+    white-space: nowrap;
+    @include transition(all 0.3s);
+  }
+}
+
+
+// Block
+.button-block {
+  width: 130px;
+  margin-bottom: 40px;
+
+  .button-icon {
+    margin: 0 auto 20px;
+    display: block;
+  }
+
+  .button-text {
+    display: block;
+    text-align: center;
+  }
+}
+
+// Anchored
+.button-anchored {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+}
+
+// Directional Buttons
+.button-icon-lr {
+  &:before,
+  &:after {
+    content: '\e804';
+    left: -43px;
+    top: -3px;
+    margin-left: 19px;
+    white-space: nowrap;
+  }
+}
+
+.button-icon-rl {
+  &:before,
+  &:after {
+    content: '\e80e';
+    left: -12px;
+    top: -3px;
+    margin-left: 19px;
+    white-space: nowrap;
+  }
+}
+
+.button-icon-tb {
+  &:before,
+  &:after {
+    content: '\e80d';
+    display: block;
+    top: -38px;
+    margin-left: 8px;
+  }
+}
+
+.button-icon-bt {
+  &:before,
+  &:after {
+    content: '\e803';
+    display: block;
+    top: -4px;
+    margin-left: 8px;
+  }
+}
+
+// Hover States
+// Extend to .cta-panel or .button
+%cta-button {
+  @include breakpoint(tablet) {
+    .button-text {
+      @include opacity(1);
+      max-width: 100%;      
+    }
+  }
+
+  &:hover {
+    .button-text {
+      @include opacity(1);
+      max-width: 100%;
+    }
+
+    .button-icon-lr {
+      &:before,
+      &:after {
+        left: -10px;
+      }
+    }
+
+    .button-icon-rl {
+      &:before,
+      &:after {
+        left: -45px;
+      }
+    }
+
+    .button-icon-tb {
+      &:before,
+      &:after {
+        top: -2px;
+      }
+    }
+
+    .button-icon-bt {
+      &:before,
+      &:after {
+        top: -40px;
+      }
+    }
+  }
+}
+
+
+// Button with image preview
+.button-preview {
+  position: relative;
+  max-width: 350px;
+  margin: auto;
+  width: 90%;
+
+  @include breakpoint(mobile) {
+    max-width: none;
+    width: 175px;
+  }
+
+  .button {
+    font-size: 30px;
+    left: 0;
+    position: absolute;
+    top: 1em;
+    z-index: 2;
+    height: 60px;
+
+    @include breakpoint(tablet) {
+      top: 0;
+    }
+
+    .button-icon {
+      background: #FFF;
+      font-size: 30px;
+      width: 55px;
+      height: 55px;
+
+      &:before {
+        content: '\e830';
+        font-size: 26px;
+        margin-left: 0;
+        top: 2px;
+      }
+
+      &:after {
+        font-size: 38px;
+        margin-left: 24px;
+        top: 2px;
+      }
+    }
+  }
+}
+
+.button-preview-img {
+  display: block;
+  margin-bottom: 2em;
+  padding-top: 100%;
+  position: relative;
+
+  span {
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    display: block;
+    font-weight: 700;
+    height: 100%;
+    left: 0;
+    padding-top: 47%;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    @include border-radius(50%);
+    @include opacity(0);
+    @include transition(opacity 0.2s);
+
+    @include breakpoint(s-tablet) {
+      @include opacity(1);
+    }
+  }
+
+  img {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    @include border-radius(50%);
+  }
+}
+
+
+// Button Link Directional Icons
+
+.button-icon-l,
+.button-icon-r {
+  line-height: inherit;
+}
+
+.button-icon-l {
+  &:before {
+    content: '\e80e';
+    left: -5px;
+    top: -1px;
+  }
+}
+
+.button-icon-r {
+  &:before {
+    content: '\e804';
+    left: 5px;
+    top: -1px;
+  }
+}

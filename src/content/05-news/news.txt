@@ -1,0 +1,12 @@
+Title: Fresh News
+
+----
+
+metatitle: Fresh News
+
+----
+
+metadescription: The Latest From Our Agency
+
+----
+Text: 

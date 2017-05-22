@@ -1,0 +1,8 @@
+Title: Error
+----
+
+metatitle: 404 Page Not Found
+
+----
+
+Text: The page has not been found

@@ -1,0 +1,38 @@
+﻿Title: Healthcare's Future Depends on Getting Personal
+
+----
+
+metadescription: The future of healthcare lies in more personalized interactions between brands and customers.
+
+----
+
+Subtitle: 
+
+----
+
+Date: 2013-08-30
+
+----
+
+Text: 
+The future of healthcare lies in more personalized interactions between brands and customers. Pharma, hospitals and payers need to apply  insights and data to create more meaningful interactions with their  customers. Here are some ways to enable deeper customer engagement:
+
+<strong>Develop improved patient education programs:</strong> The Affordable  Care Act (ACA) mandates strict penalties for re-admittance within 30  days of patient discharge. Payers, pharma and hospitals must collaborate  on solutions to keep costs down.  Hospitals must improve how they help  patients manage their care by developing patient websites with discharge  information, links to patient communities and instructions for  financial assistance. Like pharma, hospitals should leverage  technologies like Augmented Reality for visualizations of how a disease  affects the body or Gamification to show patients how to manage their  disease through customized games.
+
+<strong>Apply insights from less regulated industries:</strong> Pharma needs to  better understand how consumers interact with brands on mobile devices,  how content is shared through social channels and how to run more  effective loyalty programs. Using consumer insights from the technology  industry, we leveraged the iPad's geo-location functionality to create  up-to-date formulary cards with HCPs' locations to determine co-pays for  patients based on their zip codes. With hundreds of insurance plans and  regular changes to formularies, this lets reps provide up-to-date  information to HCPs during sales calls.
+
+<strong>Create customizable and highly relevant content:</strong> ­Pharma must  drive engagement between HCPs and their sales force. To stay relevant,  reps must provide up-to-date information that can be personalized based  on past interactions with HCPs. Marketers should mine insights from all  interactions HCPs have with pharma companies, as well as reps'  interactions with HCPs.
+
+Our industry has the data and ability to leverage technology to  transform how we communicate with patients and HCPs. Companies who break  down internal silos and harness information to create personalized  experiences will achieve greater financial rewards and improve health  outcomes. Our health is personal. We need to enhance our communication  capabilities to be personal as well.
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: Medical Marketing & Media
+
+----
+
+Source_url: http://www.mmm-online.com/healthcares-future-depends-on-getting-personal/article/308301/

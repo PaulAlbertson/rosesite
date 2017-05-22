@@ -1,0 +1,46 @@
+﻿Title: Rosetta’s Connector Named Adobe’s EMEA Partner Solution of the Year 
+
+----
+
+Subtitle: Razorfish Global Solution Connects Adobe Experience Manager with IBM WebSphere Commerce to Help Clients Drive Commerce Innovation Through Personalised Commerce Experiences
+
+----
+
+Location: London
+
+----
+
+Date: 2015-05-05
+
+----
+
+Text:
+
+(link: / text: Rosetta’s) industry-leading Connector solution has been named “EMEA Partner Solution of the Year 2014” by Adobe, the global leader in digital marketing and digital media solutions. The award was presented at Adobe Summit Europe, held in London 29&ndash;30 April.
+
+The Connector combines the best-in-class capabilities of Adobe Experience Manager (AEM) eCommerce Integration Framework and IBM’s WebSphere Commerce (WCS) platform. By seamlessly integrating these two industry-leading commerce platforms, the solution delivers an enterprise-class offering to marketing and IT departments to manage and optimize the commerce and content ecosystem, from brand engagement to immersive shopping experiences to checkout.
+
+Originally (link: http://www.prnewswire.com/news-releases/rosetta-drives-commerce-innovation-by-connecting-ibm-websphere-commerce-to-adobe-experience-manager-ecommerce-integration-framework-225806931.html text: launched target: _blank) by Rosetta in 2013, the solution has been deployed for several leading, global brands and offers retailers greater flexibility to create personalised commerce experiences and improve both the front-end shopping experience and back-end merchandising and marketing publishing processes.
+
+“We’re honoured to receive this tremendous recognition, as it’s a testament to the strength of our partnership with Adobe and our continued focus on delivering world-class solutions for clients across the globe,” said Gary Schoch, global commerce lead at Rosetta. “We continue to see the increasing need for brands to leverage consumer insights to create innovative experiences and drive relevant, personalised engagement with their customers.”
+
+“This recognition from Adobe is significant to Rosetta UK and comes at a time when clients are looking to find ways to transform their businesses from a traditional commerce-centric approach to one that is truly engaging and relevant,” said Sebastian Dreyfus, managing director of Rosetta Europe. “Clients throughout Europe, and indeed around the world, are coming to us to help provide them with the tools they need to change their digital experience across any channel, at any time. The Rosetta Connector provides the innovation that allows clients to power these new digital experiences.”
+
+By integrating AEM and WCS, marketers are given digital asset management and the ability to quickly and easily control the content, layout and promotions of their online properties without sacrificing the robust capabilities of an enterprise commerce platform. Additionally, the solution allows for ready access to Adobe Analytics and Adobe Target, both part of the Adobe Marketing Cloud, to enable marketers to rapidly optimize content and maximize return on investment.
+
+As part of the Razorfish Global network and Publicis.Sapient platform, Rosetta is building on the momentum of the Publicis Groupe Always On initiative. In addition to their diamond and platinum sponsorships, the agencies that are a part of the Publicis.Sapient platform also unveiled connected commerce capabilities at the 2015 Adobe EMEA Summit events with the launch of SapientNitro's Integrated Experience Architecture, and Razorfish Global’s RazorShop and Rosetta Engagement Engine. All of the solutions showcased at Summit are available to clients across the Publicis.Sapient platform, including those of SapientNitro, Razorfish Global and DigitasLBi.
+
+***
+
+##About Rosetta
+Rosetta. Unlocking and Activating<sup>&trade;</sup> Human Behavior.
+
+Rosetta, part of the Razorfish Global network and Publicis.Sapient platform, is an agency focused on customer engagement. We connect rich data, engaging experiences and robust technologies to create meaningful customer relationships that drive business impact.
+
+##About Razorfish Global
+
+Razorfish Global, part of the Publicis.Sapient platform, is a network of leading digital agencies within Publicis Groupe that brings together customer experience, technology, media and intelligence to drive business transformation for clients on a global scale. Its 4,500 team members and 42 worldwide offices span Australia, Canada, China, France, Germany, Hong Kong, India, Italy, Japan, Singapore, the United Kingdom and the United States.
+
+----
+
+Contact_Name: shade-vaughn-rosetta-rzfg, brittany-slattery

@@ -1,0 +1,44 @@
+.pagination-controls {
+  left: -10%;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  @include transform(translateY(-50%));
+}
+
+.owl-nav {
+  height: 0; // So it doesn't interfere with content behind it
+  //margin-top: -1.5em;
+  font-size: 2em;
+  position: relative;
+}
+
+.owl-prev,
+.owl-next,
+.icon-prev,
+.icon-next {
+  font-size: 3em;
+}
+
+.owl-prev,
+.prev {
+  float: left;
+}
+
+.owl-next,
+.next {
+  float: right;
+}
+
+.owl-dots {
+  text-align: center;
+}
+
+.owl-dot {
+  height: 6px;
+  width: 6px;
+  margin: 0 7px;
+  @include inline-block;
+  @include border-radius(3px);
+  @include transition(background 0.2s, border-color 0.2s);
+}

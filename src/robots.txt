@@ -1,0 +1,12 @@
+User-agent: *
+
+Disallow: /profiles
+Disallow: /videos
+Disallow: /about/leadership
+Disallow: /contact/thank-you
+Disallow: /case-studies
+Disallow: /events
+Disallow: /reports
+Disallow: /webinars
+
+Sitemap: http://www.rosetta.com/sitemap.xml

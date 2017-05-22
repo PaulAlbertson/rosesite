@@ -1,0 +1,418 @@
+/* How */
+
+.how-hero {
+  @include panel-size($panel-width, 1440);
+  @extend %panel;
+  @include panel('/assets/images/how/hero.jpg', '/assets/images/how/hero-mobile.jpg');
+
+  .cta-heavy {
+    color: #71BF0C;
+  }
+}
+
+.how-content {
+  background: #E4E5EA;
+  @include background(linear-gradient(45deg, #E4E5EA 0%, #E4E5EA 50%, #D2D5DC 100%));
+}
+
+.how-approach {
+  padding: 5em 0 0;
+
+  @include breakpoint(mobile) {
+    padding: 70px 0 0;
+  }
+}
+
+.how .callout .wrap {
+  &.how {
+    min-width: 750px;
+
+    @include breakpoint(s-tablet) {
+      min-width: 0;
+    }
+  }
+}
+
+.how-case-studies {
+  @extend %panel-content;
+
+  .large-header {
+    margin-bottom: 0.5em;
+  }
+
+  p.center {
+    width: 90%;
+    margin: 0 auto 3.5em;
+  }
+
+  @include breakpoint(tablet) {
+    max-width: 728px;
+  }
+
+  @include breakpoint(mobile) {
+    text-align: center;
+  }
+
+  .col3 {
+    @include button(#535353);
+    @extend %cta-button;
+    color: #000;
+    display: block;
+    height: 33em;
+    margin-bottom: 3em;
+    position: relative;
+
+    @include breakpoint(l-desktop) {
+      height: 33em;
+    }
+
+    @include breakpoint(tablet) {
+      height: 33em;
+    }
+
+    @include breakpoint(mobile) {
+      height: auto;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #CCC;
+
+      &.how-case-study-last {
+        border-bottom: 0;
+      }
+    }
+
+    .button-icon {
+      background: #E3E4E8;
+    }
+
+    .button-icon-lr-shoe:after     { top: 0; }
+    .button-icon-lr-cart:after     { top: -3px; }
+    .button-icon-lr-health:after   { top: 0; }
+    .button-icon-lr-gaming:after   { top: 1px; margin-left: 27px; }
+  }
+
+  @include breakpoint(mobile) {
+    .panel-content {
+      max-width: none;
+      padding: 0;
+    }
+  }
+}
+
+.how-content-bg {
+  @include panel-size($panel-width, 1415);
+  @extend %panel;
+  @include panel('/assets/images/how/content.jpg', '/assets/images/how/content.jpg');
+
+  .wrap {
+    background-position: center top;
+  }
+
+  @include breakpoint(tablet) {
+    .wrap {
+      &:after {
+        display: block;
+        padding-top: 50%;
+      }
+    }
+  }
+}
+
+.how-graphic {
+  height: 33em;
+  width: 40em;
+  margin: 0 auto;
+  position: relative;
+  @include clearfix;
+
+  @include breakpoint(tablet) {
+    height: auto;
+    width: auto;
+    max-width: 768px;
+    padding: 0 5%;
+    margin-bottom: 1em;
+  }
+
+  @include breakpoint(mobile) {
+    width: auto;
+    padding: 0 10%;
+  }
+}
+
+.graphic-circles {
+  height: 100%;
+  width: 82%;
+  position: absolute;
+  top: 0%;
+  left: 8%;
+
+  .graphic-circle {
+    position: absolute;
+    height: 50%;
+    width: 51%;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    p {
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+  }
+
+  .graphic-circle1 {
+    @include transform(translateX(50%));
+    background-image: url('../images/how/circle3.png');
+    top: 0;
+  }
+
+  .graphic-circle2,
+  .graphic-circle3 {
+    bottom: 6em;
+
+    p {
+      top: 2%;
+    }
+  }
+  
+  .graphic-circle2 {
+    background-image: url('../images/how/circle1.png');
+    left: 2em;
+
+    p {
+      left: -4%;
+    }
+  }
+
+  .graphic-circle3 {
+    background-image: url('../images/how/circle2.png');
+    right: 2em;
+
+    p {
+      right: -4%;
+    }
+  }
+
+  p {
+    font-size: 1.4em;
+    margin-top: 45%;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  @include breakpoint(tablet) {
+    display: none;
+  }
+}
+
+.graphic-descs {
+
+  .graphic-desc {
+    width: 38%;
+    position: absolute;
+
+    h4 {
+      display: none;
+    }
+
+    p {
+      font-size: 0.8em;
+      line-height: 1.3em;
+
+      &.main {
+        margin-bottom: 0.5em;
+      }
+
+      @include breakpoint(tablet) {
+        font-size: 1em;
+      }
+
+      &.desc {
+        @include breakpoint(mobile) {
+          display: none;
+        }
+      }
+    }
+
+    .icon {
+      display: none;
+      @include border-radius(50%);
+      color: #D3D6DD;
+      font-size: 40px;
+      height: 65px;
+      line-height: 65px;
+      margin: 0.6em 0 0.2em;
+      text-align: center;
+      width: 65px;
+    }
+
+    @include breakpoint(tablet) {
+      @include col3;
+      padding-right: 0;
+      margin-right: 3%;
+      position: static;
+
+      h4 {
+        display: block;
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+
+      .icon {
+        display: block;
+      }
+
+      .icon-intelligence {
+        background: $rosetta-blue;
+      }
+      
+      .icon-technology {
+        background: #71BF0C;
+      }
+      
+      .icon-experience {
+        background: $rosetta-pink;
+        text-indent: 1px;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      position: static;
+      width: auto;
+      margin-right: 0;
+      text-align: center;
+
+      h4 {
+        margin: 0 0 15px;
+      }
+
+      .icon {
+        margin: 0.6em auto 0.2em;
+      }
+    }    
+  }
+
+  .graphic-desc1 {
+    left: 74%;
+
+    p.emphasis {
+      min-width: 300px;
+    }
+
+    @include breakpoint(tablet) {
+      p.emphasis { 
+        min-width: 0;
+      }
+
+      h4 {
+        color: $rosetta-blue;
+        margin-bottom: 20px;
+      }
+    }
+
+  }
+
+  .graphic-desc2,
+  .graphic-desc3 {
+    top: 43%;
+  }
+
+  .graphic-desc2 {
+    text-align: right;
+    left: -30%;
+
+    @include breakpoint(tablet) {
+      text-align: left;
+
+      h4 {
+        color: #71BF0C;
+        margin-bottom: 20px;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      text-align: center;
+    }
+  }
+
+  .graphic-desc3 {
+    right: -26%;
+
+    @include breakpoint(tablet) {
+      h4 {
+        color: $rosetta-pink;
+        margin-bottom: 20px;
+      }
+    }
+
+  }
+
+  @include breakpoint(mobile) {
+    position: static;
+    height: auto;
+  }
+}
+
+.how-case-study {
+  @include panel-size($panel-width, 1227);
+  @extend %panel;
+  @include panel('../images/how/case-study.jpg', '/assets/images/how/case-study-mobile.jpg');
+
+  .wrap {
+    @include breakpoint(tablet) {
+      background-size: 125% auto;
+      background-position: left center;
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url('/assets/images/how/case-study-mobile.jpg');
+      background-size: cover;
+      background-position: center center;
+    }
+  }
+
+  .cta-panel {
+    @include button(#88898B);
+    @extend %cta-button;
+
+    &:hover {
+      .button-icon {
+        color: #000;
+        border-color: #000;
+      }
+
+      .button-text {
+        color: #000;
+      }
+    }
+
+    .byline {
+      margin-bottom: 1.03em;
+    }
+
+    @include breakpoint(tablet) {
+      width: 60%;
+    }
+
+    @include breakpoint(mobile) {
+      width: auto;
+      text-align: center;
+      color: #FFF;
+      @include button(#FFF);
+
+      &:hover {
+        .button-icon {
+          color: #DDD;
+          border-color: #DDD;
+        }
+
+        .button-text {
+          color: #DDD;
+        }
+      }
+
+      .byline {
+        color: #FFF;
+      }
+    }    
+  }
+}

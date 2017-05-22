@@ -1,0 +1,43 @@
+.cta-panel {
+  position: relative;
+  width: 30%;
+  top: 50%;
+  color: #000;
+  @include transform(translateY(-50%));
+
+  @include breakpoint(tablet) {
+    width: 48%;
+    padding: 5%;
+    top: 0;
+    @include transform(translateY(0%));
+  }
+
+  @include breakpoint(s-tablet) {
+    width: 53%;
+  }
+
+  @include breakpoint(mobile) {
+    width: auto;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  &.left {
+    left: 8%;
+    float: left;
+
+    @include breakpoint(tablet) {
+      left: 0;
+    }
+  }
+
+  &.right {
+    right: 8%;
+    float: right;
+
+    @include breakpoint(tablet) {
+      right: 0;
+    }
+  }
+}

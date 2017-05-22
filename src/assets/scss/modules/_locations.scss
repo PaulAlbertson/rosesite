@@ -1,0 +1,77 @@
+.locations {
+  @include clearfix;
+  padding: 5% 10%;
+  margin: 0 auto;
+  color: #FFF;
+
+  @include breakpoint(tablet) {
+    max-width: 100%;
+    padding: 50px 0;
+  }
+
+  .headline {
+    margin-bottom: 2em;
+    font-size: 1.2em;
+  }
+
+  .location {
+    // width: 33.3333%;
+    // float: left;
+    text-align: center;
+    // height: 11em;
+    width: 32.9%;
+    @include inline-block;
+    margin-bottom: 2.5em;
+    vertical-align: top;
+    padding: 0 4%;
+
+    @include breakpoint(mobile) {
+      width: 49.5%;
+    }
+
+    @include breakpoint(s-mobile) {
+      width: 100%;
+    }
+
+    h3 {
+      font: 700 1.2em/#{$lh-base} $din;
+      font-weight: 500;
+      text-transform: none;
+      margin-bottom: 0;
+
+      @include breakpoint(tablet) {
+        font-size: 1em;
+      }
+    }
+
+    p {
+      margin-bottom: 0.5em;
+    }
+  }
+
+  .address-cta {
+    a {
+      @include inline-block;
+      font-size: 1.4em;
+
+      &:hover {
+        color: $text-grey;
+      }
+
+      span {
+        padding: 0 0.4em;
+      }
+
+      .icon-location {
+        border-right-style: solid;
+        border-right-width: 1px;
+      }
+    }
+  }
+}
+
+.locations-wrap {
+  & + .locations-wrap {
+    margin-top: 2em;
+  }
+}

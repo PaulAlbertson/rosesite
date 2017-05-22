@@ -1,0 +1,1 @@
+<?php echo ($page->metatitle()!='') ? $page->metatitle() : strip_tags($page->title()) ?> | <?php echo $site->title(); ?>

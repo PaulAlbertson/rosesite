@@ -1,0 +1,58 @@
+﻿Title: Customer Engagement in B2B Marketing
+
+----
+
+metadescription: Whether you sell pipe valves or Prada, customer engagement must lead  to the same thing: commitment—a commitment from your clients to interact  with your brand and, ultimately, to make a transaction.
+
+----
+
+Subtitle: 
+
+----
+
+Date: 2014-01-02
+
+----
+
+Text: 
+Whether you sell pipe valves or Prada, customer engagement must lead  to the same thing: commitment—a commitment from your clients to interact  with your brand and, ultimately, to make a transaction. But getting to  that commitment means creating solid impressions that are both  meaningful and consistent, whether it's a client's &quot;first date&quot; or, in  many B2B cases, a substantial reorder of products. Each positive  interaction will lead customers to choose a brand, repeatedly, and—if a  company is lucky—exclusively over time.
+
+While the definition of engagement is industry agnostic, the strategy  for how a B2C versus a B2B company approaches customer engagement is  fundamentally different. For starters, B2B companies have a leg up on  customer retention, <a href="http://www.dmnews.com/what-b2b-marketers-can-teach-their-b2c-counterparts/article/300865/" target="_blank">with rates in the 70% to 80% range, versus the 30% to 50% range for B2C companies</a>. So why do so many B2B companies offer a generic interactive experience with poor, if any, targeted follow-up?
+
+There are three recurring challenges we see:
+
+- <strong>Lack of corporate alignment</strong>. Departments operate in  silos, which leads to an inconsistent user experience and frequently not  knowing what customers have done online to follow up effectively.
+- <strong>Marketing spent on sales force versus digital</strong>. Marketing  dollars are spent on training the sales force and empowering them with  tools to interact with customers, as opposed to online engagement.
+- <strong>Passive to nonexistent lead management</strong>. Leads are  &quot;captured&quot; on B2B sites, but responses are automated instead of  customized, and there is little to no further follow-up.
+
+
+The first step in overcoming corporate alignment disconnects is  effectively compiling and freely sharing customer data that has been  collected via various touchpoints. Once key stakeholders have  cross-channel visibility into the customer decision process, pivot  points, like where customers convert, abandon, escalate, or stall,  allows companies to think in harmony across the channels while  exploiting strengths and eliminating weaknesses.
+
+Recently, we worked with a manufacturing client on a new product  launch. Before we could focus on the product strategy, we noticed their  sales and marketing departments were not aligned. They disagreed on how  to launch a new product to the marketplace and, more specifically, to  whom they should tailor the message. By creating a new product landing  page, tracking its traffic and conversion data and, most important,  sharing the results with both departments, sales and marketing were able  to collectively exert their marketing efforts to target the same two  user segments.
+
+The focus on spending marketing dollars on the sales force can be  addressed empirically in a proof-of-concept manner starting with some  discrete customer-facing marketing campaigns designed to better engage  the customer in an ongoing online relationship. A B2B example might be  an email campaign targeted to customers who have purchased a particular  item alerting them of an attractive sale price on a complementary  product. Customers can click a link in the email, which can be tracked  to prove the success of the campaign. Of course, this requires a level  of understanding from a CRM perspective on what existing customers have  purchased and the reporting capability to track the clicks, but this is  basic CRM management. Once the organization recognizes the return and  effectiveness of online interaction, some of the focus and investment  can be redirected.
+
+As far as lead management, this can be addressed by implementing a  lead-to-revenue management solution. There's always organizational  pushback on incurring this type of expense, but in the B2B space, where  the value of an individual lead can be tens of thousands of dollar, it  can be readily monetized. Clearly, every potential lead that receives a  generic communication is a costly missed opportunity.
+
+Although many B2B purchases involve a purchase by committee, it's  still critical to understand the various individual contributors to that  decision and make sure that their specific needs and expectations are  targeted. Even B2B companies that sell products or services that don't  translate well to online transactions (e.g., large-enterprise software  packages, high-end consulting services, multimillion-dollar equipment,  etc.) need to create engaging, nontransactional websites that tell a  great story about their products or services.
+
+B2B companies can evolve toward customer engagement by:
+
+- <strong>Understanding their customers and creating a value-added user experience</strong>.  Companies must understand their customers and create user segments that  target their most highly valued customers and prospects. They must be  able to quickly type users, surface targeted messaging, and deliver a  user experience geared specifically to that user segment. By  personalizing the interaction, the chances of conversion improve  exponentially.
+- <strong>Creating targeted email marketing campaigns tailored specifically to customers and prospects</strong>.  Nothing is more off-putting than receiving an email from a vendor who  offers a &quot;great deal&quot; on a product that you've already purchased from  them. Clearly, they haven't done their homework and don't care about the  individual as a customer. B2B companies not only have the content to  customize their messages, but they also most likely know when customers  need to reorder or restock their goods. Imagine the impact of tying a  personalized message that incentivizes a client to buy when they're  already thinking about it. Spending the time to categorize customers and  understand their purchase history and sending them a targeted email  offering a discount on a complementary product to their recent purchase  will pay dividends in conversion return.
+- <strong>Swimming in social media channels with target customers</strong>.  By gathering insights on what social media channels their valuable  customers visit and participate in, companies can develop a purposeful  plan to gather input from those channels and proactively create and  socialize appropriate content to disseminate via those channels.  Something as simple as a how-to video or product demonstration can  easily be pushed out through social media channels.
+
+
+B2B companies that embrace the concept of customer engagement and  invest in evolving their online presence toward a personalized, engaging  B2C model will dominate their online space, while those who do not will  end up missing an opportunity in the most cost-effective and, arguably  overall, the most effective marketing channel.
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: Direct Marketing News
+
+----
+
+Source_url: http://www.dmnews.com/customer-engagement-in-b2b-marketing/article/327887/

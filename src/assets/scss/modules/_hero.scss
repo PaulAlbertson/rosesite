@@ -1,0 +1,379 @@
+.global-hero {
+  text-align: center;
+
+  .hero-byline {
+    display: block;
+    margin-top: 1em;
+  }
+
+  a {
+    color: #FFF;
+    text-decoration: none;
+
+    &:hover {
+      color: #CCC;
+      text-decoration: none;
+    }
+  }
+
+  .wrap {
+    padding: 10% 19% 0;
+
+    .sub-head {      
+      @include breakpoint(s-mobile) {
+        font-size: 1em;
+      }
+    }
+
+    .headline {
+      
+      @include breakpoint(s-mobile) {
+        font-size: 1em;
+      }
+    }
+
+    @include breakpoint(tablet) {
+      min-height: 700px;
+      padding: 150px 15% 0;
+    }
+
+    @include breakpoint(mobile) {
+      padding: 150px 10% 0;
+    }
+  }
+
+  video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+  }
+}
+
+
+
+.hero-grid {
+  height: 100vh !important;
+  background: #000;
+  min-height: 800px;
+
+  // 5w x 4h grid
+  > div {
+    @extend %cta-button;
+    float: left;
+    padding: 20px;
+    color: #FFF;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+
+    &.grid-w1 {
+      width: 20%;
+
+      @include breakpoint(s-tablet) {
+        width: 25%;
+      }
+    }
+
+    &.grid-w2 {
+      width: 40%;
+
+      @include breakpoint(s-tablet) {
+        width: 50%;
+      }
+    }
+
+    &.grid-h1 {
+      height: 25%;
+    }
+
+    &.grid-h2 {
+      height: 50%;
+
+      @include breakpoint(s-tablet) {
+        height: 25%;
+      }
+    }
+
+    &.large {
+      font-size: 1.5em;
+    }
+
+    > a {
+      position: absolute;
+      display: block;
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      padding: 20px;
+    }
+
+    h2 {
+      font-weight: 100;
+      text-transform: uppercase;
+      margin-bottom: $lh-base;
+    }
+
+    h3 {
+      font-weight: 400;
+      text-transform: uppercase;
+      line-height: 1.2em;
+
+      strong {
+        font-weight: 700;
+      }
+    }
+
+    a {
+      color: #FFF;
+    }
+
+    .grid-stat {
+      font-weight: 100;
+      font-size: 2.8em;
+      display: block;
+      line-height: 1em;
+    }
+
+    .icon {
+      float: left;
+      font-size: 1.7em;
+      padding-right: 5px;
+      position: relative;
+      top: -0.15em;
+      color: #FFF;
+    }
+
+    .button {
+      @include button(#FFF);
+    }
+  }
+
+  .grid-carousel,
+  .grid-location {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    &.grid-carousel-currents,
+    &.grid-carousel-twitter {
+      padding-top: 4em;
+
+      .owl-item {
+        padding: 1em;
+      }
+    }
+
+    &.grid-carousel-rightnow {
+      .owl-item {
+        background: #000;
+
+        div {
+          padding: 1em;
+          background-position: center center;
+          background-size: cover;
+          height: 100%;
+        }
+      }
+    }
+
+    .owl-stage-outer,
+    .owl-stage {
+      height: 100%;
+    }
+
+    .owl-item {
+      height: 100%;
+      cursor: default;
+    }
+
+    .owl-controls {
+      bottom: 0.5em;
+      left: 1em;
+      position: absolute;
+    }
+
+    .owl-nav {
+      display: none;
+    }
+
+    .owl-dot {
+      background: #FFF;
+      border: #FFF solid 1px;
+
+      &.active {
+        background: none;
+      }
+    }
+  }
+
+  .grid-location {
+    padding: 20px;
+    background-size: cover;
+    background-position: center center;
+
+    &.grid-location-chicago {
+      background-image: url('/assets/images/how/locations/chicago.jpg');
+    }
+
+    &.grid-location-cleveland {
+      background-image: url('/assets/images/how/locations/cleveland.jpg');
+    }
+
+    &.grid-location-london {
+      background-image: url('/assets/images/how/locations/london.jpg');
+    }
+
+    &.grid-location-los-angeles {
+      background-image: url('/assets/images/how/locations/los-angeles.jpg');
+    }
+
+    &.grid-location-new-york {
+      background-image: url('/assets/images/how/locations/new-york.jpg');
+    }
+
+    &.grid-location-princeton {
+      background-image: url('/assets/images/how/locations/princeton.jpg');
+    }
+
+    &.grid-location-san-francisco {
+      background-image: url('/assets/images/how/locations/san-francisco.jpg');
+    }
+
+    &.grid-location-san-luis-obispo {
+      background-image: url('/assets/images/how/locations/san-luis-obispo.jpg');
+    }
+  }
+}
+
+
+
+.hero-push {
+  margin: 0 auto;
+  min-height: 560px;
+  width: 100%;
+  height: 100%;
+  background: #CCC;
+  top: 0;
+  position: absolute;
+  z-index: 2;
+  @include transition-timing-function(cubic-bezier(0.7, 0, 0.3, 1));
+  @include transition-duration(1.2s);
+}
+
+/* Trigger Button */
+.trigger {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  z-index: 5000;
+  display: block;
+  margin-left: -0.5em;
+  padding: 0;
+  width: 1em;
+  height: 1em;
+  border: 0;
+  background: transparent;
+  font-size: 2em;
+  cursor: pointer;
+  @include transition(opacity 0.3s 0.5s);
+
+  &:before {
+    position: absolute;
+    bottom: 100%;
+    left: -100%;
+    padding: 0.8em;
+    width: 300%;
+    content: attr(data-info);
+    font-size: 0.35em;
+    @include backface-visibility(hidden);
+  }
+
+  span {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+    &:before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      content: '\e097';
+      text-transform: none;
+      font-weight: normal;
+      font-style: normal;
+      font-variant: normal;
+      font-family: 'icomoon';
+      line-height: 1;
+      speak: none;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+}
+
+.push-container.modify button.trigger {
+  @include opacity(0);
+  pointer-events: none;
+}
+
+.push-top {
+  background: #FFF;
+  left: 0;
+  position: absolute;
+  top: 60px;
+  z-index: 1;
+}
+
+
+/***** Individual effects *****/
+
+
+/* -------------------------- */
+/* Push */
+/* -------------------------- */
+
+.intro-effect-push {
+
+  .header,
+  .content-push {
+    @include transition-property(opacity, transform);
+    @include transition-duration(1s);
+  }
+
+  .content-push {
+    margin-top: 60px;
+    //@include transform(translateY(400px));
+    @include opacity(0);
+  }
+
+  &.modify {
+    .content-push {
+      //@include transform(translateY(0));
+      @include opacity(1);
+      @include transition-delay(0.6s);
+    }
+
+    .hero-push {
+      @include opacity(0);
+      @include transform(translateY(-100%) scale(0.9));
+    }
+  }
+}

@@ -1,0 +1,55 @@
+﻿Title: iBeacons Have Exciting Possibilities Outside of Retail
+
+----
+
+Subtitle: Bluetooth Low Energy beacons hold promise for sectors other than retail and will transform how businesses operate
+
+----
+
+Location: 
+
+----
+
+Date: 2014-04-10
+
+----
+
+Text: Posted by Sebastian Dreyfus
+
+There's been a lot of noise about iBeacons since they launched  with iOS7 last summer, and much of the discussion has focused on how  they benefit retailers and add to the in-store shopping experience.  Earlier this year, EMA Retail Research released the findings of a survey  of 50 international retailers. It reported that 55% already have their  own smartphone apps, 87% are using digital strategies to increase  revenues whilst four-fifths of the chains said they expect these  strategies to increase footfall.
+
+At their core, Bluetooth Low  Energy (BLE) beacons are simply communication tools that interact with  other devices by sending a signal over a Bluetooth Low Energy  connection. They make it effortless and economical to connect with more  than 300 million smartphones running Apple i0S7 or Android Jelly Bean  4.3 and enables businesses to set up transmitters which can alert nearby  smartphones to their presence.
+
+It may not sound like much, but  combined with the right software, it opens up a range of opportunities  and is set to transform the way businesses operate. With iBeacon set up,  shops can send customers special offers for goods they are walking  past, prepare pre-ordered items for pickup the minute someone comes  through the door (is this the end of queueing?) or remind the customer  about their shopping list, and so on.
+
+Retail giant, Tesco, is a  good example of how BLE can be used to create the most comprehensive  omni-channel experience across Tesco stores, Tesco.com, Tesco Bank,  Tesco Mobile and even the recently acquired Giraffe. Last week, the  store announced that it is trialling iBeacons in its Chelmsford store as  part of an experiment with a specific app called MyStore, but is  holding off using beacons for marketing purposes until customers have  grown accustomed to the technology. The MyStore concept involves an app  that allows customers to create a shopping list at home and, when  in-store, click a button to tell them the precise location of the  products. Its data is held in one place, so the company will have a  pretty good idea of who those customers are. The Tesco shopper is pretty  representative of the UK as a whole, so it's imperative that the brand  ensures they're not sending the same message to everyone.
+
+However,  the application of iBeacons shouldn't be limited to retail – it also  holds tremendous promise for changing the face of hospitality, banking,  transportation, pharmaceuticals, healthcare, events (like sports and  concerts), and even smart homes. Placed, for example, is a new  application that shows you how BLE Beacons might benefit anyone at home,  by tying the technology to specific apps and offering quick-launch  capabilities. Essentially, this app could transform your iPhone into a  contextually aware, automatic Swiss Army knife of mobile software that  responds instantly to your environment – for example, sitting down in  the living room to enjoy some Netflix on Apple TV could open your Remote  app.
+
+And in December, Bar Kick, a table-football-themed  Shoreditch coffee shop, became one of the first in Britain to implement  the technology, giving away free copies of music magazine Dazed &amp;  Confused and football magazine When Saturday Comes, but only to patrons  actually inside the cafe.
+
+On the flip side, the rush to exploit  BLE Beacon technology means we're likely to see more bad execution than  with just about any other technology or marketing opportunity that has  come before it.
+
+&quot;Ready, fire, aim&quot; seems to be the mantra being  used by many marketers. Aside from Tesco, it does seems that the  majority of top retailers are rushing to beacon-enable their store  locations without first thinking about how this will actually make the  store experience more valuable for their shoppers.
+
+The power to  connect to a beacon is entirely in the hands of the consumer and because  location-based marketing requires a number of steps carried out by the  consumer it's critical that consumers become as familiar with iBeacons  as they are with Wi-Fi, and see and experience the real value, or else  they will simply reject the technology and prevent any future marketer  from engaging with them via their mobile device. Getting it right means  more than just deploying a few beacons throughout a location to trigger a  one-size-fits-all discount offer when a shopper enters a brick and  mortar location.
+
+Adopting this technology should be a marathon,  not a sprint. Every user is unique, with differing needs, attitudes, and  beliefs that drive their decision to engage (or not) with a brand or  product and eventually purchase. Marketers supporting virtually every  industry are clamouring for the opportunity to reach the promised-land;  delivery of data-driven, location-aware experiences that are  personalised to the needs of each user, while providing the elusive link  in our 360-degree analytical view of them.
+
+<em>Sebastian Dreyfus is European managing director of </em><a href="http://rosetta.com" title=""><em>Rosetta</em></a><em>.</em>
+
+----
+
+About_rosetta: 
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: The Guardian
+
+----
+
+Source_url: http://www.theguardian.com/media-network/media-network-blog/2014/apr/10/ibeacons-retail-communication-tools-smarphones

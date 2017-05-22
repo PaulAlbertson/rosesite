@@ -1,0 +1,632 @@
+/* Mixins */
+
+@mixin light-text {
+  .case-panel, .case-description, .case-description {
+    color: #FFF; 
+  }
+}
+
+/* Gaming Panels */
+
+.hero-gaming { 
+  @extend %panel;
+  @include panel-size($panel-width, 1437);
+  @include panel('/assets/images/case-studies/gaming/hero.jpg', '/assets/images/case-studies/gaming/hero-mobile.jpg');
+  color: #FFF;
+ 
+  br {
+    display: none;
+    @include breakpoint(s-mobile) { display: block;}
+  }
+}
+
+.gaming-content {
+  background-image: url('/assets/images/case-studies/gaming/content-wooden-texture.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  @include light-text;
+}
+
+.gaming-content:after {
+  padding-top: 0; 
+}
+
+.gaming-data {
+  @extend %panel;
+  @include panel-size($panel-width, 998);
+
+  .case-panel {
+    padding: 3% 0 4%; 
+
+    .data-description {
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.09em;
+    }
+  }
+
+  h2.case-caption {
+    font-weight: lighter;
+  }
+
+  .client-stats {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .stats {
+    width: 33.3333%;
+    float: right;
+    padding: 20px;
+    
+    .normal {
+      text-align: left;
+      padding: 15% 0 0;
+
+      @include breakpoint(desktop-large-2) {padding: 20% 0 0;}
+      @include breakpoint(desktop-large-1) {padding: 20% 0 0;}
+      @include breakpoint(mobile) {padding: 0;}
+    }
+  }
+
+  .text-opener {
+    padding: 0;
+  }
+
+  .circle-container {
+    background-image: url('/assets/images/case-studies/investment-services/stat-circle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 5.1em 0 3.9em;
+  }
+
+  .two-line-copy {
+    padding: 6.2em 0 4em;
+  }
+
+  .three-line-copy {
+    padding: 5.2em 0 3.7em;
+  }
+
+  .stat-description-huge {
+    font-size: 3em;
+    line-height: 0.8em;
+    margin: 0;
+  }
+
+  .stat-description-small {
+    font-size: 0.8em;
+    font-weight: 600;
+  }
+
+  .client-stats:after {
+    clear: both;
+  }
+
+  .client-stats:before, .client-stats:after {
+    content: '';
+    display: block;
+    height: 0;
+    overflow: hidden;
+  }
+
+  .impact {
+    padding: 3% 0 0; 
+  }
+
+  @include breakpoint(desktop-large-2) {
+    .case-panel {
+
+      .data-description {
+        margin-bottom: 4%;
+      }
+
+      .stat-description-small {
+        font-size: 0.8em;
+      }
+
+      .stats {
+        padding: 0 20px;
+      }
+
+      .text-opener {
+        padding: 0 20px 0 0;
+      }
+    }
+  }
+
+  @include breakpoint(desktop-large-1) {
+    .case-panel {
+
+      .data-description {
+        margin-bottom: 0;
+      }
+
+      .stat-description-huge {
+        font-size: 2.5em;
+      }
+
+      .stat-description-small {
+        font-size: 0.75em;
+        font-weight: 600;
+        margin-bottom: 4%;
+        line-height: 1.3em;
+      }
+
+      .two-line-copy {
+        padding: 5.7em 0 4.3em;
+      }
+    }
+  }
+
+  @include breakpoint(desktop-smaller-1) {
+    .case-panel {
+      .stat-description-small {
+        font-size: 0.75em;
+        font-weight: 600;
+        margin-bottom: 4%;
+        line-height: 1.3em;
+      }
+
+      .two-line-copy {
+        padding: 5.7em 0 4.3em;
+      }
+    }
+  }
+
+  @include breakpoint(tablet) {
+
+    .case-panel {
+      max-width: 75%;
+      padding: 3% 0 5%;
+
+      .stat-description-small {
+        font-size: 0.9em;
+        width: 76%;
+        margin: 0 auto;
+      }
+    }
+
+    .impact {
+      padding: 3% 0 0%;
+    }
+  }
+
+  @include breakpoint(s-tablet) {
+
+    .case-panel {
+      max-width: 75%;
+      padding: 3% 0 5%;
+
+      .stat-description-huge {
+        font-size: 2.5em;
+      }
+
+      .stat-description-small {
+        font-size: 0.8em;
+        line-height: 1.3em;
+      }
+
+    }
+  }
+
+  @include breakpoint(mobile) {
+    padding: 20px;
+
+    .case-panel {
+      max-width: 100%;
+      padding: 3% 0 25%;
+
+      .data-description {
+        font-size: 0.9em;
+      }
+
+      .client-stats {
+        margin: 0; 
+      }
+
+      .stats {
+        width: 50%;
+        padding: 0;
+      }
+
+      .text-opener {
+        width: 100%;
+        font-size: 1.09em;
+      }
+
+      .circle-container {
+        background: none;
+        padding: 1em;
+      }
+
+      .stat-description-huge {
+        font-size: 2.7em;
+        letter-spacing: -2px;
+        color: $rosetta-blue; 
+      }
+
+      .stat-description-small {
+        font-size: 0.9em;
+        font-weight: 100;
+      }
+
+      h2.case-caption {
+        margin-top: 12%;
+      }
+    }
+
+    .impact {
+      max-width: 85%;
+      padding: 0;
+    }
+  }
+}
+
+.gaming-data:after {
+  padding-top: 0%;
+}
+
+.gaming-unlocked {
+  @extend %panel;
+  @include panel-size($panel-width, 998);
+  position: relative;
+  top: -35px;
+  z-index: 0;
+
+  @include breakpoint(mobile) {
+    /*padding: 0 2.7em;*/
+
+    .data-tile-wrapper {
+      padding: 0; 
+    }
+
+    .case-data-tile {
+      width: 50%;
+      padding: 0 5%;
+    }
+
+    .stat-icon  img {
+      max-width: 38%;
+    }
+
+    .icon-description {
+      .large-stat {
+        font-size: 2em;
+      }
+    }
+  }
+
+  @include breakpoint(s-mobile) {
+    .case-data-title {
+      width: 100% !important;
+      padding-bottom: 1em;
+
+      img {
+        max-width: 33% !important;
+      }
+    }
+
+  }
+
+  .wrap {
+    background-position: center center;
+
+    @include breakpoint(tablet) {
+      padding: 20px;
+    }
+    
+    @include breakpoint(mobile) {
+      padding: 20px;
+    }
+  }
+
+  @include breakpoint(tablet) {
+    .case-panel {
+      max-width: 75%;
+    }
+
+    .activate {
+      padding: 0% 0 10%;
+    }
+  }
+
+  .case-panel {
+    padding: 4% 0 3%; 
+
+    .case-caption {
+      font-weight: lighter;
+      max-width: 100%;
+      line-height: 1.1em;
+
+      @include breakpoint(tablet) {
+        max-width: 400px;
+      }
+    }
+
+    .col-wrap {
+      .col3 {
+        text-align: left;
+      }
+
+      .col2 {
+        text-align: left;
+      }
+
+    }
+
+    .flow-for-mobile {
+      display: none;
+    }
+
+    .data-title-wrapper { 
+      max-width: 100%;
+      margin: auto;
+      padding: 0 0 5%;
+
+      .case-data-title {
+        width: 50%;
+        float: left;
+        text-align: center;
+      }
+
+      p.icon-text {
+        max-width: 48%;
+        margin: auto;
+      }
+
+      p.wider {
+        max-width: 60%;
+      }
+
+      img {
+        max-width: 18%;
+        display: block;
+        margin: 0 auto 10%;
+      }
+    }
+
+    .data-title-wrapper:after {
+      clear: both;
+    }
+
+    .data-title-wrapper:before, .data-title-wrapper:after {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+    
+    .unlocked-description {
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.09em;
+      line-height: 1.4em;
+    }
+    
+
+    .unlocked-col {
+      float: left;
+      padding-right: 4%;
+      width: 33%;
+      text-align: left;
+
+      .stat {
+        text-align: center;
+        margin-bottom: 10%;
+      }
+
+      p:first-child {
+        padding-top: 10%;
+
+        @include breakpoint(mobile) {padding-top: 0;}
+      }
+      
+    }
+
+    p {
+      margin-bottom: 3%; 
+    }
+
+    .details:after {
+      clear: both;
+    }
+
+    .details:before, .details:after {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+    } 
+  }
+
+  
+  
+  //full width
+  .activate {
+    padding: 0 0 13%;
+
+    .large-stat {
+      margin: 6% 0 10%;
+    } 
+
+    .sevenhundred1 {
+      display: none;
+
+      @include breakpoint(mobile) {
+        display: block;
+        margin: 2em 0;
+      }
+
+      .large-stat {
+        margin: 2%;
+        font-size: 2.5em;
+      }
+    }
+
+    .sevenhundred2 {
+      display: block;
+      @include breakpoint(mobile) {display: none;}
+    }
+
+    p.intro { 
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 5%;
+    }
+ 
+    .case-contact {
+      background: url('/assets/images/case-studies/gaming/licorice-divider.png') no-repeat top left;
+      background-size: contain;
+      padding: 10% 0 0 35%;
+    }
+
+    h3 {
+      color: #FFFFFF;
+      margin-bottom: 0;
+    }
+
+    .name {
+      text-transform: none;
+      color: #FFFFFF;
+      font-size: 1.1em;
+    }
+
+    p.value {
+      margin-bottom: 1.5em;
+    }
+
+    p.job-title {
+      margin-bottom: 0.5em;
+    }
+
+    img.headshot {
+      width: 50%;
+      margin: 0.3em 0;
+    }
+
+    .icon-mail1 {
+      color: #FFFFFF;
+      font-size: 1.5em;
+      line-height: 0;
+      display: inline;
+    }
+
+    .icon-mail3 {
+      display: none;
+    }
+
+    .icon-mail1:hover {
+      color: #CCC;
+    }
+
+  }
+
+  @include breakpoint(mobile) {
+    .case-panel { 
+      max-width: 85%;
+
+      .unlocked-col {
+        width: 100%;
+      }
+
+      .flow-for-mobile {
+        display: inline;
+      }
+
+      .last {
+        display: none;
+      }
+
+      .unlocked-description {
+        padding: 0;
+        font-size: 0.9em;
+      }
+
+      .col-wrap {
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+
+    .activate {
+      padding-bottom: 3%;
+      
+      .case-contact {
+        padding: 1em 0;
+        background: none;
+        text-align: center;
+
+        @include breakpoint(mobile) {
+          padding: 4em 0 1em;
+        }
+
+        h3 {
+          font-size: 0.9em;
+        }
+      }
+
+      .case-caption {
+        padding: 5% 0;
+        line-height: 1.1em;
+      }
+
+      img.headshot {
+        width: 25%;
+        margin: 4% auto;
+      }
+
+      a.icon-mail1 {
+        display: none;
+      }
+
+      a.icon-mail3 {
+        display: block;
+        margin: 5% 0 0;
+        font-size: 2.7em;
+        color: #FFF;
+      }
+
+      .unlocked-col {
+        p {
+          font-size: 0.9em;
+        }
+
+        .intro {
+          padding-top: 0;
+        }
+      }
+    }
+  }
+
+  .large-stat {
+    color: #00BCE4;
+    display: block;
+    font-size: 2.8em;
+    margin: 0 0 5%;
+    text-transform: uppercase;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  @include breakpoint(s-tablet) {
+    .large-stat { 
+      font-size: 2.5em;
+    }
+  }
+
+  @include breakpoint(mobile) {
+    .large-stat { 
+      font-size: 3em;
+    }
+  }
+}
+
+.gaming-unlocked:after {   
+  padding-top: 0%;
+}

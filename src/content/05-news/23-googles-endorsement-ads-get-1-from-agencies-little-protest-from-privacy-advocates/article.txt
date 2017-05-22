@@ -1,0 +1,53 @@
+﻿Title: Google's Endorsement Ads Get +1 From Agencies, Little Protest From Privacy Advocates
+
+----
+
+Subtitle: Google Shied on Agency Outreach Ahead of Friday's Announcement
+
+----
+
+Date: 2013-10-15
+
+----
+
+Text: 
+Google turned off a number of people last Friday when the search giant announced <a href="http://www.google.com/policies/terms/update/" target="_blank">plans to allow user names and profile photos</a> appear within ads. But not advertisers.
+
+&quot;I don't know that [brands will] be dying to be first to market [with  the new ads], but we haven't seen people be very hesitant about privacy  concerns overall,&quot; said Jason Tabeling, partner at Publicis-owned <a href="http://adage.com/lookbook/listing/rosetta/114" title="Ad Age LookBook" target="_blank">Rosetta</a>. &quot;Customers are getting aware of the fact that their data is being use to follow them around in some capacity.&quot;
+
+Similar to ads on Facebook, these so-called &quot;shared endorsement&quot; ads  will attach people's names and photos to ads promoting an action tied to  their <a href="http://adage.com/directory/google/2961" title="See recent content about Google" target="_blank">Google</a>+  account, like reviewing a restaurant on Google+ Local or +1ing a  product on a retailer's site. In many cases these actions can only be  seen by someone connected to a user on Google+. However some actions  like comments on YouTube and reviews on Google+ Local are made public by  default, though sometimes people can toggle them to private.
+
+Because the ads will only be shown in accordance with a user's  privacy settings -- and users are informed when an action will be shared  publicly -- advertisers don't see the big deal, especially since Google  will be attaching shared endorsements to non-ad content like location  listings on search result pages.
+
+&quot;The pictures are spooky, but it's still very transparent. Hopefully  consumers will see it and recognize that it's not just the marketer  that's doing it; it's Google doing it,&quot; said <a href="http://adage.com/directory/icrossing/7020" title="Ad Age LookBook" target="_blank">iCrossing</a> SVP-media for North America Jonathan Adams, who added that the shared  endorsement ads should perform better than regular search and display  ads because appended names and photos should help them stand out to  users.
+
+If advertisers are concerned about the new ads, they are worried  about the instances in which the endorsements' reach will be limited to  someone's Google+ connections. That wrinkle makes the announcement  &quot;iterative versus substantial. Google+ is still relatively small from a  [user adoption] perspective,&quot; Mr. Adams said.
+
+Of the more than 500 million people who have registered Google+  accounts, 235 million actively use the accounts each month, including  135 million who only use the accounts to check their Google+ stream, <a href="http://googleblog.blogspot.com/2012/12/google-communities-and-photos.html" target="_blank">Google said last December</a>.
+
+<strong>Agencies blindsided</strong><br />
+	Google seems to be more concerned about the impact of endorsement ads  than advertisers. Usually the company gives a heads up to some agencies  before announcing a new ad product or feature. Not this time. One agency  exec who asked to remain anonymous said his shop would usually get  &quot;big-time notice&quot; for a product like Shared Endorsements, but didn't. He  wasn't alone.
+
+&quot;This one came out of nowhere,&quot; Mr. Tabeling said.
+
+Mr. Adams also didn't receive direct notice, though &quot;anything that  has to do with performance marketing usually goes through me.&quot; He  reasoned that Google may view the news as more aimed at consumers than  advertisers. That wouldn't be unprecedented. When Google announced the <a href="http://money.cnn.com/2011/09/13/technology/google_flight_search/index.htm" target="_blank">ability to search for flights in September 2011</a>, advertisers were similarly blindsided &quot;even though it dramatically affected the travel industry,&quot; Mr. Adams said.
+
+Google may be tiptoeing because it doesn't want to attract attention from the Federal Trade Commission. The company <a href="http://adage.com/article/digital/google-buzz-sting-feds-show-plan-police-privacy/149654/" target="_blank">settled with the regulatory body over privacy violations in 2011</a>, and was slapped on the wrist last year <a href="http://adage.com/article/digital/google-agrees-pay-22-5-million-apple-browser-breach/236641/" target="_blank">for violating that agreement</a>.  Yet Google may be over-cautious this time. Even one of Google's most  outspoken critics sees Shared Endorsements as relatively benign news.
+
+&quot;I don't think Google will be singled out for this proposal and  punished for violating privacy just with social endorsements,&quot; said Jeff  Chester, executive director of the Center for Digital Democracy. He  added that the vagueness and timing with which Google announced the  changes show &quot;they clearly thought about the FTC. They didn't want to  make the same mistake as Facebook.&quot;
+
+Having <a href="http://adage.com/article/digital/facebook-settles-ftc/231236/" target="_blank">settled with the FTC over privacy violations</a> in 2011, <a href="http://www.nytimes.com/2013/09/12/technology/personaltech/ftc-looking-into-facebook-privacy-policy.html" target="_blank">regulators are looking into privacy policy changes</a> that the social network proposed publicly last month without consulting with the commission beforehand.
+
+Rather than let Google entirely off the hook for shared endorsements,  Mr. Chester said the move is part of a broader push by Google to  collect and use more data from users. &quot;That's the real problem. Not that  they're playing social commerce catch-up with Facebook,&quot; Mr. Chester  said.
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: Ad Age
+
+----
+
+Source_url: http://adage.com/article/digital/google-s-shared-endorsement-ads-1-ad-agencies/244740/

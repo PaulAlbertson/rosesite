@@ -1,0 +1,143 @@
+/* News */
+
+.news-hero {
+  @extend %panel;
+  @include panel-size($panel-width, 860);
+  @include panel('/assets/images/news/hero.jpg', '/assets/images/news/hero.jpg');
+
+  @include breakpoint(tablet) {
+    .wrap {
+      min-height: 300px;
+    }
+  }
+}
+
+/* News List */
+
+.news-articles {
+  background: $page-bg;
+}
+
+.news-list {
+  text-align: center;
+  width: 60%;
+  padding: 40px 0;
+  margin: 0 auto;
+
+  @include breakpoint(tablet) {
+    width: 75%;
+  }
+
+  @include breakpoint(s-tablet) {
+    width: 90%;
+  }
+
+  @include breakpoint(mobile) {
+    width: auto;
+    padding: 40px 20px;
+  }
+
+  a {
+    display: block;
+    padding: 2em 7em;
+    color: #3A3A38;
+    text-decoration: none;
+    background: #FFF;
+    margin-bottom: 0.3em;
+    @include transition(transform 0.25s ease-out, box-shadow 0.4s ease-in);
+
+    @include breakpoint(desktop) {
+      &:hover {
+        z-index: 1;
+        @include box-shadow(0 5px 20px rgba(0, 0, 0, 0.1));
+        @include transform(scale(1.1));
+      }
+    }
+
+    @include breakpoint(tablet) {
+      padding: 2em 3em;
+    }
+
+    @include breakpoint(mobile) {
+      padding: 2em 1em;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font: 700 1.6em/1.1em $proforma;
+      margin-bottom: 0.5em;
+
+      @include breakpoint(mobile) {
+        font-size: 1.4em;
+      }
+    }
+
+    h3 {
+      font-weight: 400;
+      font: 1.1em;
+      line-height: 1.3em;
+      margin-bottom: 0;
+      text-transform: none;
+    }
+
+    .news-date {
+      text-transform: uppercase;
+      margin-bottom: 0.5em;
+      display: block;
+      letter-spacing: 0.1em;
+
+      @include breakpoint(mobile) {
+        font-size: 0.8em;
+      }
+    }
+  }
+
+  a:last-child {
+    @include breakpoint(mobile) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+/* News Article */
+
+.page-hero-news {
+  padding-bottom: 10em;
+  
+  @include breakpoint(mobile) {
+    padding-bottom: 120px;
+  }
+}
+
+.news-loc-date {
+  font-weight: 700;
+  display: inline;
+  text-transform: uppercase;
+  
+  + p {
+    display: inline;
+
+    &:after {
+      content: '';
+      display: block;
+      margin-bottom: $lh-base;
+    }
+  }
+}
+
+.news-pagination {
+  background-color: #FFF;
+}
+
+.article-img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+
+  @include breakpoint(mobile) {
+    width: 300px;
+  }
+}

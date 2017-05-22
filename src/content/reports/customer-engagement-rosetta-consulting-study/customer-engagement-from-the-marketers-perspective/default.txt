@@ -1,0 +1,53 @@
+Title: Customer Engagement from the Marketer’s&nbsp;Perspective
+
+----
+
+Text: 
+
+Welcome to the first in a series of three white papers on Customer Engagement from Rosetta Consulting. This paper, based on the findings of the 2014 Rosetta Consulting Engagement Study, focuses on how business leaders approach customer engagement. Rosetta Consulting found clear top- and bottom-line benefits to engagement. Companies that engage their customers well were 2.2 times more likely to have experienced an increase in market share in the past year. 86% of these companies also reported that they saw an increase in the previous year’s revenue.
+
+----
+
+ContentForm: 1124
+
+----
+
+ContentFormText:
+
+##Download the First Whitepaper
+
+Please fill out the form below to download the whitepaper.
+
+----
+
+SubmitMessage:
+
+##Thank You!
+<br>
+(link: /assets/pdf/Customer-Engagement-Survey-2014.pdf text: Download the Whitepaper class: button-link target: _blank)
+
+----
+
+ColumnText:
+
+<div class="center">
+
+<h2>Contact</h2>
+<img src="/assets/images/leadership/chetna-bansal.jpg" class="column-headshot contact-headshot">
+<h3>Chetna Bansal</h3>
+<p>Partner | Rosetta Consulting<br>
+<a href="mailto:chetna.bansal@rosetta.com">chetna.bansal@rosetta.com</a><br>
++1 212.771.5253</p>
+
+<hr>
+
+(link: /reports/customer-engagement-rosetta-consulting-study/ text: View All Whitepapers class: button-link)
+
+</div>
+
+
+
+
+----
+
+Sharing: off

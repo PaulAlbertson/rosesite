@@ -1,0 +1,58 @@
+﻿Title: What are ‘Dark Google’ and ‘Dark Social?’ A Webmaster’s Mortal Enemies, With No Fix in Sight
+
+----
+
+Subtitle: 
+
+----
+
+Date: 2013-07-08
+
+----
+
+Text: 
+Here&rsquo;s a puzzling situation: An up-and-coming website looks at how people find it online &mdash; but things aren&rsquo;t adding up. A big chunk of <a href="http://www.digitaltrends.com/web/" target="_blank">Web</a> traffic seemingly appears out of nowhere, befuddling the people trying to build an audience. After all, it&rsquo;s hard to grow a fan base when you don&rsquo;t know where your existing viewers come from. 
+
+That might seem like an unusual scenario in the age of SEO and constant analytics, but it&rsquo;s not. The Atlantic is an enormously popular online portal with staff dedicated to poring over traffic, yet <a href="http://www.foliomag.com/2013/mystery-dark-social#. UcHXlvZgZGs" target="_blank">one quarter</a> of their Web traffic comes from this unknown source. <a href="http://www.buzzfeed.com/aswini/where-did-all-the-search-traffic-go" target="_blank">Buzzfeed</a> also pointed out decreases in traditional traffic sources and an increase in unspecific traffic. And two interconnected culprits are responsible for this analytics-defying traffic: Dark social and dark Google. 
+
+Dark social and dark Google are something that anyone with a website &mdash; even a Tumblr or WordPress blog they want to take off &mdash; should care about, because it makes it impossible to accurately gauge your audience, and it also makes it harder to figure out why certain content succeeds and other content falls flat. It&rsquo;s like an analytics night terror &mdash; and the problem may continue to grow as more people use mobile devices to access the Web, since iPads and iPhones throw the most data into the dark. 
+
+So what are dark Google and dark social?
+
+Google used to report where traffic came from through its search engine very accurately; withheld information was rare. But in 2011 <a href="http://marketingland.com/dark-google-search-terms-not-provided-one-year-later-24341" target="_blank">things changed</a>, and Google started withholding around 50 percent of this information from Web publishers. This withheld information <em>is</em> dark Google. 
+
+Dark social is a term <a href="http://www.theatlantic.com/technology/archive/2012/10/dark-social-we-have-the-whole-history-of-the-web-wrong/263523/" target="_blank">coined</a> by The Atlantic&rsquo;s tech writer Alexis Madrigal to explain the Web traffic that comes from unspecified, mysterious social shares. Dark social accounts for all the people who find articles through sharing, but not on traditional sharing sources like Facebook, Twitter, Reddit, and the other big sources for finding links from others. Dark social is not a little portion of social links; in 2012, Madrigal said it accounted for 69 percent of social sharing. That&rsquo;s a whole lot of link-swapping unaccounted for by Web analysts, and a whole lot of missed opportunities for people trying to measure their audience. 
+
+Rosetta SEO director Stephen Pitts says dark social is the offspring of dark Google. &ldquo;It&rsquo;s the same root cause as dark Google,&rdquo; he explains. But while dark Google is hidden search traffic, dark social is hidden traffic that stems from people sharing links. 
+
+The shared cause is the traffic chaos they create. Pitts describes dark social and dark Google as a data referral problem at its core. The information websites need to analyze their traffic is simply not getting passed on anymore. &ldquo;There is a function that is normally handled by browsers that is a meta-referrer for information. The meta-referrer takes the keyword if it&rsquo;s coming from a paid or organic search in, say, Google, and sends that to an analytics package. In analytics, it would tell you who the referrer was and the keyword. Now, in this circumstance, what happened is last year Google Search decided to stop providing that as a function because it&rsquo;s handled by most browsers. So now they put the onus on passing that data to the browsers.&rdquo; 
+
+And now that browsers are in charge, things are falling out of whack. &ldquo;That wasn&rsquo;t a problem until Apple, with the release of the iPhone 5 and iOS 6, decided they were trimming down all the data being requested in their browsers. Apple stopped supporting meta-referrer data. So if any iOS device is used, whether it be to instant message, text message, to use an app that&rsquo;s sending you to a website, it won&rsquo;t pass the meta-referrer information. So the analytics program thinks its direct traffic.&rdquo; So there&rsquo;s no simple way to measure how much is dark Google and how much is dark social; both types of traffic just end up unmeasured. 
+
+Not every mobile browser is a problem, though. Pitts uses the Facebook app as an example of a service that still passes data along. &ldquo;The Facebook app is a little different. If I&rsquo;m on Facebook on my iPhone and I click to an article on the Web, I&rsquo;m on the Facebook browser, which still passes the meta-referrer data. The browser functionality on the Facebook app is still providing the information.&rdquo; That&rsquo;s not surprising, considering Facebook&rsquo;s vested interest in collecting data on its users. It wouldn&rsquo;t want to alienate potential ad-buyers by refusing to confer information. 
+
+Apple is by and large the biggest culprit when it comes to not passing along the necessary meta-referrers. &ldquo;If you use Chrome on your iPhone, the data still gets passed. It&rsquo;s just if you use Safari [it isn't].&rdquo; And Pitts hadn&rsquo;t heard of similar problems on Android. &ldquo;It&rsquo;s mostly iOS. When you&rsquo;re on an Android device you&rsquo;re almost always defaulting to a Chrome browser &mdash; and it&rsquo;s mostly Safari that&rsquo;s the issue.&rdquo;
+
+But Firefox might also cause problems later on. &ldquo;They&rsquo;re talking about trimming everything except first-party cookies,which would in essence do the same thing as iOS.&rdquo;
+
+So Google assumes that browsers will take responsibility for passing along data, but Apple hasn&rsquo;t taken up that job with Safari. And thus, marketers, webmasters, and other groups concerned with analytics lose valuable information &mdash; especially considering the amount of iPhones and other iOS products out there. 
+
+Even though this creates a giant headache for people trying to figure out their audiences, don&rsquo;t expect a change.&rdquo;Neither Google nor Apple have incentive to make a change,&rdquo; Pitts says. &ldquo;The people who are losing this insight are the marketers and the website owners, which is disappointing because we can&rsquo;t optimize our sites to improve user experience if we can&rsquo;t use the data.&rdquo;
+
+&ldquo;We see it less likely to happen on financial services and B2B sites, while it&rsquo;s more likely to happen on retail and hospitality sites,&rdquo; Pitts explains, noting that people tend to online shop on their phones, while they often wait to do things like refinance their homes when they&rsquo;re on a traditional, more secure desktop. That doesn&rsquo;t mean it never happens, though. &ldquo;It&rsquo;s amazing to me that people go through tedious, 18 page documents on tiny screens. But people do it. It might be their only device that&rsquo;s connected.&rdquo;
+
+ Unless people analyzing traffic figure out a workaround, as long as people continue to use Safari and other browsers that don&rsquo;t send meta-referrers along, this problem will persist and continue to stymy those who want to know their audience. 
+
+Is there any benefit for users? Well, dark Google and dark social confound attempts by marketers to figure out ways to target ads, so if you really hate seeing targeted ads, you may take solace in the fact that both Google and Apple are withholding information. Then again, if you like using retail sites that customize their services based on your past preferences, both dark Google and dark social make it harder for tailored user experiences. And anyone with a website they want to drive traffic to &mdash; which is a considerable number of you out there &mdash; will continue in the frustration of never really knowing all your readers. 
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: Digital Trends
+
+----
+
+Source_url: http://www.digitaltrends.com/social-media/what-is-dark-social-and-what-does-it-mean-for-online-publishing/

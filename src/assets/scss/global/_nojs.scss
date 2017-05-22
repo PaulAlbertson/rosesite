@@ -1,0 +1,11 @@
+/*
+Styles for when JS is disabled
+Everything must go under .no-js
+*/
+
+.no-js {
+  .loader,
+  .holiday-hero {
+    display: none;
+  }
+}

@@ -1,0 +1,283 @@
+// Who
+
+%panel-break {
+  border-bottom: #FFF solid 2px;
+
+  @include breakpoint(mobile) {
+    border-color: none;
+  }
+}
+
+.who-hero {
+  @include panel('/assets/images/who/hero.jpg', '/assets/images/who/hero-mobile.jpg');
+  @extend %panel;
+  @include panel-size($panel-width, 1440);
+  color: #FFF;
+  
+  .cta-heavy {
+    color: $rosetta-blue;
+  }
+}
+
+.quotes {
+  background: #FFF;
+  
+  .owl-dot {
+    background: #CCC;
+    border: #CCC solid 1px;
+    
+    &.active {
+      background: #FFF;
+      border-color: #AAA;
+    }
+  }
+
+  .owl-controls {
+    height: 50px;
+    color: #CCC;
+
+    .owl-nav {
+      position: absolute;
+      width: 100%;
+      top: 50%;
+    }
+  }
+
+  .owl-nav {
+    font-size: 3em;
+
+    @include breakpoint(mobile) {
+      display: none;
+    }
+
+    .owl-prev,
+    .owl-next {
+      @include transform(translateY(-50%));
+      width: 15%;
+      height: 5em;
+    }
+
+    .owl-prev {
+      @include background-image(linear-gradient(to left, rgba(255, 255, 255, 0) 0%, #FFF 30%));
+      padding: 2em 0 0 1em;
+      text-align: left;
+    }
+
+    .owl-next {
+      @include background-image(linear-gradient(to right, rgba(255, 255, 255, 0) 0%, #FFF 30%));
+      padding: 2em 1em 0 0;
+      text-align: right;
+    }
+  }
+
+  .panel {
+    @include breakpoint(mobile) {          
+      .wrap {
+        background-position: 90% top;
+        background-size: 47em auto;
+        padding-top: 14.2em;
+      }      
+    }
+
+    @include breakpoint(s-mobile) {
+      .wrap {
+        background-size: 30em auto;
+        background-position: 65% top;
+      }
+    }
+  }
+}
+
+.cpr {
+  @include panel-size($panel-width, 1437);
+  @extend %panel;
+  @include panel('/assets/images/who/consumer-products-retail.jpg', '/assets/images/who/consumer-products-retail.jpg');
+  @extend %panel-break;
+
+  .wrap {
+    @include breakpoint(tablet) {
+      background-position: right top;
+    }
+  }
+}
+
+.tt {
+  @include panel-size($panel-width, 1440);
+  @extend %panel;
+  @include panel('/assets/images/who/technology-telecommunications.jpg', '/assets/images/who/technology-telecommunications.jpg');
+  @extend %panel-break;
+
+  .wrap {
+    @include breakpoint(tablet) {
+      background-position: left bottom;
+
+      @include breakpoint(mobile) {
+        background-position: center top;
+      }
+    }
+  }
+}
+
+.hc {
+  @include panel-size($panel-width, 1437);
+  @extend %panel;
+  @include panel('/assets/images/who/healthcare.jpg', '/assets/images/who/healthcare.jpg');
+  @extend %panel-break;
+
+  .wrap {
+    @include breakpoint(tablet) {
+      background-position: left top;
+    }
+  }
+}
+
+.fs {
+  @include panel-size($panel-width, 1439);
+  @extend %panel;
+  @include panel('/assets/images/who/financial-services.jpg', '/assets/images/who/financial-services.jpg');
+
+  .wrap {
+    @include breakpoint(tablet) {
+      background-position: right top;
+    }
+  }
+}
+
+.who {
+  background: #FFF;
+
+  .panel .wrap {
+    @include breakpoint(mobile) {
+      padding-top: 200px;
+      background-size: 100% auto;
+    }
+  }
+
+  .cta-panel {
+    color: #FFF;
+
+    @include breakpoint(mobile) {
+      color: #000;
+      background: #FFF;
+      margin: 0;
+
+      .cta-tagline {
+        font-size: 1.3em;
+      }
+    }
+  }
+}
+
+
+.who-data-group {
+  width: 100%;
+  max-width: 530px;
+  line-height: 1em;
+  margin-bottom: 20px;
+  
+  @include breakpoint(tablet) {
+    width: 380px;
+  }
+
+  @include breakpoint(mobile) {
+    width: 75%;
+    height: auto;
+    margin: 0 auto 20px;
+  }
+}
+
+.who-data:first-child {
+  padding-left: 0;
+}
+
+.who-data:last-child {
+  border: 0;
+}
+
+.who-data {
+  width: 31%;
+  padding: 1.3em 2%;
+  font-size: 12.8px;
+  line-height: 17px;
+  text-align: center;
+  @include inline-block;
+  vertical-align: top;
+  border-right: 1px solid #F3F3F3;
+  height: 120px;
+
+  @include breakpoint(tablet) {
+    height: 130px;
+  }
+
+  > div {
+    font-size: 3.7em;
+    line-height: 1em;
+
+    @include breakpoint(mobile) {
+      margin: 0 0 10px;
+      font-size: 2em;
+    }
+  }
+
+  @include breakpoint(tablet) {
+    width: 120px;
+    padding: 30px 8px 0;
+  }
+
+  @include breakpoint(mobile) {
+    text-align: left;
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+    border-right: 0;
+  }
+
+  @include breakpoint(mobile) {
+    text-align: center;
+  }
+}
+
+.who-link {
+  color: #FFF;
+  display: block;
+
+  &:hover {
+    color: #CCC;
+  }
+
+  @include breakpoint(mobile) {
+    width: 100%;
+    color: #000;
+
+    &:hover {
+      color: $text-grey;
+    }
+  }
+
+  .icon {
+    font-size: 1.5em;
+    float: left;
+    margin: 0 10px 40px 0;
+  }
+
+  .icon-mail1 {
+    @include breakpoint(mobile) {
+      display: none;
+    }
+  }
+
+  .icon-mail2 {
+    display: none; 
+
+    @include breakpoint(mobile) {
+      @include inline-block;
+    }
+
+    @include breakpoint(mobile) {
+      display: block;
+      color: $rosetta-blue;
+      margin: 10px 0 16px;
+      float: none;
+    }
+  }
+}

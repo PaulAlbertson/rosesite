@@ -1,0 +1,53 @@
+Title: The Economics of Engagement
+
+----
+
+Text: 
+
+Welcome to the third in a series of three white papers on Customer Engagement from Rosetta Consulting. This paper, based on the findings of the 2014 Rosetta Consulting Engagement Study, focuses on strong customer engagement provides direct economic value to the brand. Rosetta Consulting found clear top- and bottom-line benefits to engagement based on stronger loyalty, reduced competitive threat, greater advocacy, and increased opportunity for upsell and cross-sell. Top-performing brands in customer engagement experienced 50% higher revenue growth than all other brands, and 36% higher growth than their category average.
+
+----
+
+ContentForm: 1159
+
+----
+
+ContentFormText:
+
+##Download the Third Whitepaper
+
+Please fill out the form below to download the whitepaper.
+
+----
+
+SubmitMessage:
+
+##Thank You!
+<br>
+(link: /assets/pdf/The-Economics-of-Engagement.pdf text: Download the Whitepaper class: button-link target: _blank)
+
+----
+
+ColumnText:
+
+<div class="center">
+
+<h2>Contact</h2>
+<img src="/assets/images/leadership/chetna-bansal.jpg" class="column-headshot contact-headshot">
+<h3>Chetna Bansal</h3>
+<p>Partner | Rosetta Consulting<br>
+<a href="mailto:chetna.bansal@rosetta.com">chetna.bansal@rosetta.com</a><br>
++1 212.771.5253</p>
+
+<hr>
+
+(link: /reports/customer-engagement-rosetta-consulting-study/ text: View All Whitepapers class: button-link)
+
+</div>
+
+
+
+
+----
+
+Sharing: off

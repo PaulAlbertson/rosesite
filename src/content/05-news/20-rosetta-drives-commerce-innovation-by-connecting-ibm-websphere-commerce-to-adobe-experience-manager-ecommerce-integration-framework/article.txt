@@ -1,0 +1,60 @@
+﻿Title: Rosetta Drives Commerce Innovation by Connecting IBM WebSphere Commerce to Adobe Experience Manager eCommerce Integration Framework
+
+----
+
+metadescription: Learn how Rosetta is driving commerce innovation by connecting IBM Websphere Commerce to the Adobe Experience Manager eCommerce integration framework. The customer engagement agency developed the proprietary solution to personalize commerce experiences.
+
+----
+
+Subtitle: Proprietary Solution Developed by Rosetta Provides Marketing and IT Departments with Greater Functionality and Efficiency to Create Personalized Commerce Experiences
+
+----
+
+Location: 
+
+----
+
+Date: 2013-09-27
+
+----
+
+Text: Rosetta, the Publicis Groupe <a href="http://www.rosetta.com/">customer engagement agency</a>, today introduced an extension of the Adobe® Experience Manager eCommerce integration framework to connect with IBM WebSphere Commerce. The customizable and scalable commerce solution is designed to deliver an enterprise-class offering to marketing and IT departments to manage and optimize the commerce and content ecosystem, from brand engagement to immersive shopping experiences to checkout. Developed by Rosetta, the proprietary solution offers retailers and brands greater flexibility to create personalized commerce experiences by integrating two industry-leading commerce platforms.
+
+Combining the best-in-class capabilities of Adobe Experience Manager and IBM&rsquo;s WebSphere Commerce platform, the integration provides marketers with digital asset management and the ability to quickly and easily control the content, layout and promotions of their online properties without sacrificing the robust capabilities of an enterprise <a href="http://www.rosetta.com/solutions/commerce.html">commerce platform</a>. Specific offerings include: 
+
+- <strong>Adobe&rsquo;s capabilities in experience-driven commerce combined with the power of WebSphere Commerce</strong> for managing catalogue, price, promotion and shopping cart capabilities. 
+- <strong>Intuitive User Experience</strong>,<strong> </strong>which promotes rapid publishing, optimization and rollout of new initiatives across all digital channels, including mobile. Adobe Experience Manager supports adaptive and responsive design, including mobile apps, via PhoneGap™.
+- <strong>Omni-channel Experience</strong>, which allows personalized content to be published, optimized and rolled out through an omni-channel strategy. 
+- <strong>Faster access to content and digital assets</strong>. The content finder provides quick access to digital assets, such as images, video and content from other documents and sources. The digital asset management capabilities of Adobe Experience Manager provide marketing and IT departments or their agency partners that are editing files in Adobe Photoshop® the ability to check them in and out, while auto-generating renditions for all touch points.
+- <strong>Social Communities</strong>, providing the ability to offer social media options right out of the box. Social login, social plug-ins, comments, ratings and reviews, forum, blogs, groups, social calendars, badging and more. 
+- <strong>Multilingual productivity tools and workflows</strong> for maximum efficiency in rolling out updated content.
+- <strong>Easy-to-use authoring tools </strong>providing in-place editing and drag-and-drop page composition. With Adobe Experience Manager, marketers are able to merchandise products through editorial content separate from the traditional online store. For example, a retail marketer could leverage written content on a blog that discusses how to create a certain look with a number of the retailer&rsquo;s accessories and make it simple and easy for the visitor to add those items direct to cart from that page, rather than having to navigate to the store. 
+- <strong>Acceleration of the connection </strong>between Adobe Experience Manager and WebSphere Commerce so marketers and eCommerce leaders can rapidly customize the shopping experience<strong>. </strong>
+- <strong>Advanced Site Search and Merchandising</strong> to<strong> </strong>help ensure that visitors quickly find the products relevant to their query while enabling the merchandiser to influence which products are highlighted.
+
+
+&ldquo;We are the only agency in the market that can leverage trusted partnerships with IBM and Adobe, world-class technology chops and unrivaled customer experience capabilities,&rdquo; said <a href="http://www.rosetta.com/about/leadership/Tom_Adamski.html">Rosetta CEO</a> Tom Adamski. &ldquo;With this integration of Adobe&rsquo;s best-in-class web experience management system with IBM WebSphere Commerce, today&rsquo;s most innovative brands now have an out-of-the-box option to create a personalized omni-channel commerce experience for their customers and drive deeper levels of engagement across all consumer touchpoints.&rdquo;
+
+&ldquo;The digital experience influences consumer perception across both online and offline commerce,&rdquo; said Aseem Chandra, Vice President, Adobe Experience Manager and Target Business. &ldquo;Companies must provide compelling content, an immersive experience and consistent brand presence across all channels to optimize their consumer&rsquo;s journey. We look forward to teaming with Rosetta as retailers use our industry-leading Adobe Experience Manager to drive their omni-channel initiatives.&rdquo;
+
+Rosetta is among the top sellers of IBM WebSphere Commerce software and has completed more than 150 commerce implementations. The agency recently launched the first Commerce Center of Excellence to leverage Rosetta services and solutions and IBM Smarter Commerce technologies to drive innovation in customer engagement and commerce.
+
+The integrated solution improves both the front-end shopping experience and back-end merchandising and marketing publishing processes. Marketing and IT departments now have the ability to manage and update storefront content delivery capabilities, search and navigational elements, checkout pages, product detail and imagery powered by IBM WebSphere Commerce and many other capabilities that had previously operated in individual siloes. IBM&rsquo;s software will drive product information and options, in addition to order fulfillment. Additionally, the solution allows for ready access to Adobe Analytics and Adobe Target, both part of the Adobe Marketing Cloud, to enable marketers to rapidly optimize content and maximize return on investment.
+
+The ease of use of the integrated solution allows marketers to author and publish content, which lowers development costs, increases productivity and shrinks the time to go live. The feature-rich development environment allows the IT department to operate with greater agility and efficiency and empowers them to rapidly develop and deploy new templates, designs and web components.
+
+----
+
+About_rosetta: on
+
+----
+
+Contact_name: shade-vaughn-rosetta
+
+----
+
+Source_name: 
+
+----
+
+Source_url: 

@@ -1,0 +1,596 @@
+/* Mixins */
+
+@mixin light-text {
+  .case-panel, .case-description, .case-description {
+    color: #FFF;  
+  } 
+}  
+ 
+/* Tech Telco Panels */ 
+
+.hero-software { 
+  @extend %panel;
+  @include panel-size($panel-width, 1437);
+  @include panel('/assets/images/case-studies/software/hero.jpg', '/assets/images/case-studies/software/hero-mobile.jpg');
+
+  @include breakpoint(s-mobile) {
+    .wrap {
+      background-position: center top;
+    }
+  }
+} 
+
+.software-content {
+  background-image: url('/assets/images/case-studies/software/content.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center; 
+  @include light-text; 
+
+  @include breakpoint(mobile) {
+    background-image: url('/assets/images/case-studies/software/content-mobile.jpg');
+  }
+}
+
+.software-content:after { 
+  padding-top: 0; 
+} 
+
+.software-data {
+  @extend %panel;
+  @include panel-size($panel-width, 998);
+
+  .wrap {
+
+    @include breakpoint(desktop-large-2) {
+      .case-panel {
+        .data-description {
+          margin-bottom: 0; 
+        }
+      }
+
+      .impact {
+        padding: 4% 0 18%;
+      }
+    }
+
+    @include breakpoint(desktop-large-1) {
+      .case-panel {
+        .data-description {
+          margin-bottom: 0;
+        }
+      }
+
+      .impact {
+        padding: 4.5% 0 18%;
+      }
+    }
+
+    @include breakpoint(desktop-smaller-1) {
+      .case-panel {
+        .data-description {
+          margin-bottom: 0;
+        }
+
+        .stat-description-huge {
+          font-size: 3.2em;
+        }
+      }
+
+      .impact {
+        padding: 5% 0 18%;
+      }
+
+    }
+
+    @include breakpoint(tablet) {
+
+      .case-panel {
+        max-width: 75%;
+        padding: 3% 0 5%;
+      }
+
+      .impact {
+        padding: 4% 0 18%;
+      }
+    }
+
+    @include breakpoint(s-tablet) {
+      .case-panel {
+
+        margin-top: 0;
+
+        .data-description {
+          margin-bottom: 0;
+        }
+
+        .client-stats {
+          margin: 0;
+        }
+
+        .stat-description-huge {
+          font-size: 3em;
+        }
+
+        .stat-description-small {
+          font-size: 0.8em;
+          line-height: 1.2em;
+        }
+      }
+    }
+
+    @include breakpoint(mobile) {
+      padding: 20px;
+
+      .case-panel {
+        max-width: 100%;
+        padding: 3% 0 25%;
+
+        .client-stats {
+          margin: 0; 
+        }
+
+        .circle-container {
+          background: none;
+          padding: 2em 0 2.8em;
+        }
+
+        .stat-description-huge {
+          font-size: 3.5em;
+        }
+
+        .stat-description-small {
+          font-size: 1em;
+        }
+
+        .data-description {
+          text-align: center;
+        }
+      }
+
+      .impact {
+        max-width: 100%;
+        padding: 0% 0 20%;
+
+        h2 {
+          margin-top: 20%;
+          margin-bottom: 7%;
+        }
+
+
+      } 
+    }
+
+    @include breakpoint(s-mobile) {
+      padding: 20px;
+
+      .case-panel {
+        max-width: 100%;
+        padding: 3% 0 25%;
+
+        .data-description {
+          font-size: 0.9em;
+        }
+
+        .client-stats {
+          margin: 0; 
+        }
+
+        .stats {
+          padding: 20% 0;
+        }
+
+        .circle-container {
+          background: none;
+        }
+
+        .stat-description-huge {
+          font-size: 2.5em;
+        }
+
+        .stat-description-small {
+          font-size: 0.75em;
+        }
+      }
+
+      .impact {
+        max-width: 100%;
+        padding: 0% 15px 20%;
+
+        h2 {
+          margin-top: 10%;
+          margin-bottom: 7%;
+        }
+      }
+    }
+
+    
+
+  }
+
+  .case-panel {
+    padding: 3% 0 4%;
+
+    h2.case-caption {
+      font-weight: lighter;
+    }
+
+    .data-description {
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.09em;
+    }
+
+    .client-stats {
+      max-width: 100%;
+      margin: 0;
+    }
+
+    .stats {
+      width: 33.3333%;
+      float: left;
+      padding: 20px;
+    }
+
+    .circle-container {
+      background-image: url('/assets/images/case-studies/investment-services/stat-circle.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      padding: 5.9em 0 2.8em;
+    }
+
+    .stat-description-huge {
+      font-size: 3.5em;
+      line-height: 0.8em;
+      margin: 0;
+    }
+
+    .stat-description-small {
+      font-size: 0.8em;
+      line-height: 1.3em;
+      margin-top: 0.3em;
+      font-weight: 600;
+    }
+
+    .client-stats:after {
+      clear: both;
+    }
+
+    .client-stats:before, .client-stats:after {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+    } 
+  }
+
+  .impact {
+    padding: 3% 0 15%; 
+  }
+
+}
+
+.software-data:after {
+  padding-top: 0%;
+}
+
+.software-unlocked {
+  @extend %panel;
+  @include panel-size($panel-width, 998);
+  position: relative;
+  top: -35px;
+  z-index: 0;
+
+  .wrap {
+    background-position: center center;
+
+    @include breakpoint(tablet) {
+      padding: 20px;
+
+      .case-panel {
+        max-width: 75%;
+      }
+
+      .activate {
+        /*padding: 0% 0 2%; WITH BOTTOM NAV*/
+        padding: 0% 0 15%;
+
+        img.headshot {
+          width: 35%;
+        }
+      }
+    }
+    
+    @include breakpoint(mobile) {
+      padding: 20px;
+
+      .case-panel {
+        max-width: 100%;
+      
+        .software-details {
+          padding: 0 15px;
+          font-size: 0.9em;
+        }
+
+        .details {
+          font-size: 1.09em;
+        }
+
+
+        .unlocked-col {
+          width: 100%;
+        }
+
+      }
+
+      .activate {
+        padding: 0 15px 3%;
+        
+        .case-contact {
+          padding: 0;
+          background: none;
+          margin-top: 10%;
+        }
+
+        h3,
+        p.value,
+        p.job-title {
+          text-align: center;
+        }
+
+        img.headshot {
+          width: auto;
+          display: block;
+          margin: 3% auto;
+        }
+
+        a.icon-mail3 {
+          text-align: center;
+          font-size: 2.5em;
+          color: #FFF;
+          display: block;
+        }
+
+        h3 {
+          font-size: 1.09em;
+        }
+      }
+    }
+
+    @include breakpoint(s-mobile) {
+
+      .case-panel {
+        margin-top: 10%;
+
+        .icon-description {
+          width: 90%;
+          margin: auto;
+        }
+
+        br {
+          display: none;
+        }
+
+      }
+
+      .activate {
+        img.headshot {
+          width: 25%;
+          margin: 4% auto;
+        }
+
+        a.icon-mail3 {
+          display: block;
+        }
+
+        h3 {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+  
+
+  .case-panel {
+    padding: 10% 0 5%;
+
+    .software-details {
+      p {
+        font-size: 1.09em;
+        font-weight: bold;
+        text-align: left;
+        text-transform: uppercase;
+        color: #FFFFFF;
+      }
+    }
+
+    .col-wrap {
+      p {
+        font-weight: normal;
+        text-transform: none;
+      }
+    }
+
+    .case-caption {
+      font-weight: lighter;
+      max-width: 100%;
+    }
+
+    .data-title-wrapper {
+      max-width: 100%;
+      margin: auto;
+      padding: 0 0 8%;
+
+      .case-data-title {
+        width: 50%;
+        float: left;
+        text-align: center;
+      }
+
+      p.icon-text {
+        max-width: 48%;
+        margin: auto;
+      }
+
+      p.wider {
+        max-width: 60%;
+      }
+
+      img {
+        max-width: 30%;
+        display: block;
+        margin: 0 auto 5%;
+      }
+    }
+
+    .data-title-wrapper:after {
+      clear: both;
+    }
+
+    .data-title-wrapper:before, .data-title-wrapper:after {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+    
+    .unlocked-description {
+      text-align: left;
+      padding: 0 10%;
+    }
+    
+
+    .unlocked-col {
+      float: left;
+      padding-right: 2%;
+      width: 33%;
+      text-align: left;
+    }
+
+    p {
+      margin-bottom: 3%;
+    } 
+    
+    .details:after {
+      clear: both;
+    }
+
+    .details:before, .details:after {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+  }
+
+  @include breakpoint(mobile) {
+
+    .unlocked-description {
+      padding: 0;
+    }
+  }
+
+  .activate {
+    /*padding: 0 0 2%; WITH BOTTOM NAV*/
+    padding: 0 0 15%;
+
+
+    p.intro { 
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 5%;
+    }
+
+    .case-contact {
+      background: url('/assets/images/case-studies/software/divider.png') no-repeat top left;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      padding: 0 0 0 15%;
+    }
+
+    h3 {
+      color: #FFFFFF;
+      margin-bottom: 0;
+    }
+
+    .name {
+      text-transform: none;
+      color: #FFFFFF;
+      font-size: 1.1em;
+    }
+
+    p.value {
+      margin-bottom: 1.5em;
+      width: 100%;
+    }
+
+    p.job-title {
+      margin-bottom: 0.5em;
+    }
+
+    img.headshot {
+      width: 50%;
+      margin: 0.3em 0;
+    }
+
+    .icon-mail1 {
+      color: #FFFFFF;
+      font-size: 1.5em;
+      line-height: 0;
+      display: inline;
+
+      @include breakpoint(mobile) {
+        display: none;
+      }
+    }
+
+    .icon-mail1:hover {
+      color: #CCC;
+    }
+
+    .icon-mail3 {
+      display: none;
+    }
+  }
+
+  @include breakpoint(mobile) { 
+
+    .case-panel {
+      .unlocked-description { 
+        padding: 0;
+      } 
+    }
+  }
+
+  @include breakpoint(s-mobile) {
+    .case-panel { 
+
+      .case-caption {
+        line-height: 1.1em; 
+      }
+
+      .icon-description {
+        font-size: 0.8em;
+        line-height: 1.3em;
+      }
+    }
+  }
+
+}
+
+.software-unlocked:after {
+  padding-top: 0%;
+}
+
+@include breakpoint(mobile) {
+  .insights {
+    margin-top: 35% !important;
+  }
+}

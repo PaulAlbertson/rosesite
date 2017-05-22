@@ -1,0 +1,671 @@
+/* Mixins */
+
+@mixin light-text {
+  .case-panel, .case-description, .case-description {
+    color: #FFF;
+  }
+}
+
+/* Pharmaceuticals Panels */ 
+
+.hero-pharmaceuticals {
+  @extend %panel;
+  @include panel-size($panel-width, 1437);
+  @include panel('/assets/images/case-studies/pharmaceuticals/hero.jpg', '/assets/images/case-studies/pharmaceuticals/hero-mobile.jpg');
+
+  .wrap { 
+
+    @include breakpoint(mobile) { 
+      background-size: cover;
+      background-image: url('/assets/images/case-studies/pharmaceuticals/hero-mobile.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      min-height: 568px;
+    }
+  } 
+
+  @include breakpoint(s-mobile) {
+    background-position: left bottom;
+  }
+
+}
+
+.pharmaceuticals-content {
+  background-image: url('/assets/images/case-studies/pharmaceuticals/content.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+
+  @include breakpoint(mobile) {
+    background-image: url('/assets/images/case-studies/pharmaceuticals/content-mobile.jpg');
+    background-position: center top;
+    background-size: 768px auto;
+  }
+  
+/*   @include breakpoint(s-mobile) {
+    background-position: center top;
+  } */
+
+  .section-subnav {
+    padding: 0 0 25%;
+  }
+}
+
+.pharmaceuticals-content:after {
+  padding-top: 0; 
+}
+
+.pharmaceuticals-data {
+  @extend %panel;
+  @include panel-size($panel-width, 998);
+
+  .wrap {
+
+    @include breakpoint(tablet) {
+
+      .case-panel {
+        max-width: 75%;
+        padding: 3% 0 5%;
+      }
+
+      .impact {
+        max-width: 75%;
+        padding: 23% 0 25%;
+      }
+    }
+
+    @include breakpoint(s-tablet) {
+      .impact {
+        max-width: 75%;
+        padding: 30% 0 25%;
+      }
+    }
+
+    @include breakpoint(desktop-large-2) {
+      .case-panel {
+        .stat-description-small {
+          font-size: 0.8em;
+        }
+
+        .data-description {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    @include breakpoint(desktop-large-1) {
+      .case-panel {
+        .stat-description-small {
+          font-size: 0.75em;
+          margin-bottom: 4%;
+          line-height: 1.5em;
+        }
+
+        .data-description {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    @include breakpoint(desktop-smaller-1) {
+      .case-panel {
+        .stat-description-small {
+          font-size: 0.75em;
+          margin-bottom: 4%;
+          line-height: 1.3em;
+        }
+
+        .data-description {
+          margin-bottom: 0;
+        }
+
+        .stat-description-huge {
+          font-size: 3.2em;
+        }
+      }
+    }
+
+    @include breakpoint(s-tablet) {
+      .case-panel {
+        .stat-description-huge {
+          font-size: 3em;
+        }
+      }
+    }
+
+    @include breakpoint(mobile) {
+      padding: 0 20px;
+
+      .case-panel {
+        max-width: 100%;
+        padding: 3% 0 25%;
+
+        .data-description {
+          font-size: 0.9em;
+          padding: 0 8%;
+          text-align: center;
+        }
+
+        .client-stats {
+          margin: 260px 0 0; 
+        }
+
+        .stats {
+          padding: 20px 0;
+        }
+
+        .circle-container {
+          background: none;
+        }
+
+        .stat-description-huge {
+          font-size: 3.5em;
+          letter-spacing: -2px;
+        }
+
+        .stat-description-small {
+          font-size: 1em;
+          font-weight: 100;
+        }
+
+        h2.case-caption {
+          margin-top: 12%;
+        }
+      }
+
+      .impact {
+        max-width: 85%;
+        padding: 0;
+        margin-top: 230px;
+      }
+    }
+
+    @include breakpoint(s-mobile) {
+
+      .case-panel {
+        max-width: 100%;
+        padding: 3% 0 25%;
+
+        .client-stats {
+          margin: 250px 0 0; 
+        }
+
+        .circle-container {
+          padding: 0;
+        }
+
+        .stats {
+          padding: 0;
+          width: 100%;
+          margin-bottom: 40px;
+        }
+
+        .stat-description-huge {
+          font-size: 2.2em;
+        }
+
+        .stat-description-small {
+          line-height: 1.4em;
+          margin: auto;
+          width: 85%;
+        }
+
+        br {
+          display: none; 
+        }
+
+        .data-description {
+          font-size: 0.9em; 
+        }
+
+        h2.case-caption {
+          margin-top: 12%;
+        }
+
+      }
+
+      .impact {
+        max-width: 100%;
+        padding: 0 0 20%;
+      }
+
+      
+    }
+
+    
+
+  }
+
+  .case-panel {
+    padding: 3% 0 4%;
+
+    h2.case-caption {
+      font-weight: lighter;
+    }
+
+    .data-description {
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 1.09em;
+    }
+
+    .client-stats {
+      max-width: 100%;
+      margin: 0;
+    }
+
+    .stats {
+      width: 33.3333%;
+      float: left;
+      padding: 20px;
+    }
+
+    .circle-container {
+      background-image: url('/assets/images/case-studies/pharmaceuticals/blue-ring.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      padding: 5.9em 0 2.8em;
+
+      @include breakpoint(mobile) {
+        padding: 3.9em 0 2.8em;
+      }
+    }
+
+    .stat-description-huge {
+      font-size: 3.5em;
+      line-height: 0.8em;
+      margin: 0;
+    }
+
+    .stat-description-small {
+      font-size: 0.8em;
+      line-height: 1.3em;
+      margin-top: 0.3em;
+      font-weight: 600;
+    }
+
+    .client-stats:after {
+      clear: both;
+    }
+
+    .client-stats:before, .client-stats:after {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+    } 
+  }
+
+  .impact {
+    padding: 20% 0 15%; 
+  }
+}
+
+.pharmaceuticals-data:after {
+  padding-top: 0%;
+}
+ 
+.pharmaceuticals-unlocked {
+  @extend %panel;
+  @include panel-size($panel-width, 998);
+  position: relative;
+  top: -35px;
+  z-index: 0;
+
+  .wrap {
+    background-position: center center;
+
+    @include breakpoint(desktop-large-1) {
+      .activate {
+        .case-contact {
+          padding: 0 0 0 42%;
+        }
+      }
+    }
+
+    @include breakpoint(desktop-smaller-1) {
+      .activate {
+        .case-contact {
+          padding: 0 0 0 40%;
+        }
+      }
+    }
+
+    @include breakpoint(s-tablet) {
+      .activate {
+        .case-contact {
+          padding: 0 0 0 35%;
+        }
+      }
+    }
+
+    @include breakpoint(tablet) {
+      padding: 40px;
+
+      .case-panel {
+        max-width: 75%;
+      }
+
+      .activate {
+        /*padding: 0% 0 5%; WITH BOTTOM NAV*/
+        padding: 0 0 30%;
+
+      }
+    }
+    
+    @include breakpoint(mobile) {
+
+      .case-panel {
+        max-width: 100%;
+
+        .unlocked-col {
+          width: 100%;
+        }
+
+        .unlocked-description {
+          text-align: center;
+          padding: 0 8%; 
+        }
+
+      }
+
+      .activate {
+        padding: 15% 8% 3%;
+
+        p.intro {
+          font-size: 0.9em;
+          line-height: 1.4em;
+        }
+        
+        .case-contact {
+          background: none;
+          padding: 4em 0 1em;
+        }
+
+        h3,
+        p.value,
+        p.job-title {
+          text-align: center;
+        }
+
+        img.headshot {
+          width: 15%;
+          display: block;
+          margin: 3% auto;
+        }
+
+        a.icon-mail1 {
+          display: none;
+        }
+
+        a.icon-mail3 {
+          display: block;
+          margin: 8% 0;
+        }
+
+      }
+    }
+
+    @include breakpoint(s-mobile) {
+
+      .activate {
+        padding: 15% 0 3%;
+
+        img.headshot {
+          width: 25%;
+          margin: 4% auto;
+        }
+
+        a.icon-mail3 {
+          display: block;
+          margin: 12% 0;
+        }
+      }
+    }
+
+  }
+
+
+
+  @include breakpoint(s-mobile) {
+    .case-panel {
+      .case-caption {
+        line-height: 1.2em;
+      }
+
+      .data-title-wrapper {
+        .icon-text {
+          font-size: 0.9em;
+          padding: 0 1.5%;
+        }
+      }
+    }
+  }
+  
+  .case-panel {
+    padding: 6% 0 3%; 
+
+    @include breakpoint(mobile) {
+      padding: 35% 0 0;
+
+      .data-title-wrapper {
+
+        .case-data-title {
+          padding: 0 6%;
+        }
+
+        p.wider,
+        p.icon-text {
+          max-width: 100% !important;
+        }
+      }
+    }
+
+    @include breakpoint(s-mobile) {
+      padding: 25% 0 0;
+
+      .data-title-wrapper {
+
+        .case-data-title {
+          padding: 0;
+        }
+      }
+    }
+
+    .case-caption {
+      font-weight: lighter;
+      max-width: 100%;
+    }
+
+    .data-title-wrapper {
+      max-width: 100%;
+      margin: auto;
+      padding: 0 0 8%;
+
+      .case-data-title {
+        width: 50%;
+        float: left;
+        text-align: center;
+
+        @include breakpoint(s-mobile) {
+          width: 100%;
+          margin-bottom: 40px;
+        }
+      }
+
+      p.icon-text {
+        max-width: 48%;
+        margin: auto;
+      }
+
+      p.wider {
+        max-width: 60%;
+      }
+
+      img {
+        max-width: 50%;
+        display: block;
+        margin: 0 auto 5%;
+      }
+    }
+
+    .data-title-wrapper:after {
+      clear: both;
+    }
+
+    .data-title-wrapper:before, .data-title-wrapper:after {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+    
+    .unlocked-description {
+      text-align: left;
+      padding: 0 10%;
+    }
+    
+    .unlocked-col {
+      float: left;
+      padding-right: 0%;
+      width: 33%;
+      text-align: left;
+    }
+
+    .unlocked-col:first-child {
+      padding-right: 3%;
+    }
+
+    p {
+      margin-bottom: 3%;
+    } 
+
+    .details:after {
+      clear: both;
+    }
+
+    .details:before, .details:after {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+
+    @include breakpoint(s-mobile) {
+      .data-title-wrapper {
+        padding: 0 0 15%;
+      }
+    }
+  }
+
+  @include breakpoint(tablet) {
+    .unlocked-description {
+      padding: 0;
+    }
+  }
+
+  .activate {
+    /*padding: 0 0 5%; WITH BOTTOM NAV*/
+    padding: 0 0 30%;
+
+
+    p.intro { 
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 5%;
+    }
+
+    .case-contact {
+      background: url('/assets/images/case-studies/pharmaceuticals/stylus-divider-2.png') no-repeat top left;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      background-size: contain;
+      padding: 0 0 0 25%;
+      margin-left: 7%;
+    }
+
+    h3 {
+      color: #000000;
+      margin-bottom: 0;
+    }
+
+    .name {
+      text-transform: none;
+      color: #000000;
+      font-size: 1.1em;
+    }
+
+    p.value {
+      margin-bottom: 1.5em;
+    }
+
+    p.job-title {
+      margin-bottom: 0.5em;
+    }
+
+    img.headshot {
+      width: 60%;
+      margin: 0.3em 0;
+
+      @include breakpoint(desktop-large-2) {
+        width: 75%;
+      }
+
+      @include breakpoint(desktop-large-1) {
+        width: 75%;
+      }
+
+      @include breakpoint(desktop-smaller-1) {
+        width: 75%;
+      }
+
+      @include breakpoint(desktop-smaller-2) {
+        width: 60%;
+      }
+
+      @include breakpoint(tablet) {
+        width: 75%;
+      }
+
+    }
+
+    .icon-mail1 {
+      color: #000000;
+      font-size: 1.5em;
+      line-height: 0;
+      display: inline;
+    }
+
+    .icon-mail1:hover {
+      color: #3A3A3A;
+    }
+
+    .icon-mail3 {
+      color: #000000;
+      font-size: 2.7em;
+      line-height: 0;
+      text-align: center;
+      display: none;
+    }
+
+  }
+
+  @include breakpoint(mobile) {
+    .case-panel {
+      .unlocked-description {
+        padding: 0;
+      }
+    }
+  }
+}
+
+.pharmaceuticals-unlocked:after {
+  padding-top: 0%;
+}
+

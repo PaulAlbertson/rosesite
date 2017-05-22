@@ -1,0 +1,9 @@
+Title: Home
+
+----
+
+metatitle: Rosetta is an Agency Focused on Customer Engagement
+
+----
+
+metadescription: Rosetta is an agency focused on Customer Engagement. We connect rich data, engaging experiences and robust technologies to forge meaningful relationships with customers that drive business impact.

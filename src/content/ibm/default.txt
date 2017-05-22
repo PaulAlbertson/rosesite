@@ -1,0 +1,126 @@
+Title: <img src="/assets/images/ibm/rosetta-ibm.png" alt="Rosetta + IBM" class="rosetta-ibm-logo">
+
+----
+
+metatitle: Rosetta + IBM
+
+----
+
+Subtitle: Rosetta creates enhanced opportunities for IBM customers to engage customers throughout the full omni-channel journey. 
+
+----
+
+Text:
+
+<div class="landing-page-centered">
+
+<h2>Global Experience Across the IBM Suite</h2>
+
+<p>Rosetta is the largest agency implementer of IBM’s Smarter Commerce suite. We were the first Global Smarter Commerce certified partner, have more implementations than any other agency and have a dedicated investment in omni-channel innovation alongside IBM. As a result, Rosetta has unmatched success in helping IBM customers grow their business.</p>
+
+<div class="col-wrap page-stats">
+  <div class="col3 center">
+    <div class="page-stat">
+      <span>
+        <div class="data-count-up"><span class="odometer" data-target-value="300">0</span><span class="data-plus">+</span></div>
+      </span>
+    </div>
+    <p class="small-text">Omni-Channel <br> Commerce Experts</p>
+  </div>
+  <div class="col3 center">
+    <div class="page-stat">
+      <span>
+        <div class="data-count-up"><span class="odometer" data-target-value="250">0</span><span class="data-plus">+</span></div>
+      </span>
+    </div>
+    <p class="small-text">Global Commerce <br> Implementations</p>
+  </div>
+  <div class="col3 center">
+    <div class="page-stat">
+      <span>
+        <div class="data-count-up"><span class="odometer" data-target-value="15">0</span></div>
+      </span>
+    </div>
+    <p class="small-text">Years of Commerce <br> and Customer Engagement Expertise</p>
+  </div>
+</div>
+
+<br>
+
+<h2>Global Leader</h2>
+
+<p>Rosetta, as part of the Razorfish Global agency network, was ranked a Leader in *The Forrester Wave: Global Commerce Service Providers, Q1 2015*.</p>
+
+<p>
+  <a href="#" class="overlay-link overlay-link-zoom-in"><img src="/assets/images/ice/forrester-wave.jpg"></a>
+  <span class="overlay-target"><img src="/assets/images/ice/forrester-wave-large.jpg" class="overlay-target-img"></span>
+</p>
+
+<br>
+
+<h2>Omni-Channel Innovator</h2>
+
+<p>As part of our focus on omni-channel innovation with IBM, our team built Rosetta&nbsp;ICE<sup>&trade;</sup>, an In-Store Customer Engagement platform. This first-of-its-kind tablet-based solution goes well beyond endless aisles, enabling sales associates to access and utilize deep consumer insights, engagement and order history, recommended products, and many other IBM-driven capabilities to better understand, predict and serve in-store customers.</p>
+
+<div class="ice-stage">
+  <div class="ice-item ice-main">
+    <img src="/assets/images/ice/ice-main.svg">
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-pos.svg">
+    <span class="ice-line"></span>
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-crm.svg">
+    <span class="ice-line"></span>
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-wifi.svg">
+    <span class="ice-line"></span>
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-mobile.svg">
+    <span class="ice-line"></span>
+  </div>
+  <div class="ice-item ice-node">
+    <img src="/assets/images/ice/ice-ecommerce.svg">
+    <span class="ice-line"></span>
+  </div>
+</div>
+
+
+
+<img src="/assets/images/ice/ice.png" class="show-mobile show-ie">
+
+<br><br><br>
+
+<h2 class="hide-br">A Customer Engagement Ecosystem</h2>
+
+<p>More than five years ago, Rosetta introduced its Engagement Engine, which integrates customer information and interactions across all major touch points and channels, including: commerce, direct, media, in-store, online, customer relationship management (CRM) programs and call centers. Now Rosetta is building on its strong partnership with IBM to add a comprehensive suite of IBM Commerce solutions to the Engagement Engine, including: WebSphere Commerce, Sterling Order Management, Experience One, as well as IBM’s Big Data and Analytics solutions like Predictive Customer Intelligence, MDM, Big Insights, SPSS and more.</p>
+
+<p>Brands can now deliver a new level of relevant, targeted and personalized experiences to their customers to drive deeper engagement.</p>
+
+<br>
+<br>
+
+<div class="center">
+
+  <h2>Contact</h2>
+  <p class="hide-br">Contact Scott Young to find out more about the Rosetta and IBM partnership or about the Rosetta&nbsp;ICE<sup>&trade;</sup> In-Store Customer Engagement solution.</p>
+
+  <br>
+
+  <img src="/assets/images/leadership/scott-young.jpg" class="column-headshot contact-headshot">
+
+  <p><strong>Scott Young</strong><br>
+  EVP | IBM Global Partnership<br>
+  (email: scott.young@rosetta.com)<br>
+  +1 440.289.8785</p>
+
+</div>
+
+</div>
+
+----
+
+Sharing: off

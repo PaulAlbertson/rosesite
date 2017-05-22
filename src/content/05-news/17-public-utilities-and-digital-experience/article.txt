@@ -1,0 +1,54 @@
+﻿Title: Public Utilities and Digital Experience
+
+----
+
+metadescription: Interaction with brand touchpoints, and not necessarily products or services, often drives customer satisfaction.
+
+----
+
+Subtitle: 
+
+----
+
+Date: 2013-09-11
+
+----
+
+Text: 
+Interaction with brand touchpoints, and not necessarily products or services, often drives customer satisfaction. For public utilities, this is especially true. Customers are more likely to evaluate a utility's brand on their experience with customer service, linesmen or a website rather than their purchase of electricity or natural gas. Most public utilities in our analysis improve customer experience through training, follow up surveys, trucks, and staff. However, they rarely improve their websites, which are 24/7 touchpoints. In fact, digital properties often get the least focus.
+
+The question is: Why diminish users' digital experience when digital is a key consideration when evaluating your service?
+
+According to Forrester Research, customer satisfaction is often lower for the web than other communications channels, (IVRs, service reps, etc.) because of poor content maintenance and not because of technology.
+
+Web self-service interactions have lower satisfaction ratings (58%) and virtual agents have even lower ratings (55%). These ratings are not a reflection of technology, but rather the lack of attention around content maintenance. Even though mature content maintenance processes exist to keep content in-line with customer demand, most organizations have not had the discipline to adopt them. The result is content - answers to customer questions - that does not match customer expectations. (<a href="http://blogs.forrester.com/kate_leggett/13-04-29-forrester_data_shows_an_explosion_of_channels_for_customer_service_with_inconsistent_satisfaction_rat" target="_blank">Forrester</a>)
+
+Rosetta recently completed an assessment of 20 of the largest public utilities in the US, and found consistent themes in digital tactics that fail to meet customer expectations. By examining these, utilities can improve their favorability ratings with customers while improving customers' overall digital experience.
+
+These themes are in four areas:
+
+1. Failure to prioritize tasks for audiences. Bill paying and investor information are front and center on utility sites most of the time. More relevant consumer information, such as reporting a power outage and what do to do in an emergency is often buried, especially with utilities that operate several business units. Customers should be able to get to their specific information in two or three clicks.
+2. Content not optimized for the web. Users, especially customers, come to a web site to learn about a topic. This is a chance for a utility to present itself as an authority. However, we see content simply repurposed from offline uses and pasted on sites. For example, placing copy from a bill insert for low-income bill assist programs online is not optimal for the web because it is long form and detailed. The web version should give just the amount of information consumers need to take action. Usability studies show that consumers expect content to be differentiated by key points on each page of content. They expect key points to be pulled out as bullets to drive home the message.
+3. Mobile sites fail to simplify. Many utility mobile sites over-complicate the user's experience because they fail to prioritize the reasons that customers use mobile. This happens when marketers simply transpose the web site with its complex navigation to the small viewing area of a mobile phone. It frustrates mobile users who have to plow through options. Customers engage with a utility nine times out of ten to solve an immediate problem, start a service, pay a bill or report an outage. While there is other corporate information a utility will want to present via mobile, the primary focus should be on meeting user needs and helping them get important information quickly.
+4. Customer engagement needs a platform. Too many utilities are failing to create a platform for a true one-to-one customer relationship as both consumer and company technology evolve. As smart meters are rolled out and users take advantage of technologies in their homes, are you enabling them to aggregate data and engage with you? New technologies may not be available today to all customers across all utilities, but utilities should be installing the foundation to build a true CRM platform that both encourages and monitors engagement.
+
+Fortunately, these deficiencies can be rectified by taking three steps. Most public utilities have the technology in place to take them. The issue is execution centered on defining a strategy and producing tactical updates as steps are implemented:
+
+- Understand your audience. What needs are important not only to customers but also to regulators, employees, investors and other groups that frequent your site? How do you employ user research, surveys, focus groups and usability tests to prioritize needs and use these requirements to define user experience and leverage technical assets?
+- Prioritize your business goals. What are the important actions your business units want customers to take? How do these actions align with prioritized user needs? Do they align? By defining these, you can ensure you are focused on the same goals and can optimize engagement.
+- Define your program. Digital is a living organism. You are not done when you have launched a new site or updated an image. Your organization needs to define a strategy for using the web going forward. What KPIs define business success? How do you know you are having an impact and addressing prioritized user needs?
+
+
+These three steps simplify the digital approach and define what is important to you as a public utility to meet customer needs in the 24/7 digital service channel. By completing this process, you will have the criteria to evaluate future initiatives against digital tactics, technical tools and personnel.
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: Energy Central
+
+----
+
+Source_url: http://www.energycentral.com/utilitybusiness/billingandcustomercare/articles/2723

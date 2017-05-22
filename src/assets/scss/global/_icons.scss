@@ -1,0 +1,95 @@
+/* Buttons */
+
+
+// Basic Icon Styles
+.icon,
+.owl-prev,
+.owl-next {
+  font-size: 1em;
+  line-height: 1em;
+  text-decoration: none;
+  display: block;
+  font-family: 'icons';
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.icon-rosetta:before  { content: '\e80f'; }
+.icon-endmark         { display: inline; }
+.icon-endmark:before  { content: '\e824'; }
+.icon-plus:before     { content: '\e82e'; }
+.icon-mail1:before    { content: '\e826'; }
+.icon-mail2:before    { content: '\e817'; }
+.icon-mail3:before    { content: '\e820'; }
+.icon-location:before { content: '\e825'; }
+.icon-link:before     { content: '\e818'; }
+
+.icon-facebook-large:before   { content: '\e819'; }
+.icon-linkedin-large:before   { content: '\e81a'; }
+.icon-instagram-large:before  { content: '\e81c'; }
+.icon-flickr-large:before     { content: '\e81d'; }
+.icon-vimeo-large:before      { content: '\e81b'; }
+.icon-pinterest-large:before  { content: '\e81e'; }
+.icon-twitter-large:before    { content: '\e81f'; }
+.icon-google-large:before     { content: '\e822'; }
+
+.icon-facebook-small:before   { content: '\e805'; }
+.icon-linkedin-small:before   { content: '\e806'; }
+.icon-instagram-small:before  { content: '\e808'; }
+.icon-flickr-small:before     { content: '\e809'; }
+.icon-vimeo-small:before      { content: '\e807'; }
+.icon-pinterest-small:before  { content: '\e80a'; }
+.icon-twitter-small:before    { content: '\e816'; }
+.icon-google-small:before     { content: '\e82d'; }
+
+.icon-google-large:hover:before,    .icon-google-small:hover:before     { color: #DD4B39; }
+.icon-twitter-large:hover:before,   .icon-twitter-small:hover:before    { color: #55ACEE; }
+.icon-linkedin-large:hover:before,  .icon-linkedin-small:hover:before   { color: #0976B4; }
+.icon-facebook-large:hover:before,  .icon-facebook-small:hover:before   { color: #3B5998; }
+.icon-instagram-large:hover:before, .icon-instagram-small:hover:before  { color: #794736; }
+.icon-mail3:hover:before,           .icon-mail2:hover:before            { color: #999; }
+
+.icon-desktop:before  { content: '\e811'; }
+.icon-chart:before    { content: '\e812'; }
+.icon-shoe:before     { content: '\e813'; }
+.icon-cart:before     { content: '\e814'; }
+.icon-health:before   { content: '\e815'; }
+.icon-gaming:before   { content: '\e800'; }
+
+.button-icon-lr-desktop:after  { content: '\e811'; }
+.button-icon-lr-chart:after    { content: '\e812'; }
+.button-icon-lr-shoe:after     { content: '\e813'; }
+.button-icon-lr-cart:after     { content: '\e814'; }
+.button-icon-lr-health:after   { content: '\e815'; }
+.button-icon-lr-gaming:after   { content: '\e800'; }
+
+.icon-collaborate:before  { content: '\e810'; }
+.icon-trust:before        { content: '\e827'; }
+.icon-imagine:before      { content: '\e828'; }
+.icon-listen:before       { content: '\e829'; }
+.icon-discover:before     { content: '\e82a'; }
+.icon-deliver:before      { content: '\e82b'; }
+
+.icon-intelligence:before { content: '\e82c'; }
+.icon-experience:before   { content: '\e82e'; }
+.icon-technology:before   { content: '\e82d'; }
+
+.icon-up:before   { content: '\e801'; }
+.icon-down:before { content: '\e80b'; }
+
+.icon-prev:before,
+.owl-prev:before {
+  content: '\e80c';
+}
+
+.icon-next:before,
+.owl-next:before {
+  content: '\e802';
+}
+
+%icon {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}

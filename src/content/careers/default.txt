@@ -1,0 +1,21 @@
+Title: Life is short. <br> Work some place awesome.
+
+----
+
+metatitle: Search for Job Opportunities | Careers
+
+----
+
+Text:
+
+As an agency focused on customer engagement, Rosetta is part of Razorfish, a pioneer of marketing in the digital age and world leader in helping global brands drive customer obsessed business transformation.
+
+If you are passionate about evolving connections from transaction-focused exchanges to meaningful, contextually-relevant experiences, we want to hear from you. 
+
+With more than 3,000 employees in 25 regions globally, start your career journey with Rosetta and Razorfish by browsing our openings today. 
+
+<a href="https://careers-razorfish.icims.com/jobs/search?ss=1&searchKeyword=Rosetta" class="button-link button-link-dir" target="_blank">View Job Openings <span class="button-icon"></span></a>
+
+----
+
+Sharing: off

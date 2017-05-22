@@ -1,0 +1,26 @@
+metadescription: Contact Rosetta today to see how we can help you engage with your customers.
+----
+
+metatitle: Contact
+
+----
+
+
+Title: Contact Us
+
+----
+
+Subtitle: Thank You!
+
+----
+
+Text:
+
+<p class="center">Your form has been submitted, and we will be in touch shortly.<p>
+
+<p class="center">
+	<a href="/" class="button button-inline">
+		<span class="button-icon button-icon-rl arrow"></span>
+		<span class="button-text">Back to Home</span>
+	</a>
+</p>

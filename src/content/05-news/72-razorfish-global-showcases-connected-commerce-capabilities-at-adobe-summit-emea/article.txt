@@ -1,0 +1,50 @@
+﻿Title: Razorfish Global Showcases Connected Commerce Capabilities at Adobe Summit EMEA
+
+----
+
+Subtitle: RazorShop Retail Experience, Rosetta Engagement Engine and Connected Commerce Offerings Position Razorfish Global as Leader in Business Transformation
+
+----
+
+Location: London
+
+----
+
+Date: 2015-04-29
+
+----
+
+Text:
+
+Razorfish Global, part of the Publicis.Sapient platform, in collaboration with Adobe, today unveiled the future of retail ecommerce at Adobe Summit EMEA with an industry-leading combination of connected commerce technologies. 
+
+During the event, which runs April 29–30 in London, Razorfish will be showcasing (link: http://www.razorfish.com/news/2015/press-release/razorfish-unveils-the-future-now-of-retail-at-adobe-summit.htm text: RazorShop target: _blank), a leading-edge physical storefront experience that seamlessly connects the customer journey across all touch points and empowers retailers to personalise the shopping experience. Sister agency Rosetta is showcasing its recently expanded (link: /news/rosetta-launches-engagement-engine-powered-by-adobe-marketing-cloud text:  Engagement Engine) and its (link: /news/rosetta-drives-commerce-innovation-by-connecting-ibm-websphere-commerce-to-adobe-experience-manager-ecommerce-integration-framework text: Connector) accelerator.
+
+The RazorShop technology transforms the relationship between the consumer and sales associate by giving the sales associate an ability to review data on previous purchases, items viewed online or non-completed orders, thus elevating them into the role of an advisor to the customer. The retail experience shows live analytics around product zone interactions and the path through the store so the sales associate can make proactive recommendations. Location-specific content, such as product recommendations, can then be synchronised via iBeacons to mobile applications of both customer and sales associate, as well as to in-store screens, delivering relevant, personalised interactions between the brand and customers across every touch point.
+
+Rosetta’s Engagement Engine was recently expanded through the unique capabilities of the Adobe Marketing Cloud. The Rosetta Engagement Engine drives next-generation customer engagement through a combination of insights, personalisation and contextually relevant, branded experiences deployed across the entire customer journey at enterprise scale. Rosetta’s Connector solution is a customisable and scalable commerce solution designed to deliver an enterprise-class offering to marketing and IT departments to manage and optimise the commerce and content ecosystem, from brand engagement to immersive shopping experiences to checkout. Developed by Rosetta and originally launched in 2013, the solution offers retailers and brands greater flexibility to create personalised commerce experiences by combining the best-in-class capabilities of Adobe Experience Manager and IBM’s WebSphere Commerce platform. Both offerings will also be available to clients across the Publicis.Sapient platform, including those of SapientNitro and DigitasLBi.
+
+“Razorfish Global, through the combined strengths of Razorfish and Rosetta, is driving business transformation for retailers through leading-edge experiences and technologies,” said Michael Klein, director of industry strategy for retail, digital marketing business at Adobe. “We’re proud to partner with these industry leaders to drive revenues jointly for our clients.”
+
+“Consumer behaviours are evolving as technology continues to empower shoppers,” said Jim Mason, group director of strategy at Razorfish. “Brick-and-mortar stores, once believed to be in peril, have become an integral part of the customer journey. Razorfish’s connected storefront experience shows leading retailers what the future holds today by developing in-store digital experiences to engage shoppers and increase traffic.”
+
+Joining Razorfish and Rosetta at Adobe Summit EMEA are Publicis.Sapient brands SapientNitro, who is a Diamond Sponsor, and DigitasLBI, who is a Platinum Sponsor of the event.
+
+Michael Klein will lead a “Retail Super Session” featuring Razorfish’s executive director of strategy and insight Jim Mason and Rosetta’s global commerce lead Gary Schoch, where they will discuss a 360-degree approach to the customer and commerce.
+
+For more information about Razorfish Global’s offerings at Adobe Summit EMEA, please contact Razorfish’s Amy Limb at <amy.limb@razorfish.com> or Rosetta’s Scott Sullivan at <scott.sullivan@rosetta.com>.
+
+##About Razorfish Global
+
+Razorfish Global, part of the Publicis.Sapient platform, is a network of leading digital agencies within Publicis Groupe that brings together customer experience, technology, media and intelligence to drive business transformation for clients on a global scale. Its 4,500 team members and 42 worldwide offices span Australia, Canada, China, France, Germany, Hong Kong, India, Italy, Japan, Singapore, the United Kingdom and the United States.
+
+###Contacts:
+
+**Shade Vaughn**<br>
+Razorfish Global<br>
+<shade.vaughn@razorfishglobal.com><br>
++1 (646) 286 6935
+
+**Lizi Jeffery**<br>
+Pumpkin Public Relations<br>
+<lizi@pumpkin.uk.com>

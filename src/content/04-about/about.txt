@@ -1,0 +1,14 @@
+Title: About
+
+----
+
+metatitle: About
+
+----
+
+metadescription: We are an agency of data scientists, designers, storytellers and innovators.
+
+----
+
+Text: 
+

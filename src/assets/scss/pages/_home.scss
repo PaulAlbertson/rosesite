@@ -1,0 +1,783 @@
+/* Home New */
+
+.home {
+  @include panel-size($panel-width, 5427);
+  @extend %panel;
+  @include panel('/assets/images/home/home-bg-ad-age.jpg', '/assets/images/home/home-bg-mobile-adage.jpg');
+
+  @include breakpoint(tablet) {
+    height: 3584px;
+  }
+
+  @include breakpoint(mobile) {
+    height: 3100px;
+  }
+
+  .wrap {
+    @include breakpoint(tablet) {
+      position: absolute;
+    }
+
+    @include breakpoint(mobile) {
+      background-image: url('/assets/images/home/home-bg-mobile-adage.jpg');
+      background-size: 768px auto;
+    }
+  }
+}
+
+.home-hero {
+  height: 21%;
+  // height: 32.6%;
+  position: relative;
+
+  @include breakpoint(mobile) {
+    height: 17%;
+  }
+
+  .home-intro,
+  .home-news-item {
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    text-align: center;
+    width: 100%;
+    @include transform(translateY(-50%) translateX(-50%));
+    z-index: 2;
+    position: relative;
+    // top: 74%;
+    margin: 0 auto;
+    //@include transform(translateY(0) translateX(-50%));
+    //display: none;
+    //@include opacity(0);
+    //@include transition(opacity 2s);
+
+    @include breakpoint(mobile) {
+      // max-width: 560px;
+      padding: 0 10%;
+      top: 55%;
+      display: block;
+    }
+
+    h1 {
+      color: #FFF;
+      font-weight: normal;
+      margin-bottom: 0;
+      font-size: 3em;
+      letter-spacing: -2px;
+      //line-height: 1.1em;
+      //text-transform: uppercase;
+      //font-weight: 700;
+
+      @include breakpoint(desktop-large-5) {
+        font-size: 72px;
+        line-height: 1.13em;
+        letter-spacing: -2px;
+      }
+
+      // @include breakpoint(2000px) {
+      //   font-size: 3em;
+      // }
+
+      @include breakpoint(s-tablet) {
+        font-size: 1.8em;
+        letter-spacing: -1px;
+      }
+
+      @include breakpoint(mobile) {
+        font-size: 1.6em;
+        
+      }
+    }
+
+    p {
+      font-weight: 400;
+      color: #FFF;
+      font-size: 1.3em;
+      line-height: 1.3em;
+      margin: 0.6em auto;
+      letter-spacing: -0.5px;
+
+      @include breakpoint(desktop-large-5) {
+        font-size: 30px;
+        line-height: 1.3em;
+      }
+
+      @include breakpoint(mobile) {
+        font-size: 18px;
+      }
+    }
+
+    br {
+      @include breakpoint(mobile) {
+        display: none;
+      }      
+    }
+  }
+
+  .home-intro {    
+    //@include transition-delay(0.5s);
+  }
+
+  .home-intro-active {
+    @include opacity(1);
+    @include transform(translateY(-50%) translateX(-50%) scale(1));
+  }
+}
+
+.home-hero-img {
+  border-bottom: #FFF solid 8px;
+}
+
+.home-hero-img-desktop {
+  position: absolute;
+  width: 100%;
+
+  @include breakpoint(tablet) {
+    display: none;
+  }
+}
+
+.home-hero-img-tablet {
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+  width: 1280px;
+
+  @include breakpoint(tablet) {
+    display: block;
+  }
+  
+  @include breakpoint(mobile) {
+    display: none;
+  }
+}
+
+.home-hero-img-mobile {
+  display: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -400px;
+  width: 800px;
+  
+  @include breakpoint(mobile) {
+    display: block;
+  }
+}
+
+.hero-scroll {
+  top: 49%;
+  left: 50%;
+  color: #000;
+  position: absolute;
+  text-align: center;
+  margin-left: -35px;
+  width: 60px;
+  padding: 30px 0;
+  @include animation-duration(1s);
+
+  @include breakpoint(mobile) {
+    bottom: -100px;
+  }
+
+  span {
+    font-size: 30px;
+  }
+}
+
+@mixin home-panel($hover-color) {
+  &:hover {
+    .button-icon {
+      color: $hover-color;
+      border-color: $hover-color;
+    }
+  }
+}
+
+.home-panels {
+  max-width: 1000px;
+  margin: 0 auto;
+  height: 23%;
+  position: relative;
+  left: 3%;
+  z-index: 1;
+
+  @include breakpoint(desktop-smaller-2) {
+    max-width: 1300px;
+  }
+
+  @include breakpoint(desktop-large-5) {
+    max-width: 1515px;
+    height: 14.3%;
+  }
+
+  @include breakpoint(tablet) {
+    height: 23%;
+    left: 2%;
+  }
+
+  @include breakpoint(s-tablet) {
+    left: 0;
+  }
+
+  @include breakpoint(mobile) {
+    max-width: 380px;
+    height: 42%;
+  }
+
+  a {
+    @extend %cta-button;
+    height: 260px;
+    padding: 0 20px 20px;
+    text-decoration: none;
+    position: relative;
+    width: 32.6666%;
+    margin-right: 1%;
+    float: left;
+    display: block;
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+    @include breakpoint(desktop-smaller-2) {
+      padding: 0 30px 20px;
+    }
+
+    @include breakpoint(desktop-large-5) {
+      height: 325px;
+      padding: 0 40px 20px;
+    }
+
+    // @include breakpoint(2000px) {
+    //   height: 260px;
+    //   padding: 0 20px 20px;
+    //   margin-right: 1%;
+    // }
+
+    @include breakpoint(mobile) {
+      float: none;
+      width: auto;
+      margin: 0 10px 20px;
+      height: auto;
+      padding-bottom: 60px;
+      padding-top: 50px;
+      border-left: 0;
+      border-top: #FFF solid 1px;    
+    }
+
+    &:last-child {
+      margin-right: 0;
+
+      @include breakpoint(mobile) {
+        margin-right: 10px;
+      }
+    }
+
+    &.home-why {
+      @include home-panel($rosetta-pink);
+
+      @include breakpoint(s-tablet) {
+        border: 0;
+      }
+    }
+
+    &.home-how {
+      @include home-panel($rosetta-green);
+    }
+
+    &.home-who {
+      @include home-panel($rosetta-blue);
+    }
+  }
+
+  h2 {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: -1px;
+    line-height: 1em;
+    margin: -20px 0 30px;
+
+    @include breakpoint(desktop-smaller-2) {
+      font-size: 50px;
+      margin: -30px 0 20px;
+    }
+
+    @include breakpoint(desktop-large-5) {
+      font-size: 65px;
+      margin: -37px 0 30px;
+    }
+
+    // @include breakpoint(2000px) {
+    //   font-size: 40px;
+    //   margin: -20px 0 30px;
+    // }
+
+    @include breakpoint(tablet) {
+      font-size: 30px;
+    }
+
+    @include breakpoint(tablet) {
+      margin-bottom: 10px;
+    }
+
+    span {
+      display: block;
+      line-height: 2em;
+      font-weight: 500;
+      text-transform: uppercase;
+      text-indent: -9999px;
+      background-position: left top;
+      background-repeat: no-repeat;
+      background-size: contain;
+      margin: 0 0 -0.2em -0.2em;
+
+      &.home-panel-why {
+        background-image: url('/assets/images/home/panel-why.png');
+      }
+
+      &.home-panel-how {
+        background-image: url('/assets/images/home/panel-how.png');
+      }
+
+      &.home-panel-who {
+        background-image: url('/assets/images/home/panel-who.png');        
+      }
+    }
+  }
+
+  p {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 26px;
+
+    @include breakpoint(desktop-smaller-2) {
+      font-size: 21px;
+      line-height: 1.3em;
+    }
+
+    @include breakpoint(large-desktop-5) {
+      font-size: 25px;
+      line-height: 1.3em;
+    }    
+
+    // @include breakpoint(2000px) {
+    //   font-size: 18px;
+    //   line-height: 26px;
+    // }
+
+    @include breakpoint(tablet) {
+      line-height: 23px;
+    }
+  }
+
+  strong {
+    font-weight: 500;
+  }
+
+  .button {
+    @include button(#FFF);
+    
+    @include breakpoint(desktop-large-5) {
+      .button-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+
+        &:before,
+        &:after {
+          left: -47px;
+          top: 2px;
+        }
+      }
+    }
+  }
+
+  @include breakpoint(desktop-smaller-2) {
+    .button-anchored {
+      left: 1.6em;
+    }
+  }  
+
+  @include breakpoint(desktop-large-5) {
+    .button-anchored {
+      bottom: 1.2em;
+      left: 2em;
+    }
+  }  
+}
+
+.home-casestudy {
+  height: 13%;
+  position: relative;
+
+  @include breakpoint(tablet) {
+    height: 14%;
+  }
+
+  @include breakpoint(mobile) {
+    height: 12%;
+  }
+
+  .button {
+    @include button(#3A3A38);
+    @extend %cta-button;
+    position: absolute;
+    min-width: 300px;
+    left: 36%;
+
+    @include breakpoint(desktop-large-3) {
+      left: 33%;
+    }
+
+    @include breakpoint(1700px) {
+      left: 30%;
+      top: 11%;
+    }
+
+    @include breakpoint(tablet) {
+      top: 0;
+      left: 50%;
+      @include transform(translateX(-50%));
+    }
+
+    @include breakpoint(mobile) {
+      min-width: 260px;
+      font-size: 15px;
+      top: 11%;
+    }
+
+    @include breakpoint(desktop-large-5) {
+      .button-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+
+        &:before,
+        &:after {
+          left: -47px;
+          top: 2px;
+        }
+      }
+    }
+
+      // @include breakpoint(mobile) {
+      //   color: #000;
+      //   border-color: #000;
+      // }
+    //}
+
+    .button-text {
+      font-weight: 700;
+      line-height: 1.2em;
+      padding: 0 0 0 0.75em;
+      text-indent: 0;
+      
+      @include breakpoint(desktop-large-5) {
+        font-size: 1.1em;
+        //letter-spacing: 1.8px;
+      }
+
+      @include breakpoint(mobile) {
+        color: #000;
+      }
+    }
+
+    .button-text-show {
+      max-width: 100%;
+      @include opacity(1);
+      @include transition-duration(1.5s);
+    }
+  }
+}
+
+.home-statements {
+  height: 25.5%;
+
+  @include breakpoint(desktop-smaller-2) {
+    height: 27%;
+  }
+
+  @include breakpoint(1600px) {
+    height: 23%;
+  }
+
+  @include breakpoint(mobile) {
+    height: 10%;
+  }
+
+  p {
+    font: 28px/1.1em $proforma;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 20px;
+
+    @include breakpoint(l-desktop) {
+      font: 37px/1.1em $proforma;
+      line-height: 1.3em;
+    }
+
+    @include breakpoint(desktop-large-5) {
+      font: 46px/1.1em $proforma;
+      line-height: 1.5em;
+    }
+
+    span {
+      display: block;
+      margin-bottom: 20px;
+
+      @include breakpoint(mobile) {
+        margin-bottom: 15px;
+      }
+    }
+
+    @include breakpoint(mobile) {
+      font-size: 18px;
+    }
+  }
+
+  strong {
+    font-weight: 900;
+  }
+}
+
+.home-agency {
+  height: 7%;
+  position: relative;
+
+  @include breakpoint(desktop-smaller-2) {
+    //height: 10%;
+    min-height: 325px;
+  }
+
+  @include breakpoint(desktop-large-5) {
+    height: 7%;
+  }
+
+  @include breakpoint(mobile) {
+    height: 8%;
+  }
+
+  img {
+    display: block;
+    max-width: 520px;
+    position: absolute;
+    bottom: 66px;
+    left: 50%;
+    margin: 0 auto 0 -246px;
+    padding-left: 0;
+
+    @include breakpoint(desktop-smaller-2) {
+      max-width: 800px;
+      margin: 0 auto;
+      position: static;
+      padding-left: 62px;
+    }
+
+    @include breakpoint(desktop-large-5) {
+      max-width: none;
+      position: static;
+      margin: 0 auto;
+      padding-left: 62px;
+    }
+
+    @include breakpoint(mobile) {
+      position: relative;
+      margin: 0 auto;
+      max-width: 300px;
+      width: 80%;
+      top: 90px;
+      left: 10px;
+    }
+  }
+
+  /* .rosetta-border {
+    border: 2px solid #FFF;
+    color: #FFF;
+    height: 325px;
+    margin: 0 auto;
+    text-align: center;
+    width: 243px;
+    position: relative;
+
+    @include breakpoint(mobile) {
+      height: 215px;
+      width: 164px;
+    }
+  }
+
+  .rosetta-tagline {
+    font-size: 18px;
+    margin: 0 auto;
+    position: relative;
+    position: absolute;
+    width: 100%;
+    bottom: 40px;
+
+    @include breakpoint(mobile) {
+      font-size: 11px;
+      line-height: 16px;
+      bottom: 30px;
+    }
+  } */
+}
+
+/* 
+.animation-container {
+  position: relative;
+  margin: 0 auto;
+  width: 400px;
+  height: 300px;
+
+  @include breakpoint(tablet) {
+    width: 400px;
+    height: 300px;
+    top: -80px;
+  }
+
+  @include breakpoint(mobile) {
+    width: 260px;
+    height: 195px;
+    top: 35px;
+  }
+}
+
+.animatedimages {
+  position: absolute;
+  line-height: 0;
+
+  img {
+    position: absolute;
+    max-width: 400px;
+    border: 0;
+    visibility: hidden;
+
+    @include breakpoint(tablet) {
+      max-width: 400px;
+    }
+
+    @include breakpoint(mobile) {
+      max-width: 260px;
+    }
+  }
+}
+ */
+
+.home-links {
+  height: 7%;
+
+  .home-links-content {
+    text-align: center;
+    margin: 0 auto;
+
+    @include breakpoint(mobile) {
+      width: 270px;
+    }
+  }
+
+  @include breakpoint(desktop-large-5) {
+    .button-block {
+      width: 220px;
+    }
+  }
+  
+  .button {
+    @include button(#FFF);
+    @extend %cta-button;
+
+    @include breakpoint(desktop-large-5) {
+      .button-icon {
+        width: 45px;
+        height: 45px;
+        font-size: 20px;
+
+        &:before,
+        &:after {
+          left: -47px;
+          top: 2px;
+        }
+      }
+    }
+
+    @include breakpoint(mobile) {
+      float: left;
+      width: 50%;
+    }
+  }
+}
+
+.home-video {
+  @include panel-size(2559, 1356);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  @include opacity(1);
+  @include transition(opacity 1s);
+
+  @include breakpoint(tablet) {
+    height: 902px;
+    left: 50%;
+    @include transform(translateX(-50%));
+    width: 1690px;
+  }
+
+  @include breakpoint(mobile) {
+    display: none;
+  }
+
+  video {
+    width: 100%;
+    background: #FFF !important;
+  }
+
+  .home-video-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('/assets/images/home/wide-video-fallback.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: none;
+
+    &:after {
+      content: '';
+      padding-top: 52.98944%;
+      display: block;
+    }
+  }
+
+}
+
+.home-video-mask {
+  position: absolute;
+  bottom: 0.22em;
+  width: 100%;
+  z-index: 2;
+  left: 0;
+}
+
+.home-video-fadeout {
+  @include opacity(0);
+}
+
+.home-mobile-header {
+  display: none;
+
+  @include breakpoint(mobile) {
+    display: block;
+    position: absolute;
+    left: 50%;
+    @include transform(translateX(-50%));
+  }
+  
+}
+
+// .wide-fallback {
+//   background: url('/assets/images/home/wide-video-fallback.png') no-repeat;
+//   background-size: contain;
+//   background-position: center top;
+//   min-height: 1311px;
+// }
+

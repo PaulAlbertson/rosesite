@@ -1,0 +1,60 @@
+%panel-content {
+  max-width: 56.25%;
+  margin: 0 auto;
+
+  @include breakpoint(tablet) {
+    max-width: 75%;
+  }
+
+  @include breakpoint(mobile) {
+    max-width: none;
+    padding: 20px;
+  }
+}
+
+%panel {
+  position: relative;
+  @include inline-block;
+  vertical-align: top;
+  width: 100%;
+
+  &:after {
+    content: '';
+    display: block;
+
+    @include breakpoint(tablet) {
+      display: none;
+    }
+  }
+
+  .panel-content {
+    @extend %panel-content;
+  }
+}
+
+.fade-in {
+  @include opacity(0);
+  @include opacity(1);
+  @include transition(opacity 3s ease);
+}
+
+
+.callout {
+  background: #FFF;
+
+  .wrap {
+    width: 50%;
+    text-align: center;
+    padding: 4% 0 3%;
+    margin: 0 auto;
+
+    p.byline {
+      margin: 0;
+    }
+   
+    @include breakpoint(mobile) {
+      width: auto;
+      padding: 8% 7%;
+    }
+  }
+}

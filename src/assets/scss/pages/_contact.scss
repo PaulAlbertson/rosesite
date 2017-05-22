@@ -1,0 +1,223 @@
+/* Contact */
+
+%input {
+  @include border-radius(0);
+  @include box-shadow(0);
+  @include box-sizing(border-box !important);
+  border-width: 3px;
+  border-style: solid;
+  background: transparent;
+  padding: 0.5em;
+  height: 2.43em;
+  width: 100%;
+  @include appearance(none);
+  font: inherit;
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box;
+
+  &:invalid {
+    @include box-shadow(none);
+  }
+}
+
+
+.contact {
+  background: url('/assets/images/contact/contact-bg.jpg') center top no-repeat;
+  background-size: cover;
+}
+
+.contact-hero {
+  padding: 9em 0 2em;
+  color: #FFF;
+}
+
+.contact-form {
+  @extend %panel-content;
+  @include section(35.903647%);
+  @include clearfix;
+  padding-bottom: 100px !important;
+  color: #FFF;
+  height: auto;
+
+  &-column {
+    width: 48%;
+
+    @include breakpoint(mobile) {
+      width: 100%;
+    }
+
+    &:nth-child(1) {
+      float: left;
+    }
+
+    &:nth-child(2) {
+      float: right;
+    }
+  }
+
+  form {
+    width: 100% !important;
+    font: 400 1.1em/1.1em $din !important;
+  }
+
+  &-field {
+    margin-bottom: 1em;
+
+    label {
+      display: block;
+      color: #FFF;
+      width: 100% !important;
+      padding-bottom: 3px;
+    }
+
+    .form-input {
+      @extend %input;
+      border-color: $white;
+      color: $white;
+    }
+
+    .form-select {
+      @extend %input;
+      background: transparent url('/assets/images/global/down-arrow.svg') calc(100% - 13px) center no-repeat;
+      background-size: 16px auto;
+      color: $white;
+      border-color: $white;
+
+      option {
+        color: $black;
+      }
+
+      .option-hidden {
+        display: none;
+      }
+    }
+
+    .form-textarea {
+      @extend %input;
+      height: calc((1.1em + 1.1em + 1em + 6px) * 6);
+      border-color: $white;
+      color: $white;
+      resize: none;
+
+      @include breakpoint(mobile) {
+        height: 7em;
+      }
+    }
+
+    &-submit {
+      clear: both;
+      position: relative;
+      top: 2em;
+
+      input {
+        @include border-radius(0);
+        @include box-shadow(0);
+        @include box-sizing(border-box);
+        @include transition(background 0.2s, color 0.2s);
+        border: 0;
+        background: #FFF !important;
+        padding: 0.7em 3em 0.6em;
+        width: auto;
+        color: $black;
+        appearance: none;
+        font: inherit;
+        text-transform: uppercase;
+        margin: 0 auto;
+        display: block;
+        -webkit-appearance: textfield;
+        -webkit-box-sizing: content-box;
+
+        &:hover {
+          background: $rosetta-blue !important;
+          color: #FFF !important;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  &-error {
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    border-left: 3px solid $white;
+    border-right: 3px solid $white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    &:first-child {
+      padding-top: 20px;
+      border-top: 3px solid $white;
+    }
+
+    &:last-child {
+      padding-bottom: 20px;
+      margin-bottom: 40px;
+      border-bottom: 3px solid $white;
+    }
+  }
+
+  .button {
+    @include button(#FFF);
+    @extend %cta-button;
+
+    &.button-inline .button-text {
+      @include opacity(1);
+      @include transition(none);
+      max-width: none;
+    }
+  }
+}
+
+.contact-social {
+  @include section(14.082419%);
+  background: rgba(0, 0, 0, 0.5);
+  color: #FFF;
+  text-align: center;
+  padding: 4.3% 10%;
+  clear: both;
+
+  @include breakpoint(tablet) {
+    margin: 0;
+  }
+
+  ul {
+    font-size: 3em;
+    text-align: center;
+    margin: 0 auto;
+
+    @include breakpoint(mobile) {
+      font-size: 2em;
+    }
+  }
+
+  li {
+    @include inline-block;
+    margin: 0 0.2em;
+
+    @include breakpoint(mobile) {
+      margin: 0 0.1em;
+    }
+  }
+
+  a {
+    color: #FFF;
+  }
+}
+
+.contact-locations {
+  .address-cta {
+    a {
+      color: #FFF;
+
+      &:hover {
+        color: #AAA;
+      }
+
+      .icon-location {
+        border-color: #FFF;
+      }
+    }
+  }
+}

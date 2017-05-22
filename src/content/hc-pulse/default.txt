@@ -1,0 +1,37 @@
+Title: Rosetta’s HC Pulse. Making It Easier Than Ever to Keep Your Salesforce Connected.
+
+----
+
+Subtitle: Introducing Rosetta’s Mobile Salesforce Enablement Platform for Healthcare Industry Sales Professionals
+
+----
+
+metatitle: Rosetta’s HC Pulse. Making It Easier Than Ever to Keep Your Salesforce Connected
+
+----
+
+Video: 110188653
+
+----
+
+MarketoForm: 1100
+
+----
+
+Text:
+
+<br>
+Staying connected to valuable, time-sensitive corporate information—news, updates, regulatory changes and sales incentives—is more critical than ever in today’s fast-paced healthcare marketplace.
+
+Now, it’s also easier than ever, thanks to HC Pulse, Rosetta’s new Mobile Salesforce Enablement Platform designed specifically for the Healthcare Sales Professional.
+
+With its cloud-based platform, HC Pulse makes it possible for sales reps to utilize a 100% mobile solution for staying engaged and informed.
+
+**Anytime. Anywhere.**
+
+----
+ColumnText:
+<h3 class="center">Contact us for a free demo today</h3>
+<p class="center">Nikki Muntz<br>
+609.689.2515<br>
+<a href="mailto:HCPulse@Rosetta.com">HCPulse@Rosetta.com</a></p>

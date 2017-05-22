@@ -1,0 +1,33 @@
+﻿Title: Rosetta Launches IBM-Powered Engagement Engine to Enable Clients to Deliver More Engaging Brand Experiences
+
+----
+
+Subtitle: Organizations Gain Deeper Insights to Better Personalize the Brand Journey Across All Touchpoints
+
+----
+
+Location: New York
+
+----
+
+Date: 2015-05-14
+
+----
+
+Text:
+
+(link: / text: Rosetta), the world’s leading agency focused on customer engagement, today launched the IBM-powered version of its Engagement Engine which will enable organizations to deliver more engaging brand experiences across the entire customer journey.
+
+The Rosetta Engagement Engine integrates customer data and interactions across all major touchpoints into a single framework to give organizations the power to meet the rising customer expectations of how brands interact with them. Now Rosetta is building on its collaboration with IBM by providing a comprehensive suite of IBM Commerce solutions within the Engagement Engine to give brands a deeper level of analytics that help them better understand their customers’ individual needs. This enables marketers to deliver a deeper level of relevant, targeted and personalized experiences that engage customers across multiple channels and devices.
+
+As part of this launch, the Rosetta In-Store Customer Engagement (ICE) solution, which helps brands build deeper relationships with customers, recover missed sales, and provide new cross- and up-selling opportunities, has been expanded to include IBM Commerce solutions. Both the Engagement Engine and ICE were designed by Rosetta and will be available for use across the Publicis.Sapient platform, including by Razorfish, DigitasLBi and SapientNitro.
+
+“The Rosetta Engagement Engine gives clients an unmatched ability to apply insights, personalization and contextually relevant branded experiences across the entire customer journey at enterprise scale,” said John Mesberg, general manager, offering management & strategy, IBM Commerce. “Leveraging IBM’s offerings to power the Engagement Engine will position Rosetta to work with our customers to connect the core pillars of data, intelligence, customer experiences and optimization.”
+
+“We’ve seen a dramatic increase in the number of clients wanting to partner with us to harness data and technology to drive engagement with their customers,” said Rosetta Chief Executive Officer Eric Healy. “The Engagement Engine creates the next generation of customer engagement: predicting the needs and desires of customers, sometimes before they even know themselves.”
+
+Building on the recent (link: http://newsflash.publicisgroupe.net/uploadedDocs/20150312_120315_Expicient_EN_DEF.pdf text: acquisition of Expicient, Inc. target: _blank), Rosetta has the ability to extend the customer engagement value to brands where high value omni-channel services can seamlessly connect in-store, call center, inventory visibility to the digital commerce as a full set of seamless touchpoints.
+
+----
+
+Contact_Name: brittany-slattery

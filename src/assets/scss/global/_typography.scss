@@ -1,0 +1,201 @@
+/* Typography */
+
+h3 {
+  @extend %emphasis;
+  margin-bottom: $lh-base;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+a {
+  color: #0095BD;
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.2em;
+}
+
+hr {
+  display: block;
+  border: 0;
+  border-bottom: 1px solid #C1C0C2;
+  margin: 0 0 1.4em;
+}
+
+%emphasis {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.25px;
+  line-height: 1.4em;
+}
+
+.headline {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  text-align: center;
+  line-height: 1.2em;
+
+  @include breakpoint(mobile) {font-size: 1.1em;}
+  @include breakpoint(tablet) {font-size: 1.3em;}
+}
+
+.small-headline {
+  @extend .headline;
+  font-size: 1.2em;
+
+  @include breakpoint(s-mobile) {
+    font-size: 1.2em;
+  }
+}
+
+.sub-head {
+  font: 36px $proforma;
+  margin-bottom: $lh-base;
+
+  @include breakpoint(tablet) {
+    font-size: 1.5em;
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 1.2em;
+  }
+}
+
+.large-header {
+  font-size: 1.95em;
+  font-weight: 100;
+  line-height: 1.2em;
+  margin-bottom: 1em;
+
+  @include breakpoint(mobile) {
+    font-size: 1.55em;
+  }
+}
+
+blockquote {
+  @extend .large-header;
+  
+  &.small {
+    @extend p;
+  }
+}
+
+p {
+  margin: 0 0 $lh-base;
+  
+  @include breakpoint(s-mobile) {
+    font-size: 0.85em;
+  }
+}
+
+.center {
+  text-align: center;
+}
+
+.emphasis {
+  @extend %emphasis;
+}
+
+/* CTA FONTS */
+.cta-tagline {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  font-weight: 100;
+  line-height: 1.1em;
+  margin-bottom: 0.3em;
+
+  @include breakpoint(mobile) {
+    font-size: 1.7em;
+  }
+
+  .cta-heavy {
+    display: block;
+    font-weight: 500;
+  }
+
+  .cta-excerpt {
+    font-weight: 100;
+    margin-top: 8%;
+  }
+}
+
+.page-title {
+  font: 400 2.8em/1.1em $proforma;
+
+  @include breakpoint(s-tablet) {
+    font-size: 2.4em;
+  }
+
+  @include breakpoint(mobile) {
+    font-size: 1.4em;
+  }
+}
+
+.page-subtitle {
+  font: 400 1.2em/1.4em $din;
+  text-align: center;
+  margin: 1em auto 0;
+  width: 80%;
+
+  @include breakpoint(mobile) {
+    font-size: 0.9em;
+    width: 90%;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+
+.byline {
+  font-weight: 700;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  color: #585858;
+
+  a {
+    color: #585858;
+    @include inline-block;
+
+    &:hover {
+      color: $rosetta-blue;
+    }
+  }
+}
+
+.outdent {
+  text-indent: -1em;
+}
+
+.cta-panel .byline {
+  color: #000;
+}
+
+.hide-br br {
+  @include breakpoint(s-tablet) {
+    display: none;
+  }
+}
+
+.small-text {
+  font-size: 0.85em;
+  line-height: 1.2em;
+}

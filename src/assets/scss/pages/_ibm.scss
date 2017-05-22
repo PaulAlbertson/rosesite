@@ -1,0 +1,43 @@
+// ICE
+
+.rosetta-ibm-logo {
+  width: 45%;
+  max-width: 300px;
+}
+
+// Amplify 2016
+
+.amplify-2016-hero-logos {
+  display: block;
+  margin: 30px auto 0;
+  width: 700px;
+  max-width: 100%;
+
+  @include breakpoint(tablet) {
+    width: 400px;
+    margin-top: 20px;
+  }
+
+  @include breakpoint(mobile) {
+    width: 300px;
+    margin-top: 10px;
+  }
+}
+
+
+.amplify-2016-hero-ps {
+  display: block;
+  margin: 30px auto;
+  width: 240px;
+  max-width: 100%;
+
+  @include breakpoint(tablet) {
+    width: 200px;
+    margin-top: 20px;
+  }
+
+  @include breakpoint(mobile) {
+    width: 100px;
+    margin-top: 10px;
+  }
+}

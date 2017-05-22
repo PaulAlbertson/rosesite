@@ -1,0 +1,32 @@
+.home-video {
+  video {
+    display: none;
+  }
+
+  .home-video-placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('/assets/images/home/wide-video-fallback.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block !important;
+
+    &:after {
+      content: '';
+      padding-top: 52.98944%;
+      display: block;
+    }
+  }
+}
+
+.ice-stage,
+#exp-stage {
+  display: none !important;
+}
+
+.show-ie {
+  display: block !important;
+}

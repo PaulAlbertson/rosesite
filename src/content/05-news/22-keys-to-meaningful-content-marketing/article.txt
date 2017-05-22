@@ -1,0 +1,68 @@
+﻿Title: Keys to Meaningful Content Marketing
+
+----
+
+metadescription: We recently evaluated four major retail brands—Staples, Dell, Walmart  and Sears—to see how they are coordinating a content strategy and to  tease out the implications.
+
+----
+
+Subtitle: 
+
+----
+
+Date: 2013-10-09
+
+----
+
+Text: 
+When I meet with clients, the topic I&rsquo;m asked about most frequently  is content marketing. The first reason is that brands understand the  potential impact of social media and high-quality content on a marketing  plan but typically have a hard time bringing all efforts into a unified  approach that adds maximum value to their marketing efforts. The second  reason is that device and platform fragmentation has caused a lot of  CMOs to question their siloed strategies and look for a new way to  organize and execute their marketing programs.
+
+We recently evaluated four major retail brands—Staples, Dell, Walmart  and Sears—to see how they are coordinating a content strategy and to  tease out the implications. We uncovered two major themes: 1) Even  leading brands haven&rsquo;t fully integrated a content marketing strategy,  and 2) there isn&rsquo;t a one-size-fits-all approach to content marketing.
+
+Not a single brand we reviewed scored above average overall. There  were pockets of excellence and penetration, but on the whole, no brand  scored well across all channels. The brands we evaluated were most  active in paid media, most likely due to the ability to easily quantify  the ROI of paid media channels. For the same reason, SEO and Social were  the channels that had the lowest scores.
+
+<a href="http://blogs.imediaconnection.com/files/2013/10/blog.png" target="_blank"><img src="http://blogs.imediaconnection.com/files/2013/10/blog.png" /></a>
+
+In looking at the graph above, you see that among the four brands we  evaluated, there are broad inconsistencies in performance strength by  tactic and area. All brands had strong variance in their scores and  possibly for very good reasons. The best practice rules of content  marketing don&rsquo;t include being active in all places and being all things  to all people. Brands who truly understand their customers and their  desired branded experiences will be able to better plan and execute  content marketing that is meaningful to their base. This means that they  potentially don&rsquo;t need a robust Instagram or Pinterest account, but  they do really need a strong Twitter and e-mail program.
+
+<a href="http://blogs.imediaconnection.com/files/2013/10/blog-2.png" target="_blank"><img src="http://blogs.imediaconnection.com/files/2013/10/blog-2.png" /></a>
+
+Here are Three Key Rules to Creating a Meaningful Content Marketing Program:
+
+1) <strong>Know thy Target Customer</strong>: Marketing is all about  understanding the specific needs of the customer. The knowledge of your  customer helps brands create experiences and moments that lead to  positive experiences throughout their life cycle from awareness to  purchase, loyalty and advocacy. If you try to be all things to all  people, then you are not doing marketing correctly, and you certainly  aren&rsquo;t creating engaging content that aligns to your target&rsquo;s core needs  of your brand.
+
+- Use social media monitoring tools like Radian6 to manage the ongoing  social conversation but also keep abreast of what consumers are saying  on your owned channels regarding your brand. Consumers willingly share  opinions constantly, whether it&rsquo;s praising your product, telling you how  to improve it or simply sharing their dislike for your brand. By  listening to your consumers, they will reveal important insights and  ultimately help you better communicate with them more effectively.
+- Use paid display to increase brand awareness and initiate purchase  cycle by identifying and targeting specific life events. For example,  information gleaned from cookies and tracking will reveal when a  consumer has recently opened a wedding registry at Bed, Bath &amp;  Beyond and you could approach them with gift ideas.
+- Modify or Uncover new target personas and develop campaigns around  these consumers. It&rsquo;s important to also consider how your target market  will grow in the future as well and communicate accordingly with them.  For example, if you want to reach moms, it&rsquo;s important to think about  how you can reach and develop a relationship with women before they  become moms.
+
+
+2) <strong>Align Your Organization</strong>: Ask yourself what simple  incentives or organizational alignments you can put in place to help  facilitate collaboration or harness the content marketing assets you  have in place today.
+
+- Make sure all channel managers know what the other departments are  doing. If your offline channel is doing a direct mail initiative in  Pittsburgh, make sure that digital is aware so they can target  Pittsburgh with similar language.
+- Make sure your organization is aligned and rewarded around the  consumer and not the channel. This requires a shift in compensation,  incentives and evaluation of employees so that channel managers are not  protecting their data.
+- Always lead with the consumer at the center of all marketing  efforts. If departments aren&rsquo;t integrated, pull together a key group of  individuals on a weekly basis to share individual efforts across the  board to become more internally aligned.
+
+
+3) <strong>Make Data-Driven Decisions</strong>: Ninety percent of the  world&rsquo;s data has been generated over the past 2 years when you include  tweets, posts, and clicks. Every digital action is sending a signal  about one&rsquo;s interests, needs, and context. These points create data  points that can be leveraged to do some really powerful personalized  marketing.
+
+For example, someone who checks in at a new car dealership is sending  a signal about their location, the device they are on, and the specific  brand of car they are considering purchasing. This creates an  opportunity for car insurance companies to leverage a life event—buying a  car—that could introduce a future policy holder. These examples are  happening all the time. They are not only happening to create targeted  media but also to measure the impact of that media. Data can tell us if  what we are doing in social media, e-mail, organic search, or any  touchpoint is working.
+
+- Tools like Adobe Marketing Cloud allow you to listen and monitor  social media so that you can use the incoming data and create tailored  ads.
+- What you learn from social media can and should be pushed across all  tactics and inform all departments on how consumers are interpreting  your efforts.
+
+
+The rise of content marketing as a way to engage your target  customers and drive business impact can&rsquo;t be ignored. There are more and  more devices and platforms (think Google Glass, or smart watches)  emerging every day that will continue to complicate matters. Marketers  need to establish a framework and parameters that will put a strong  foundation in place now. This foundation will make it easier to adjust  to the continued rate of change and innovation in the digital space.  However, if you forget everything else, simply remember: customer first.
+
+*(0 = no presence, 1 = Present, 2 = Present and active, 3 = Market-leading presence)
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: iMedia Connection
+
+----
+
+Source_url: http://blogs.imediaconnection.com/blog/2013/10/09/keys-to-meaningful-content-marketing/

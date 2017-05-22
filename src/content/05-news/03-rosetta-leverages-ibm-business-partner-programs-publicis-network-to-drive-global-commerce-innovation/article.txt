@@ -1,0 +1,43 @@
+﻿Title: Rosetta Leverages IBM Business Partner Programs, Publicis Network to Drive Global Commerce Innovation
+
+----
+
+Subtitle: Joins Select Group of Vendors Able to Provide IBM&rsquo;s Full Suite of Cloud-Based Commerce and EMM Offerings
+
+----
+
+Location: Princeton, NJ
+
+----
+
+Date: 2013-06-12
+
+----
+
+Text: Rosetta, a leading customer engagement agency and independent brand in the Publicis Groupe, announced today that is has been officially approved by IBM as a Software Value Plus (SVP) WebSphere Commerce Primary Support Provider and Software as a Service (SaaS) Solution Provider Reseller for Coremetrics, eMessage and Marketing Center. These new offerings enable Rosetta to accelerate global expansion and seize a significant portion of the global commerce market.
+
+Rosetta is one of the early IBM Business Partners approved for these newly announced programs, which give Rosetta the flexibility to offer both traditional &lsquo;on premise&rsquo; software models and SaaS offerings for clients preferring a cloud-based model for their commerce and enterprise marketing management platforms.
+
+Building on its differentiated Commerce Plus offerings, its recently expanded partnership with IBM and the global reach of the Publicis Groupe, Rosetta serves a rapidly expanding global client list that spans the Technology &amp; Telecommunications, Healthcare, Consumer Products &amp; Retail, Financial Services and Distribution, Manufacturing and Utilities industries. In order to strengthen its leadership position in commerce and expand its global network, Rosetta is currently evaluating potential acquisition targets and agency partners in China, Latin American and Europe as well as strategic alliances with firms to provide end to end capabilities from call center through logistics.
+
+Melinda Matthews, IBM&rsquo;s Worldwide Director of Business Partners, Industry Solutions commented, &ldquo;Rosetta&rsquo;s focus around unique solutions leveraging the Smarter Commerce software portfolio sets up the agency for solid global expansion, and in particular, give them a strong position with clients seeking to drive top line revenue growth.  The agency&rsquo;s recent certifications give Rosetta the ability to provide SaaS offerings to clients preferring a cloud-based model for their omni-channel commerce and enterprise marketing management platforms.&rdquo;
+
+Rosetta Partner, Global Commerce Lead Gary Schoch said, &ldquo;We&rsquo;re seeing strong demand from clients all over the world, in mature markets and emerging, for our full breadth of value added services – including our unparalleled segmentation, analytics and optimization, SEO/SEM, Mobile and Social capabilities – all delivered as a service in the cloud.  With this offering, we have the ability to bring rapid delivery to clients looking to expand globally by leveraging these market leading IBM Commerce and EMM Solutions. Our clients benefit from our results-oriented, go to market approach and are able maintain the ability to bring the solution in house when appropriate scale is reached without having to change technologies. This includes a comprehensive package of supporting solutions spanning Content Management, Ratings, Reviews and Payment. Our partnership with IBM, our global reach through the Publicis Groupe and our deep experience in commerce implementations make Rosetta the go-to agency in global commerce.&rdquo;
+
+According to Rosetta, it has completed more than 150 commerce implementations and expects commerce-related revenues to top $100 million this year.
+
+----
+
+About_rosetta: on
+
+----
+
+Contact_name: shade-vaughn-rosetta
+
+----
+
+Source_name: 
+
+----
+
+Source_url: 

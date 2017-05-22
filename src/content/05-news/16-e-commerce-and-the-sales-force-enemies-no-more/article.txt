@@ -1,0 +1,60 @@
+﻿Title: E-commerce and the Sales Force, Enemies No More
+
+----
+
+metadescription: The reality is that today's e-commerce solutions should be a sales representative's best friend.
+
+----
+
+Subtitle: 
+
+----
+
+Date: 2013-08-30
+
+----
+
+Text: 
+Anyone who has spent time working in B2B industries will tell you  that the sales force is king. Sales owns messaging, promotions, product  mix and, often, even pricing. CMOs and marketing directors are  extremely hesitant to rock the boat if they know sales won't like the  changes. In fact, many B2B companies choose not to invest substantially  in e-commerce because the sales force thinks of e-commerce as the enemy.  They think e-commerce steals their commissions, reduces the size of  transactions, turns their customers away from the strong relationships  they have cultivated, and inevitably eliminates critical sales  positions.
+
+One manufacturing digital marketing director that we worked with to  build a new .com site stated in a meeting that he didn't want e-commerce  on his site because the complex nature of the company's sale required a  level of experience and understanding that could only be provided by a  trained field sales expert. Though we debated the point with persuasive  examples, he would not be swayed. When pressed about it offline  afterward, he admitted that he wasn't in a position to fight the battle  with the VP of sales.
+
+Even though most industry analysts predict that outside sales will  continue to shrink over the next 10 to 15 years as more sales move  online, many B2B companies maintain that 15% to 20% of their entire  staff are a dedicated sales force responsible for nearly 90% of company  revenues. Consequently, marketing departments constantly make strategic  decisions with heavy consideration toward how the decision will affect  the sales force or, more importantly, how the sales force will perceive  the decision.
+
+The reality is that today's e-commerce solutions should be a sales representative's best friend. They:
+
+- Provide access to up-to-date, personalized sales collateral;
+- Drive additional customers to a sales representative's call list through digital channels;
+- Automate standard reorders for existing customers so that sales  representatives can focus on building new business and selling new  value-added products;
+- Create an easy-to-use additional purchase channel, allowing for instant transactions;
+- Serve as a selling tool to direct customers to the site to learn  product information, applications, and specifications, all of which can  help drive additional purchases; and
+- Create opportunities for rich content, such as instructional  &ldquo;how to&rdquo; videos, technical schematics, FAQs, etc., which engage  customers in long-term repeat purchase relationships.
+
+
+From an organizational standpoint, today's e-commerce solutions offer:
+
+- The ability to control consistent messaging, upsells, and cross-sells;
+- Real-time orders and inventory management;
+- 24/7 &ldquo;always there&rdquo; customer sales coverage; and
+- Tracking and trending of customer buying behaviors for proactive marketing.
+
+
+If you've made the decision to invest in e-commerce and you're  concerned about making the case to your sales force, it's important for  you to understand their concerns. First, you should ensure that sales  representatives are properly credited for e-commerce purchases from  their existing customers. This can be done by registering accounts to  specific sales representatives so that any e-commerce transactions from  that customer are credited to the appropriate sales representative.
+
+And for commissions on accounts that cross geographical territories,  it's important that your e-commerce solution can separate customers by  account and sales by order address, shipping address, or other  geographic subcategory to ensure appropriate commission distribution.
+
+By proactively communicating with the sales team throughout the  process and gaining their buy-in at key milestones in the implementation  of the platform, <a href="http://www.dmnews.com/theres-no-i-in-c-suiteokay-there-isbut-there-shouldnt-be/article/307653/">CMOs can effectively navigate misconceptions</a> and convince their sales teams of the value proposition of an additive e-commerce sales tool.
+
+The net is that not only can e-commerce be a leading  revenue-generating channel for B2B organizations, it can be a powerful  asset to empower the field sales team to drive greater revenues and  commissions and spend more time engaging with customers in satisfying  value-added sales.
+
+----
+
+Contact_name: 
+
+----
+
+Source_name: Direct Marketing News
+
+----
+
+Source_url: http://www.dmnews.com/e-commerce-and-the-sales-force-enemies-no-more/article/309536/
